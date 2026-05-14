@@ -1,6 +1,6 @@
 # 05_ISO_Ready
 
-This folder is part of **Optimaks Document Library v1.4.3 Integrated**.
+This folder is part of **Optimaks Document Library v1.5 Cleanup + Fusion**.
 
 Purpose: ISO-ready control mapping, quality-management-lite, audit evidence, and risk/change control references.
 
