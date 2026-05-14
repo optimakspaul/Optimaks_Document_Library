@@ -41,3 +41,23 @@ Optimaks OS should eventually include a one-click Customer Health Report generat
 - Report Export
 - WhatsApp / Email format
 - Permission Control
+
+---
+
+## v1.4.3 Monthly Value Extension
+
+If a client pays a recurring monthly maintenance or system fee, Optimaks should provide visible value evidence.
+
+Recommended monthly value sections:
+
+1. System health summary.
+2. Hosting / deployment maintenance summary.
+3. Bug fix or issue log.
+4. Backup or export check.
+5. Basic security / dependency update note.
+6. Lead / workflow activity summary, if applicable.
+7. Client-requested small update record.
+8. Support communication summary.
+9. Next month recommended actions.
+
+This section supports STD-DEV-019 and should be adapted per client scope.

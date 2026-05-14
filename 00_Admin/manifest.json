@@ -1,9 +1,7 @@
 {
-  "library_name": "Optimaks Document Library",
-  "version": "v1.3",
-  "generated_date": "2026-05-13",
-  "purpose": "GitHub-ready Markdown document library with detailed version history and cleanup guidance.",
-  "file_count": 75,
+  "library": "Optimaks Document Library",
+  "version": "v1.4.3 Integrated",
+  "generated_at": "2026-05-14",
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.md",
@@ -17,18 +15,28 @@
     },
     {
       "path": "00_Admin/CHANGELOG.md",
-      "size_bytes": 4234,
-      "sha256": "1d4ae4c21539a66ff5c3eb009df50b9af66ae5084f919d758bd7d7ff0da4878a"
+      "size_bytes": 6401,
+      "sha256": "4046fe98a7bbf267eb10748132766140f6b702a40c90360c5fa280d86dcfe249"
     },
     {
       "path": "00_Admin/DOC-INDEX-001_Document_Index.md",
-      "size_bytes": 7620,
-      "sha256": "a3f8cd79af7d052fb65bb4e26e4cbe2aa29c35f1cbd2ec0ec6deb8a37ce9f860"
+      "size_bytes": 12424,
+      "sha256": "214a8f8aa2499d8f99e73051dd28a2b46753ed91529c05d40fe14e3920630f45"
+    },
+    {
+      "path": "00_Admin/DOCUMENT_REVIEW_REPORT_v1.4.3.md",
+      "size_bytes": 6375,
+      "sha256": "a3e3fcf343d5f42a9fa7752219e210f2fb3682729bfee40233b8d4083fbe8f9c"
     },
     {
       "path": "00_Admin/FILE_TREE.txt",
       "size_bytes": 3478,
       "sha256": "c96255a96644d88ffa9c698cca5d3946c1fadab5d93893dc6cdc5e4646d1d517"
+    },
+    {
+      "path": "00_Admin/FILE_TREE_v1.4.3.txt",
+      "size_bytes": 4575,
+      "sha256": "b95dd5d67150b60b613af4572a5be160d3e728ec7566e9174ac4aeb76903aff4"
     },
     {
       "path": "00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md",
@@ -37,8 +45,13 @@
     },
     {
       "path": "00_Admin/README.md",
-      "size_bytes": 509,
-      "sha256": "8421935afc38fde73a99551d2ccae2e4e793e762926f0483922662501d5078aa"
+      "size_bytes": 1333,
+      "sha256": "ccc8e5854e0711e59b826c4a8eae5f5474e5e752df13b9ba88af1375a8985cfa"
+    },
+    {
+      "path": "00_Admin/README_v1.4.3_UPDATE_INSTRUCTIONS.md",
+      "size_bytes": 1427,
+      "sha256": "4dbe8277e9940996b52ace304db8184cfa2750fc3387bffeeb703b42e8015f36"
     },
     {
       "path": "00_Admin/REFERENCE_FULL_SINGLE_FILE_v1.3.md",
@@ -46,14 +59,24 @@
       "sha256": "5342587945be7165bc79b4186aef9b4d586a43ecac2f0e1c4970db6650e880ef"
     },
     {
+      "path": "00_Admin/REFERENCE_FULL_SINGLE_FILE_v1.4.3.md",
+      "size_bytes": 50501,
+      "sha256": "eb9377fe032b4a0913b8da98c693c7c07601e33de62daf301baa8ecb7adc59c6"
+    },
+    {
+      "path": "00_Admin/VERSION_DELTA_SUMMARY_v1.3_to_v1.4.3.md",
+      "size_bytes": 3278,
+      "sha256": "5af717c7e24999c6ad9713dc3474c4e0c8fc2f2bd85b8a9ac8cb1b040e1c62cd"
+    },
+    {
       "path": "00_Admin/VERSION_HISTORY.md",
-      "size_bytes": 10738,
-      "sha256": "1a4b184baabac37e9ffc6fb1b0b16e7ebf068d0cd1f049b2e05875b81a1b08f0"
+      "size_bytes": 11881,
+      "sha256": "28e8f56bd2091d940ba64c4e1c0ed86e051bb0ae1371be735aa913b5c0d2d181"
     },
     {
       "path": "00_Admin/manifest.json",
-      "size_bytes": 14748,
-      "sha256": "fad9773be7f92ffa2d119b66b3243491db25e349c0a9c7978e29b9b28320edd7"
+      "size_bytes": 14073,
+      "sha256": "da3ffb0263935dd1cf7aaf69cdbbc257c45e6a291a0e4a8eaa4ff52193981365"
     },
     {
       "path": "01_Foundation/FND-001_Company_Positioning.md",
@@ -62,8 +85,8 @@
     },
     {
       "path": "01_Foundation/FND-002_Development_Constitution_Overview.md",
-      "size_bytes": 1811,
-      "sha256": "c4c8e48d008e9f884b49e3e6057e88401290c9b2ad7c7bee18f5f93928577885"
+      "size_bytes": 7905,
+      "sha256": "781b0909b2875c85cf43fb2a6852c3cb863004b54a7e8039469ccd985ac75eed"
     },
     {
       "path": "01_Foundation/FND-003_Service_Model.md",
@@ -77,13 +100,13 @@
     },
     {
       "path": "01_Foundation/README.md",
-      "size_bytes": 144,
-      "sha256": "12082907b3ce60d10172b7a5d74c5a505e81d9a7e60026bfb858209cd72b9b37"
+      "size_bytes": 315,
+      "sha256": "7f61f6f0351522e511f5ff99839c5b9fd48595fc1a2ef9899ea7bdc03bb8d5f8"
     },
     {
       "path": "02_Development_Standard/README.md",
-      "size_bytes": 154,
-      "sha256": "c9ac9098e0cfbc1868b94ab2dafa8a9cb58f021cf0a3f85ad635dc325485a977"
+      "size_bytes": 395,
+      "sha256": "cfdff9a2386d9bf29e8d1180b18025350d804fb4bc96511ba34aa98cae80c5d2"
     },
     {
       "path": "02_Development_Standard/STD-DEV-001_Standard_Development_Process.md",
@@ -146,6 +169,41 @@
       "sha256": "fdc4ad28ef14027b31d662ced470cd17dbdeebf5e24d63b9f5db8005e3df3c10"
     },
     {
+      "path": "02_Development_Standard/STD-DEV-013_Self_Management_AI_Client_Value_Control_Rule.md",
+      "size_bytes": 5055,
+      "sha256": "ce177c42f91c4e6d8066ec4ba2349cccb69c3b67f4ba01fcb18c7aeb30664be9"
+    },
+    {
+      "path": "02_Development_Standard/STD-DEV-014_Constitution_Upgrade_Trigger_Rule.md",
+      "size_bytes": 4069,
+      "sha256": "ca1b783c7111f6d4229a9b69402946dcd87ab871dfd8f88164d00615f94d2b5a"
+    },
+    {
+      "path": "02_Development_Standard/STD-DEV-015_AI_Assisted_Semi_Automated_Development_Pipeline.md",
+      "size_bytes": 9681,
+      "sha256": "01ccd8aa05774792cfff43cc3feeaea8b7c5a05926bcc14341bdeefd1dfa9827"
+    },
+    {
+      "path": "02_Development_Standard/STD-DEV-016_MVP_Decomposition_and_Dependency_Rule.md",
+      "size_bytes": 9707,
+      "sha256": "2dfe0f468a7a7fd34788d4fca6725fad4021fc2da69de01f73648915a229dafb"
+    },
+    {
+      "path": "02_Development_Standard/STD-DEV-017_Small_Core_First_and_Layered_MVP_Execution_Rule.md",
+      "size_bytes": 4214,
+      "sha256": "c4436fec8b134bfe5a3cb9a000adb50086579ce973facc2465ec9e806ab741e3"
+    },
+    {
+      "path": "02_Development_Standard/STD-DEV-018_UI_Backend_Parallel_Development_and_AI_Context_Control_Rule.md",
+      "size_bytes": 2970,
+      "sha256": "eb3165461b47d56ae442355aa7693ec098384c2b87b39bd507416e67a9e7dec8"
+    },
+    {
+      "path": "02_Development_Standard/STD-DEV-019_Internal_MVP_vs_Client_Delivery_Version_Control_Rule.md",
+      "size_bytes": 2698,
+      "sha256": "cedb1855fed0d7700eedd0000025ff4ae14a169b9948b0f7efbce5457fa753fa"
+    },
+    {
       "path": "03_Client_Delivery/CLT-001_Client_Discovery_Form.md",
       "size_bytes": 1061,
       "sha256": "326cd34798e65cff1a7878d1ecbdefcfa4f35b7794115334df7f88b998cd475c"
@@ -172,8 +230,8 @@
     },
     {
       "path": "03_Client_Delivery/CLT-006_Monthly_Maintenance_Report.md",
-      "size_bytes": 928,
-      "sha256": "8d47c7eb6257e7707d1a75fc0e14ee983f185c7cbe8f4c375243741cca37f3b7"
+      "size_bytes": 1523,
+      "sha256": "340c5fa1c9c8b5636d3a3d8066296772d3771b1a62f38ee96c40b197a1c4b729"
     },
     {
       "path": "03_Client_Delivery/CLT-007_10_Step_Delivery_Process.md",
@@ -187,8 +245,8 @@
     },
     {
       "path": "03_Client_Delivery/README.md",
-      "size_bytes": 149,
-      "sha256": "01e9b1cdbd59f607d7a0e563d253cff269c80de302462abc3f605588fcd9bf8e"
+      "size_bytes": 403,
+      "sha256": "4e6616d534fc1227a9c304cd9c838077b595813f6afcb39198d2dcc34933c9ca"
     },
     {
       "path": "04_Legal_Commercial/LEG-001_Quotation_Template.md",
@@ -217,8 +275,8 @@
     },
     {
       "path": "04_Legal_Commercial/README.md",
-      "size_bytes": 150,
-      "sha256": "6756b9897c590e76f9ae8621048794523df20adbafb526389d5254ecbd510988"
+      "size_bytes": 335,
+      "sha256": "20a4de2cacefee812518bfa47913a3251f783d4d23d691741ecfff99a9e98f7e"
     },
     {
       "path": "05_ISO_Ready/ISO-001_ISO_Ready_Control_Map.md",
@@ -242,8 +300,8 @@
     },
     {
       "path": "05_ISO_Ready/README.md",
-      "size_bytes": 143,
-      "sha256": "2df9184adaae7c15c8b5eb126decdde43a2bde2ca3bf0aa09da257b77740c865"
+      "size_bytes": 338,
+      "sha256": "616bc6ab42aa59e68e735ab5d900a55c94051192ca4b24ac679fb181d048f155"
     },
     {
       "path": "06_Grant_Ready/GRT-001_Grant_Ready_Evidence_Pack.md",
@@ -262,8 +320,8 @@
     },
     {
       "path": "06_Grant_Ready/README.md",
-      "size_bytes": 145,
-      "sha256": "b2510c7472b44ef640241cc321c70756ccc4568832264a34a9c0f78f1254eead"
+      "size_bytes": 313,
+      "sha256": "98128da71f8bcdcd206ea4db428624cf37cf8b560f8a9f8ee079c55acc6cb482"
     },
     {
       "path": "07_Templates/CHANGE_REQUEST_Template.md",
@@ -297,8 +355,33 @@
     },
     {
       "path": "07_Templates/README.md",
-      "size_bytes": 143,
-      "sha256": "90b48cc71a1fb37c2da7672d479ae560e8454a2d3615913b761ab3a95eed8809"
+      "size_bytes": 390,
+      "sha256": "605acd9c99856e007679f06bacfe62c2554a02c8770d598eb9a2d9c639ecd4b8"
+    },
+    {
+      "path": "07_Templates/TPL-DEV-006_Daily_Priority_and_Issue_Triage_Template.md",
+      "size_bytes": 1460,
+      "sha256": "676297131a2ae1fa6fd792ace31afa87c206b9a0ece169aedfcbf68bcdc0f30b"
+    },
+    {
+      "path": "07_Templates/TPL-DEV-007_AI_Pipeline_Context_Package_Template.md",
+      "size_bytes": 1892,
+      "sha256": "9db1ee39d6b65be8b86d3865b34b09305584a244549933b5abba19dc48f4ed4c"
+    },
+    {
+      "path": "07_Templates/TPL-DEV-008_MVP_Decomposition_Template.md",
+      "size_bytes": 2044,
+      "sha256": "5c2e3ced51c924ad59102b8bebc29277487b053671f109012fad58b88be77cd0"
+    },
+    {
+      "path": "08_Checklists/CHK-DEV-006_AI_Execution_and_Client_Value_Checklist.md",
+      "size_bytes": 1544,
+      "sha256": "08c200c7a8b49c911cc10ee22696adbffc550652a7959eaf8d56ec4b612847e4"
+    },
+    {
+      "path": "08_Checklists/CHK-DEV-007_Semi_Automated_Pipeline_Readiness_Checklist.md",
+      "size_bytes": 2610,
+      "sha256": "a39be93ad82905f8bab87ff521767b668a10e42365734b2fac5a80be34e12536"
     },
     {
       "path": "08_Checklists/DEP-001_Deployment_Checklist.md",
@@ -327,13 +410,13 @@
     },
     {
       "path": "08_Checklists/README.md",
-      "size_bytes": 144,
-      "sha256": "6ba85de617373606c31de6be5e890213b73a99ecc39ede2ca78a19ce59a54f5d"
+      "size_bytes": 348,
+      "sha256": "9f8596ebb9beaa2929a1d547a22354e1a639db71ef104f48bb722d6216ba851e"
     },
     {
       "path": "09_Registers/README.md",
-      "size_bytes": 143,
-      "sha256": "7ea2bb56cdc20a16bde4a820469ebf0f3c016264daf1548dda0141406d30e66d"
+      "size_bytes": 318,
+      "sha256": "2042c191e5b3411c7464ab6e9af1cf3578fba5d04f6a374677a78a41eb91b7ad"
     },
     {
       "path": "09_Registers/REG-CHANGE-001_Change_Request_Register.csv",
@@ -372,13 +455,23 @@
     },
     {
       "path": "10_Projects/README.md",
-      "size_bytes": 142,
-      "sha256": "cceafdc365bd2afb0a8b9af3b9c12653f6a0affedd82317cfe415ec6bb430f52"
+      "size_bytes": 340,
+      "sha256": "e5f1afa29810d21a659680e7b957e5f1f5ed88e292431ab9278baf0fb19fb9d5"
+    },
+    {
+      "path": "10_Projects/_Templates/00_MVP_Dependency_Map_TEMPLATE.md",
+      "size_bytes": 1941,
+      "sha256": "16fac6b00488513103d866112854af0683d6a68c431666a00dbabf60cbfe7fd0"
+    },
+    {
+      "path": "11_Roadmap/ROADMAP-001_Constitution_Roadmap.md",
+      "size_bytes": 3233,
+      "sha256": "81f4208e1182d6303bff413c02a3bd173871f1db1627119d103c5c0015486534"
     },
     {
       "path": "README.md",
-      "size_bytes": 2083,
-      "sha256": "3d5f7c793a9df6230736ed6b5c3cc29656548fc2ecafb21650b70b34e5e65c39"
+      "size_bytes": 3303,
+      "sha256": "e2b0623f68b066c0cc09209fb6dc7fd4b30241275281fe188a77d224fe3fa6b0"
     }
   ]
 }

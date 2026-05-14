@@ -3,8 +3,8 @@
 | Field | Value |
 |---|---|
 | Document Code | ADM-003 |
-| Current Library Version | v1.3 |
-| Effective Date | 2026-05-13 |
+| Current Library Version | v1.4.3 Integrated |
+| Effective Date | 2026-05-14 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |
 | Purpose | Record the evolution of the Optimaks development constitution and document library across uploaded versions. |
@@ -22,7 +22,15 @@ v1.2 Development Constitution Update
    ↓
 v1.3 Constitution Update Package
    ↓
-v1.3 Markdown Document Library Structure ← Current clean version
+v1.3 Markdown Document Library Structure
+   ↓
+v1.4 Governance and self-management upgrade
+   ↓
+v1.4.1 AI-assisted semi-automated development pipeline
+   ↓
+v1.4.2 MVP decomposition and dependency rule
+   ↓
+v1.4.3 Integrated Small Core First operating patch ← Current active version
 ```
 
 ---
@@ -365,3 +373,33 @@ optimaks-document-library
 ```
 
 Then upload this clean v1.3 package as the first stable baseline.
+
+---
+
+## v1.4.3 Integrated Constitution
+
+| Field | Value |
+|---|---|
+| Version | v1.4.3 |
+| Date | 2026-05-14 |
+| Type | Integrated patch release |
+| Based On | v1.3 full library + v1.4 + v1.4.1 + v1.4.2 |
+| Main Theme | Small Core First, layered MVP execution, AI context control, internal/client delivery separation |
+
+### Summary
+
+v1.4.3 integrates all constitution versions from v1.3 through v1.4.2 and adds the missing operating rules discovered during MVP_01 and Aircon OS planning discussions.
+
+### New Rules
+
+1. STD-DEV-017 Small Core First and Layered MVP Execution Rule.
+2. STD-DEV-018 UI Backend Parallel Development and AI Context Control Rule.
+3. STD-DEV-019 Internal MVP vs Client Delivery Version Control Rule.
+
+### Updated Files
+
+1. FND-002 Development Constitution Overview.
+2. CLT-006 Monthly Maintenance Report.
+3. CHANGELOG.
+4. VERSION_HISTORY.
+5. VERSION_DELTA_SUMMARY v1.3 to v1.4.3.
