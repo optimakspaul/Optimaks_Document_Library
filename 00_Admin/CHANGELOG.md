@@ -3,11 +3,38 @@
 | Field | Value |
 |---|---|
 | Document Code | ADM-001 |
-| Current Version | v1.3 |
-| Effective Date | 2026-05-13 |
+| Current Version | v1.4.3 Integrated |
+| Effective Date | 2026-05-14 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |
 | Purpose | Track document library changes and explain what changed between versions. |
+
+---
+
+## v1.4.3 Integrated — 2026-05-14
+
+### Added / Integrated
+
+1. Integrated v1.4 governance rules for self-management, issue classification, AI execution control, and client value gate.
+2. Integrated v1.4.1 semi-automated AI development pipeline.
+3. Integrated v1.4.2 MVP decomposition, dependency mapping, and MVP document inheritance rules.
+4. Added Small Core First and Layered MVP Execution Rule.
+5. Added UI/backend parallel development and AI context control rule.
+6. Added internal MVP vs client delivery version control rule.
+7. Added monthly value visibility rule for recurring maintenance clients.
+8. Corrected root README and folder README files to reflect v1.4.3 Integrated.
+9. Regenerated document index to include files added after v1.3.
+10. Added document review report for duplication, merge, deletion, and amendment recommendations.
+
+### Important Note
+
+v1.4.3 Integrated is a consolidation package built on the v1.3 clean document library baseline. Historical v1.3 files are kept for traceability, but v1.4.3 Integrated is the active operating version.
+
+### Recommended Commit
+
+```text
+docs: update readme and index for Optimaks document library v1.4.3 integrated
+```
 
 ---
 
@@ -137,3 +164,29 @@ optimaks_document_library_v1_3
 ```
 
 This folder should be treated as the latest clean source of truth for the document library.
+
+---
+
+## v1.4.3 - Integrated Constitution and Small Core First Patch
+
+Date: 2026-05-14
+
+### Added
+
+1. Integrated v1.4, v1.4.1, and v1.4.2 packages into v1.3 full document library.
+2. Added Small Core First and Layered MVP Execution Rule.
+3. Added UI / Backend Parallel Development and AI Context Control Rule.
+4. Added Internal MVP vs Client Delivery Version Control Rule.
+5. Added version delta summary from v1.3 to v1.4.3.
+6. Extended monthly maintenance report with monthly value evidence rule.
+
+### Changed
+
+1. Updated FND-002 to become v1.4.3 integrated master overview.
+2. Clarified that documents are AI development inputs, not only records.
+3. Clarified that internal MVPs may be simplified while client delivery versions require delivery controls.
+4. Clarified that monthly fees should produce visible monthly value evidence.
+
+### Governance Note
+
+v1.4.3 does not activate v1.5. It is a patch-level integration and operating-rule clarification for v1.4.
