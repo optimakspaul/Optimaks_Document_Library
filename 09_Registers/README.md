@@ -1,6 +1,6 @@
 # 09_Registers
 
-This folder is part of **Optimaks Document Library v1.5 Cleanup + Fusion**.
+This folder is part of **Optimaks Document Library v1.5.1 WAS Positioning Patch**.
 
 Purpose: CSV registers for risk, change requests, lessons learned, and third-party services.
 

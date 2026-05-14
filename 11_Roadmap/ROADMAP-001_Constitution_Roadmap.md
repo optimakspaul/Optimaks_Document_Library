@@ -1,6 +1,6 @@
 # ROADMAP-001 Constitution Roadmap
 
-Version: v1.5 Cleanup + Fusion  
+Version: v1.5.1 WAS Positioning Patch  
 Owner: Optimaks Pte Ltd
 
 ---
@@ -33,3 +33,14 @@ The focus of v1.5 is not to add many new rules, but to make the existing v1.4 to
 - Temporary workflow notes
 
 Use project files, GitHub Issues, CRs, or backlog notes instead.
+
+
+## v1.5.1 Completed — WAS Positioning Patch
+
+- Clarified that Optimaks does not build generic SaaS.
+- Added industry-specific Workflow Automation System / SME Operating OS positioning.
+- Added workflow-first scope standard, blueprint template, and positioning checklist.
+
+## Future v1.6 Candidate
+
+A future v1.6 may add a formal Sales / Market Research documentation layer if pricing, competitor comparison, and job market analysis become repeated operating assets.

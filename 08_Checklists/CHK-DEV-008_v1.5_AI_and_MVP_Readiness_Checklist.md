@@ -1,6 +1,6 @@
 # CHK-DEV-008 v1.5 AI and MVP Readiness Checklist
 
-Version: v1.5 Cleanup + Fusion  
+Version: v1.5.1 WAS Positioning Patch  
 Related Standards: STD-DEV-020, STD-DEV-021, STD-DEV-022
 
 ---

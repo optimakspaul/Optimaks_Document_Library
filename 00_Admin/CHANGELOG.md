@@ -1,3 +1,27 @@
+# Changelog
+
+## v1.5.1 — WAS Positioning Patch — 2026-05-14
+
+### Added
+
+- Added product positioning principle: Optimaks does not build generic SaaS; Optimaks builds industry-specific Workflow Automation Systems and SME Operating OS solutions.
+- Added `FND-005_Product_Positioning_and_WAS_Principle.md`.
+- Added `STD-DEV-023_Industry_Workflow_First_and_SME_OS_Scope_Standard.md`.
+- Added `TPL-DEV-011_Industry_Workflow_Blueprint_Template.md`.
+- Added `CHK-DEV-009_Workflow_Positioning_and_Scope_Checklist.md`.
+- Added `00_Admin/V1.5.1_SCOPE_DECISION.md`.
+
+### Updated
+
+- Updated root README to v1.5.1.
+- Updated company positioning to clarify WAS / SME OS direction.
+- Updated constitution overview to include product positioning as an active rule.
+- Updated document index, file tree, and manifest.
+
+### Governance Decision
+
+- Market research details such as Dynamics 365 pricing, JobStreet / SEEK job analysis, admin salary comparison, and sales scripts are not placed inside the constitution core. They should remain in project, sales, or market research documents unless they become repeated governance rules.
+
 # CHANGELOG
 
 ## v1.5 Cleanup + Fusion — 2026-05-14

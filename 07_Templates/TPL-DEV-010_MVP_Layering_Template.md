@@ -1,6 +1,6 @@
 # TPL-DEV-010 MVP Layering Template
 
-Version: v1.5 Cleanup + Fusion  
+Version: v1.5.1 WAS Positioning Patch  
 Related Standard: STD-DEV-021
 
 ---

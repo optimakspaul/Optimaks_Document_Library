@@ -1,6 +1,6 @@
 # 06_Grant_Ready
 
-This folder is part of **Optimaks Document Library v1.5 Cleanup + Fusion**.
+This folder is part of **Optimaks Document Library v1.5.1 WAS Positioning Patch**.
 
 Purpose: Grant-ready evidence pack, case study, and project outcome report templates.
 

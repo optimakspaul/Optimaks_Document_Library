@@ -1,516 +1,537 @@
 {
-  "version": "v1.5 Cleanup + Fusion",
-  "generated": "2026-05-14",
+  "package": "Optimaks_Document_Library_v1.5.1_WAS_Positioning",
+  "generated_at": "2026-05-14",
+  "file_count": 106,
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.md",
-      "bytes": 253,
+      "size_bytes": 253,
       "sha256": "214be83ff965e241d36efaef019d68d6795274d7f4c4ebbfe1b2b293b2f9f2c9"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/change_request.md",
-      "bytes": 451,
+      "size_bytes": 451,
       "sha256": "0c3b10f58a1dee694b8f7d36df17d172eb62349236fb25756b50e2e1d6301666"
     },
     {
       "path": "00_Admin/CHANGELOG.md",
-      "bytes": 7579,
-      "sha256": "ea370e259471cbff89e4a23c8fe54c3c75d27332743da29c1d8d18a9a4702367"
+      "size_bytes": 8721,
+      "sha256": "28c12d28ec869c278a9349fc65495b450d2295111fd1f51ebe4c94ea04d23124"
     },
     {
       "path": "00_Admin/CLEANUP_FUSION_REPORT_v1.5.md",
-      "bytes": 2833,
-      "sha256": "226d9858671746d935ade63cf30e25e438562649c4755c29c17add88a138157a"
+      "size_bytes": 3059,
+      "sha256": "8a80c711503985f97ff765dd69f7356c70d9dea92cc9279e836b18b13f729cca"
     },
     {
       "path": "00_Admin/DOC-INDEX-001_Document_Index.md",
-      "bytes": 6284,
-      "sha256": "49a8e0e6c4eeddc161312befeb4c934a32fd0c28b1441f98485b87c736e34e4c"
+      "size_bytes": 10295,
+      "sha256": "b43f9ac756ced9e4ac10641b9787c3c89da129a7154c2233464ebf9a3f245718"
     },
     {
       "path": "00_Admin/FILE_TREE.txt",
-      "bytes": 4478,
-      "sha256": "5e6333feff54c316c1a64b74ecd22f68257315186cccc50feeaf54751d05ceb3"
+      "size_bytes": 6059,
+      "sha256": "27f87ca5c98edd4192ce92551c6c33e7f3a11acc075f5c271eb1256a136b373c"
     },
     {
       "path": "00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md",
-      "bytes": 2642,
+      "size_bytes": 2642,
       "sha256": "fc77225539a3fbf071fa3f0485e0dc38299cd367f599ff9651915a97e565f03b"
     },
     {
       "path": "00_Admin/README.md",
-      "bytes": 284,
-      "sha256": "5c44fdfdd7819f91a3800fcbcdaffaa297990474cdc8f983d4aaf0c89861abfc"
+      "size_bytes": 491,
+      "sha256": "f18d8789102607b10d76806857b3400aa7a2fae2962721d9d1e1dc1b44b405a9"
+    },
+    {
+      "path": "00_Admin/V1.5.1_SCOPE_DECISION.md",
+      "size_bytes": 2945,
+      "sha256": "42e67acdc56bad97972d82b59d4b28a4e96672a9debb000b9441e65833b895fd"
     },
     {
       "path": "00_Admin/VERSION_HISTORY.md",
-      "bytes": 1988,
-      "sha256": "bba12e12e6dc62a9ac471438861eb8d752eabd58cbbcced357069f305eedd5ef"
-    },
-    {
-      "path": "00_Admin/manifest.json",
-      "bytes": 17844,
-      "sha256": "58254993e3447ae9caee76da4bf6c7847cf94acdc65f81d25c84ec4ee2072fae"
+      "size_bytes": 2537,
+      "sha256": "ad12d2222e9f7d5d23538e082c33f79bc1af324372ab94c0baf9a2cb248ec1b2"
     },
     {
       "path": "01_Foundation/FND-001_Company_Positioning.md",
-      "bytes": 1486,
-      "sha256": "a19e97b917b81e67d38b7564764b3ccf7d24afa60318d3e9de2afcdd026ebe58"
+      "size_bytes": 3515,
+      "sha256": "27cd980dc823244a9ca6daeb78e33a90a8543ff41e5a53cc9ef82368d33661fe"
     },
     {
       "path": "01_Foundation/FND-002_Development_Constitution_Overview.md",
-      "bytes": 7681,
-      "sha256": "b41c1555e3ecd7359ba3bd75e46f5dc15bacd7918b8933fa82a35a7a98229927"
+      "size_bytes": 8466,
+      "sha256": "764d59484ae747ad59078709fb301a23e648b9a1bcd0785473a5183c198f6f10"
     },
     {
       "path": "01_Foundation/FND-003_Service_Model.md",
-      "bytes": 1267,
+      "size_bytes": 1267,
       "sha256": "9c1927b6cb826591f6bb494b8951ec5fa48698c240d10e5d2c5599127c0366eb"
     },
     {
       "path": "01_Foundation/FND-004_Core_Principles.md",
-      "bytes": 1197,
+      "size_bytes": 1197,
       "sha256": "43b3011edb6df6fadee9b41163c32fe2e3893db6718ebbb10231423bd3a5a335"
     },
     {
+      "path": "01_Foundation/FND-005_Product_Positioning_and_WAS_Principle.md",
+      "size_bytes": 4794,
+      "sha256": "aabd85766d98f3cb024efa6f1858618bef66572a73080b60c58569d0c7446142"
+    },
+    {
       "path": "01_Foundation/README.md",
-      "bytes": 170,
-      "sha256": "32a63e7be1a409bcd51747736c053e702ac96fd1f0d81c1360aecc07db9350f0"
+      "size_bytes": 552,
+      "sha256": "577df86151ef7bd307a1bb5d617169b9f8f27a878633b818e913ba0d72bc3aab"
     },
     {
       "path": "02_Development_Standard/README.md",
-      "bytes": 255,
-      "sha256": "cfeeda0dea6bac62f4fce407bf7213a7b571c1395b2fb4781c5af54609977f0b"
+      "size_bytes": 667,
+      "sha256": "6d9ac2c5d861a448f2b473030760daa406eea9e3d31dc41f797d578c1bca16a2"
     },
     {
       "path": "02_Development_Standard/STD-DEV-001_Standard_Development_Process.md",
-      "bytes": 1036,
+      "size_bytes": 1036,
       "sha256": "52ad5e257927c17eaab3a9d87907ce308875db9cae1b5cc0f95d0433606007af"
     },
     {
       "path": "02_Development_Standard/STD-DEV-002_AI_Assisted_Development_Workflow.md",
-      "bytes": 2191,
+      "size_bytes": 2191,
       "sha256": "e5395a009e8593f4d026c69c3f7a20b569955caa7dbd3516ede354487b91361e"
     },
     {
       "path": "02_Development_Standard/STD-DEV-003_GitHub_Documentation_SOP.md",
-      "bytes": 1569,
+      "size_bytes": 1569,
       "sha256": "43c1d2dfe005f45559c85944d64e9ebb87f939b2c74f2cd378bbc7917d740f64"
     },
     {
       "path": "02_Development_Standard/STD-DEV-004_Change_Request_Workflow.md",
-      "bytes": 1839,
+      "size_bytes": 1839,
       "sha256": "7af78b73b640b55f9183837d645b648a1310d6bad0a9c7d2e3b9a71938579f80"
     },
     {
       "path": "02_Development_Standard/STD-DEV-005_Mobile_Assisted_Development_Workflow.md",
-      "bytes": 2294,
+      "size_bytes": 2294,
       "sha256": "7b3a40c9894a86168b5eeeb5993520bc24cde07560b361c29b1dd30e2ee00f68"
     },
     {
       "path": "02_Development_Standard/STD-DEV-006_Branch_Commit_Push_Workflow.md",
-      "bytes": 1264,
+      "size_bytes": 1264,
       "sha256": "f79bbb15ef292ad14ddf09b9d07628eaadd698431330b0c013ba8b622b6680e8"
     },
     {
       "path": "02_Development_Standard/STD-DEV-007_Staging_Preview_Production_Workflow.md",
-      "bytes": 1056,
+      "size_bytes": 1056,
       "sha256": "cb13ac0c9b584d9cf2efff577dd6868c9aa85a2659769225979fe1310a1cc3ae"
     },
     {
       "path": "02_Development_Standard/STD-DEV-008_Document_Update_Workflow.md",
-      "bytes": 1306,
+      "size_bytes": 1306,
       "sha256": "0ef7041017eecb0ca0fd3e7ee835011da949776819bf130aa08b29fd9d776bd2"
     },
     {
       "path": "02_Development_Standard/STD-DEV-009_QA_and_Security_Standard.md",
-      "bytes": 1679,
+      "size_bytes": 1679,
       "sha256": "562dcd1e2d2e5388734339b4e000564082332c74ea581b2253975680e18c73d1"
     },
     {
       "path": "02_Development_Standard/STD-DEV-010_MVP_Module_Integration_Policy.md",
-      "bytes": 1302,
+      "size_bytes": 1302,
       "sha256": "5704a962d5f85f4c1bf58ce706ba2998fe06e8344f383a81cdcef772c686e164"
     },
     {
       "path": "02_Development_Standard/STD-DEV-011_Codex_Prompt_Standard.md",
-      "bytes": 1435,
+      "size_bytes": 1435,
       "sha256": "1db13a64318493bf3b45d31e7dabe446db87de2105245da105b97d2275607d7f"
     },
     {
       "path": "02_Development_Standard/STD-DEV-012_Repository_Structure.md",
-      "bytes": 1478,
+      "size_bytes": 1478,
       "sha256": "fdc4ad28ef14027b31d662ced470cd17dbdeebf5e24d63b9f5db8005e3df3c10"
     },
     {
       "path": "02_Development_Standard/STD-DEV-013_Self_Management_AI_Client_Value_Control_Rule.md",
-      "bytes": 5055,
+      "size_bytes": 5055,
       "sha256": "ce177c42f91c4e6d8066ec4ba2349cccb69c3b67f4ba01fcb18c7aeb30664be9"
     },
     {
       "path": "02_Development_Standard/STD-DEV-014_Constitution_Upgrade_Trigger_Rule.md",
-      "bytes": 4069,
+      "size_bytes": 4069,
       "sha256": "ca1b783c7111f6d4229a9b69402946dcd87ab871dfd8f88164d00615f94d2b5a"
     },
     {
       "path": "02_Development_Standard/STD-DEV-020_AI_Context_Package_and_Semi_Automated_Execution_Standard.md",
-      "bytes": 5527,
+      "size_bytes": 5527,
       "sha256": "8e54f2d5060c4091aac5e27fced81636909e454b09e4822b9b745c8ee90bae45"
     },
     {
       "path": "02_Development_Standard/STD-DEV-021_MVP_Layering_Small_Core_and_Dependency_Execution_Standard.md",
-      "bytes": 4847,
+      "size_bytes": 4847,
       "sha256": "bfd5aae8a1ae0ed01a040bfef4906d2f450f20f7114fc65ec18148f237372908"
     },
     {
       "path": "02_Development_Standard/STD-DEV-022_Internal_MVP_Client_Delivery_and_Monthly_Value_Control_Standard.md",
-      "bytes": 4435,
+      "size_bytes": 4435,
       "sha256": "c6be14a07e0f4e4442972c25dc584612772c140ed0f6066cac0eaf2a88d6234e"
     },
     {
+      "path": "02_Development_Standard/STD-DEV-023_Industry_Workflow_First_and_SME_OS_Scope_Standard.md",
+      "size_bytes": 3653,
+      "sha256": "7e2e9547e1ca9068788a5880b9d9565f3018f70e3388e1572b33cb0f0c8da62e"
+    },
+    {
       "path": "03_Client_Delivery/CLT-001_Client_Discovery_Form.md",
-      "bytes": 1061,
+      "size_bytes": 1061,
       "sha256": "326cd34798e65cff1a7878d1ecbdefcfa4f35b7794115334df7f88b998cd475c"
     },
     {
       "path": "03_Client_Delivery/CLT-002_Scope_of_Work_Template.md",
-      "bytes": 839,
+      "size_bytes": 839,
       "sha256": "b7561c7b997235a181b6324de451e4c5b4baa803a7b1fe5f52f5fe445bccc24a"
     },
     {
       "path": "03_Client_Delivery/CLT-003_Solution_Blueprint_Template.md",
-      "bytes": 1007,
+      "size_bytes": 1007,
       "sha256": "91eac752358bd6746c66d12511636e1b29ed7a6c2aa6c1ff495916c5d10ecb16"
     },
     {
       "path": "03_Client_Delivery/CLT-004_Project_Milestone_Plan.md",
-      "bytes": 970,
+      "size_bytes": 970,
       "sha256": "fdd1a5a83b9fc12bf61ede1afdd16a84846cf4385722001dfcb44042a034de44"
     },
     {
       "path": "03_Client_Delivery/CLT-005_Client_Handover_Guide.md",
-      "bytes": 740,
+      "size_bytes": 740,
       "sha256": "d39806dabe2d23ef51560fc59f300610845c1d96e8d3bb9cfd60559eda766175"
     },
     {
       "path": "03_Client_Delivery/CLT-006_Monthly_Maintenance_Report.md",
-      "bytes": 1684,
+      "size_bytes": 1684,
       "sha256": "de6b6ba25daf373441f05eb149906c8a9301dd9c921ccd1fea651afadf251b77"
     },
     {
       "path": "03_Client_Delivery/CLT-007_10_Step_Delivery_Process.md",
-      "bytes": 1391,
+      "size_bytes": 1391,
       "sha256": "2f6d2bf52d559164a111ab5fd474ac053e623e45546b65e23446011b2c487d8b"
     },
     {
       "path": "03_Client_Delivery/CLT-008_Proposal_Contract_Esign_Flow.md",
-      "bytes": 1125,
+      "size_bytes": 1125,
       "sha256": "f98675b88a8886dd6e7918309fbd6ea1619165a530d47a3862101b9847b32d91"
     },
     {
       "path": "03_Client_Delivery/README.md",
-      "bytes": 169,
+      "size_bytes": 169,
       "sha256": "3cc9ccd90b0038e65a1c42fbaaae1c7d6b3e3eab4ff2291e07e929689c9b46dd"
     },
     {
       "path": "04_Legal_Commercial/LEG-001_Quotation_Template.md",
-      "bytes": 908,
+      "size_bytes": 908,
       "sha256": "79c7d508276d6a144be229d847a03c1d9c5d89fd91a1a178f7985427b1af5d5a"
     },
     {
       "path": "04_Legal_Commercial/LEG-002_Client_Agreement_Checklist.md",
-      "bytes": 703,
+      "size_bytes": 703,
       "sha256": "7eed522ef85b28a93b3558a85c831d02b622f327e9f0b20db5977b492b2e6235"
     },
     {
       "path": "04_Legal_Commercial/LEG-003_Payment_Terms_Policy.md",
-      "bytes": 791,
+      "size_bytes": 791,
       "sha256": "5b30161e381149921dc4a47da8400da2f1761230b2e6006fa0f4a03e153f8538"
     },
     {
       "path": "04_Legal_Commercial/LEG-004_IP_and_Source_Code_Policy.md",
-      "bytes": 844,
+      "size_bytes": 844,
       "sha256": "eb2f71d59cae2d43772c89f013e92ea43f966961905a7ed86e6a631b07e18c3a"
     },
     {
       "path": "04_Legal_Commercial/LEG-005_PDPA_and_Data_Protection_Notice.md",
-      "bytes": 824,
+      "size_bytes": 824,
       "sha256": "da0ea5c3729d47d30c728e9e839f9f12d667e8238831e69e63f58daa9f9ae5ab"
     },
     {
       "path": "04_Legal_Commercial/README.md",
-      "bytes": 335,
-      "sha256": "20a4de2cacefee812518bfa47913a3251f783d4d23d691741ecfff99a9e98f7e"
+      "size_bytes": 346,
+      "sha256": "66c9512b4856c08bdf2e65645144e28731f01500aeaecf88da7370ac9f753a7f"
     },
     {
       "path": "05_ISO_Ready/ISO-001_ISO_Ready_Control_Map.md",
-      "bytes": 898,
+      "size_bytes": 898,
       "sha256": "45960fcb283410dfc8ef51a2bdb3fe7752c57a38f663eeb79c5dc467c722fc1b"
     },
     {
       "path": "05_ISO_Ready/ISO-002_Quality_Management_Lite.md",
-      "bytes": 789,
+      "size_bytes": 789,
       "sha256": "5ab452270211effe0493f387359f678b33aa9fdf00eb205f352d1e3d2ecfca57"
     },
     {
       "path": "05_ISO_Ready/ISO-003_Evidence_and_Audit_Trail.md",
-      "bytes": 642,
+      "size_bytes": 642,
       "sha256": "fd4cdd8075c9083817af41e9e96dacc8818acf506e370932368e68711a647da8"
     },
     {
       "path": "05_ISO_Ready/ISO-004_Risk_and_Change_Control.md",
-      "bytes": 674,
+      "size_bytes": 674,
       "sha256": "0280d8d1d89cf83f9cdbc5a808e3dea5ec7ca90fa8b5c78b99cb7847f56ed48c"
     },
     {
       "path": "05_ISO_Ready/README.md",
-      "bytes": 338,
-      "sha256": "616bc6ab42aa59e68e735ab5d900a55c94051192ca4b24ac679fb181d048f155"
+      "size_bytes": 349,
+      "sha256": "da032dbf78c73aaad66124e8a68736b8afd49da4437872c49e9a334eb3d53846"
     },
     {
       "path": "06_Grant_Ready/GRT-001_Grant_Ready_Evidence_Pack.md",
-      "bytes": 750,
+      "size_bytes": 750,
       "sha256": "42f616596d26714f7836c9524768b1579c1964a14241155d04a70f31eee91bd0"
     },
     {
       "path": "06_Grant_Ready/GRT-002_Case_Study_Template.md",
-      "bytes": 549,
+      "size_bytes": 549,
       "sha256": "b55f4d784d5f23b5fde5c81586b25769f5fd44e426a1d2b19581c32d9e17f2cb"
     },
     {
       "path": "06_Grant_Ready/GRT-003_Project_Outcome_Report.md",
-      "bytes": 624,
+      "size_bytes": 624,
       "sha256": "87af0f6ed34ed96bc804d393c0462837061a74f47a967a9cd631edda1058b9f2"
     },
     {
       "path": "06_Grant_Ready/README.md",
-      "bytes": 313,
-      "sha256": "98128da71f8bcdcd206ea4db428624cf37cf8b560f8a9f8ee079c55acc6cb482"
+      "size_bytes": 324,
+      "sha256": "1414fdbc250e765dd32ef7b641a135012809a89bf385067a7b134a29611fb860"
     },
     {
       "path": "07_Templates/CHANGE_REQUEST_Template.md",
-      "bytes": 1090,
+      "size_bytes": 1090,
       "sha256": "ae32ff06e981e8f067f0695b58b32ba8ae19e3c16eee636991a4027d45f041c0"
     },
     {
       "path": "07_Templates/CODEX_TASK_PROMPT_Template.md",
-      "bytes": 817,
+      "size_bytes": 817,
       "sha256": "3aa2bccd4b96b20fdf4a9adc51ea58024efa13af4341d736643abd8a018e80c6"
     },
     {
       "path": "07_Templates/GITHUB_ISSUE_Template.md",
-      "bytes": 740,
+      "size_bytes": 740,
       "sha256": "bcb9f3ccfb2799c75cd8412c0ac6d5be9c5513c051b02cfb7f1c02717eb85e28"
     },
     {
       "path": "07_Templates/MOBILE_CAPTURE_Template.md",
-      "bytes": 764,
+      "size_bytes": 764,
       "sha256": "91e84ef8fe1159e0d7eef5e3ee3f9e1a4326c6432e88f639e92dc2d9f7189f6f"
     },
     {
       "path": "07_Templates/PROJECT_CONTEXT_Template.md",
-      "bytes": 540,
+      "size_bytes": 540,
       "sha256": "09566a9b021ca1f04eae7442020610dc86440d0a2d207312bed5012968134c66"
     },
     {
       "path": "07_Templates/QA_REPORT_Template.md",
-      "bytes": 647,
+      "size_bytes": 647,
       "sha256": "12b6cede14070e6f77274d19a7dde9b412f5f65372ea348d6beac1056ac6c51d"
     },
     {
       "path": "07_Templates/README.md",
-      "bytes": 152,
-      "sha256": "a2f926c5e17133db7e5db3a2ea92b25e4b531f100d866341f5cd6db8894aac03"
+      "size_bytes": 163,
+      "sha256": "de4da7b4e3fcc366ffca24ddf6c4e44b161302b0135f8306528bda98b7536d33"
     },
     {
       "path": "07_Templates/TPL-DEV-006_Daily_Priority_and_Issue_Triage_Template.md",
-      "bytes": 1460,
+      "size_bytes": 1460,
       "sha256": "676297131a2ae1fa6fd792ace31afa87c206b9a0ece169aedfcbf68bcdc0f30b"
     },
     {
       "path": "07_Templates/TPL-DEV-009_AI_Context_Package_Template.md",
-      "bytes": 1210,
-      "sha256": "8e8ca3b46b888cc07132a6a84da974dff433009365bacd5a8539df29c7814ea4"
+      "size_bytes": 1224,
+      "sha256": "ffd443f74a91e349105718d6c1e9da3ae88fa8b34f68027b7913ca497000b1ee"
     },
     {
       "path": "07_Templates/TPL-DEV-010_MVP_Layering_Template.md",
-      "bytes": 1011,
-      "sha256": "3279864d3e67928ea1ee36bab9a9eb3a8af4656ac98645b634cede91cf830cee"
+      "size_bytes": 1018,
+      "sha256": "bbf04b648601141023c56dd081f1b64716960f81d41d5085f882fd309715d149"
+    },
+    {
+      "path": "07_Templates/TPL-DEV-011_Industry_Workflow_Blueprint_Template.md",
+      "size_bytes": 2476,
+      "sha256": "73f0873e4dfaf4ab1ec4861945759d50dd89c003215de0a6c960eb92d7c8b319"
     },
     {
       "path": "08_Checklists/CHK-DEV-006_AI_Execution_and_Client_Value_Checklist.md",
-      "bytes": 1544,
+      "size_bytes": 1544,
       "sha256": "08c200c7a8b49c911cc10ee22696adbffc550652a7959eaf8d56ec4b612847e4"
     },
     {
       "path": "08_Checklists/CHK-DEV-008_v1.5_AI_and_MVP_Readiness_Checklist.md",
-      "bytes": 1436,
-      "sha256": "8b8224a776a643fb9f7a6cd8de66f7b4a85038f5b46742e0479cded2b2db31a1"
+      "size_bytes": 1443,
+      "sha256": "cc0b0e611a820118ca10743284cd95f4f6ecb977ad87f282659376805ccd3fa9"
+    },
+    {
+      "path": "08_Checklists/CHK-DEV-009_Workflow_Positioning_and_Scope_Checklist.md",
+      "size_bytes": 2177,
+      "sha256": "cc55a074bac424f634a8dc10693959622f7114a3b38ec0d6280ff7f84d1bd9e5"
     },
     {
       "path": "08_Checklists/DEP-001_Deployment_Checklist.md",
-      "bytes": 893,
+      "size_bytes": 893,
       "sha256": "565856594f25341a00431c7c0a5b1d6807829dac3f57dd5c66e05ec679f626a7"
     },
     {
       "path": "08_Checklists/HAN-001_Handover_Checklist.md",
-      "bytes": 576,
+      "size_bytes": 576,
       "sha256": "20d68f4c75565dadb34d38ff143caab3a45dc64b1fdc7e63b433a35d1be6c794"
     },
     {
       "path": "08_Checklists/MOB-001_Mobile_Testing_Checklist.md",
-      "bytes": 674,
+      "size_bytes": 674,
       "sha256": "5a6368ae2163ad8417fb8165b2f468cc5f952de20001f0899af011fef1226bbb"
     },
     {
       "path": "08_Checklists/PDPA-001_Data_Protection_Checklist.md",
-      "bytes": 613,
+      "size_bytes": 613,
       "sha256": "536610580d4c35392c812fb40a450e4b7fd577d2b9e27e5144e3647206c0abd5"
     },
     {
       "path": "08_Checklists/QA-001_QA_Checklist.md",
-      "bytes": 987,
+      "size_bytes": 987,
       "sha256": "ebb654a97deac1cf8327fb8064eda0c076e23716e7aee159882456736ee3bda4"
     },
     {
       "path": "08_Checklists/README.md",
-      "bytes": 136,
-      "sha256": "e2251a418ea7c86148d5999575cdde5999714788ed0eb79da5c4b613e609ef50"
+      "size_bytes": 165,
+      "sha256": "75ad78307514ca7801fcde7b089db60592fb3a049b05772162769f3edb4d096d"
     },
     {
       "path": "09_Registers/README.md",
-      "bytes": 318,
-      "sha256": "2042c191e5b3411c7464ab6e9af1cf3578fba5d04f6a374677a78a41eb91b7ad"
+      "size_bytes": 329,
+      "sha256": "e6514758facd6714ca94150344c284a15fffa8f53dcf2d073739560a59d4f22d"
     },
     {
       "path": "09_Registers/REG-CHANGE-001_Change_Request_Register.csv",
-      "bytes": 91,
+      "size_bytes": 91,
       "sha256": "98e056d3efc5b1fcb47cf94b25e8db85455cb3c98dcb85beefb18f401f750918"
     },
     {
       "path": "09_Registers/REG-LESSONS-001_Lessons_Learned_Register.csv",
-      "bytes": 78,
+      "size_bytes": 78,
       "sha256": "1cfddfe1333ffd8b4fa471ae4ec0c0462052b057559df28a752a03b694d6a193"
     },
     {
       "path": "09_Registers/REG-RISK-001_Risk_Register.csv",
-      "bytes": 81,
+      "size_bytes": 81,
       "sha256": "76380af0497947f26d04e5bc8b7c4f7d80ca1861027ef5ed79658ac5d57b613e"
     },
     {
       "path": "09_Registers/REG-THIRD-PARTY-001_Third_Party_Service_Register.csv",
-      "bytes": 83,
+      "size_bytes": 83,
       "sha256": "41fbad85a88f53a9b36d49396019fe32d8afa506464dcdebf873aede3eaff471"
     },
     {
       "path": "10_Projects/ACRA-RADAR_Project_Context.md",
-      "bytes": 934,
+      "size_bytes": 934,
       "sha256": "3aadcc0c9a084fdfb339e92a613621a3d12de188aac8d36c81ea2fd1daf65701"
     },
     {
       "path": "10_Projects/AIRCON-OS_Project_Context.md",
-      "bytes": 1156,
+      "size_bytes": 1156,
       "sha256": "6e8a8460c7052fc952b38e407d49481931d8ac2e8aeb7cf093bb10a1666b87ca"
     },
     {
       "path": "10_Projects/OPTIMAKS-OS_Project_Context.md",
-      "bytes": 892,
+      "size_bytes": 892,
       "sha256": "9623d5414a28261cece395862a0a88a7858524239b5107c6db0b26687c7d985a"
     },
     {
       "path": "10_Projects/README.md",
-      "bytes": 340,
-      "sha256": "e5f1afa29810d21a659680e7b957e5f1f5ed88e292431ab9278baf0fb19fb9d5"
+      "size_bytes": 351,
+      "sha256": "a4ce7b2cb575fa32412f767fb6be2ea0e701c8b1c69a78836c6681ecd222a06b"
     },
     {
       "path": "10_Projects/_Templates/00_MVP_Dependency_Map_TEMPLATE.md",
-      "bytes": 1941,
+      "size_bytes": 1941,
       "sha256": "16fac6b00488513103d866112854af0683d6a68c431666a00dbabf60cbfe7fd0"
     },
     {
       "path": "11_Roadmap/ROADMAP-001_Constitution_Roadmap.md",
-      "bytes": 1044,
-      "sha256": "bf844310dba398eeb1acf01981339c80a482e1cd106967f3fd5aea4ca2d3302b"
+      "size_bytes": 1521,
+      "sha256": "e9f1de6f3f480d42ea89ac03a3e071e1ec2e2b314994ce87149b0e202430923a"
     },
     {
       "path": "12_Archive/README.md",
-      "bytes": 195,
+      "size_bytes": 195,
       "sha256": "e1ef5fa97a455cb04f856d36445ca66d30eed77b8ddcd544d221bbb794ea2fc7"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/DOCUMENT_REVIEW_REPORT_v1.4.3.md",
-      "bytes": 6375,
+      "size_bytes": 6375,
       "sha256": "a3e3fcf343d5f42a9fa7752219e210f2fb3682729bfee40233b8d4083fbe8f9c"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/FILE_TREE_v1.4.3.txt",
-      "bytes": 4693,
+      "size_bytes": 4693,
       "sha256": "7bfe048697a751b6a0d9b8c32846c03c9d817b16d225a632b0ef87ec10f9b90d"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/README_v1.4.3_UPDATE_INSTRUCTIONS.md",
-      "bytes": 1427,
+      "size_bytes": 1427,
       "sha256": "4dbe8277e9940996b52ace304db8184cfa2750fc3387bffeeb703b42e8015f36"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/REFERENCE_FULL_SINGLE_FILE_v1.3.md",
-      "bytes": 25086,
+      "size_bytes": 25086,
       "sha256": "5342587945be7165bc79b4186aef9b4d586a43ecac2f0e1c4970db6650e880ef"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/REFERENCE_FULL_SINGLE_FILE_v1.4.3.md",
-      "bytes": 50501,
+      "size_bytes": 50501,
       "sha256": "eb9377fe032b4a0913b8da98c693c7c07601e33de62daf301baa8ecb7adc59c6"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/VERSION_DELTA_SUMMARY_v1.3_to_v1.4.3.md",
-      "bytes": 3278,
+      "size_bytes": 3278,
       "sha256": "5af717c7e24999c6ad9713dc3474c4e0c8fc2f2bd85b8a9ac8cb1b040e1c62cd"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-015_AI_Assisted_Semi_Automated_Development_Pipeline.md",
-      "bytes": 9681,
+      "size_bytes": 9681,
       "sha256": "01ccd8aa05774792cfff43cc3feeaea8b7c5a05926bcc14341bdeefd1dfa9827"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-016_MVP_Decomposition_and_Dependency_Rule.md",
-      "bytes": 9707,
+      "size_bytes": 9707,
       "sha256": "2dfe0f468a7a7fd34788d4fca6725fad4021fc2da69de01f73648915a229dafb"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-017_Small_Core_First_and_Layered_MVP_Execution_Rule.md",
-      "bytes": 4214,
+      "size_bytes": 4214,
       "sha256": "c4436fec8b134bfe5a3cb9a000adb50086579ce973facc2465ec9e806ab741e3"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-018_UI_Backend_Parallel_Development_and_AI_Context_Control_Rule.md",
-      "bytes": 2970,
+      "size_bytes": 2970,
       "sha256": "eb3165461b47d56ae442355aa7693ec098384c2b87b39bd507416e67a9e7dec8"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-019_Internal_MVP_vs_Client_Delivery_Version_Control_Rule.md",
-      "bytes": 2698,
+      "size_bytes": 2698,
       "sha256": "cedb1855fed0d7700eedd0000025ff4ae14a169b9948b0f7efbce5457fa753fa"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/07_Templates/TPL-DEV-007_AI_Pipeline_Context_Package_Template.md",
-      "bytes": 1892,
+      "size_bytes": 1892,
       "sha256": "9db1ee39d6b65be8b86d3865b34b09305584a244549933b5abba19dc48f4ed4c"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/07_Templates/TPL-DEV-008_MVP_Decomposition_Template.md",
-      "bytes": 2044,
+      "size_bytes": 2044,
       "sha256": "5c2e3ced51c924ad59102b8bebc29277487b053671f109012fad58b88be77cd0"
     },
     {
       "path": "12_Archive/v1.3_to_v1.4.3_Superseded/08_Checklists/CHK-DEV-007_Semi_Automated_Pipeline_Readiness_Checklist.md",
-      "bytes": 2610,
+      "size_bytes": 2610,
       "sha256": "a39be93ad82905f8bab87ff521767b668a10e42365734b2fac5a80be34e12536"
     },
     {
       "path": "README.md",
-      "bytes": 3989,
-      "sha256": "64b9ec416aeca299c453fed29c35cc7818c15c7bfcd4eb5e0b83a8ab1611e7f5"
+      "size_bytes": 4709,
+      "sha256": "a78d0a5c4c142201ca2b7958f92ae8796c5f79d87d4ff8e0ea7bdf6ca67646b5"
     }
   ]
 }

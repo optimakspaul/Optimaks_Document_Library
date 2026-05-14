@@ -1,6 +1,6 @@
 # TPL-DEV-009 AI Context Package Template
 
-Version: v1.5 Cleanup + Fusion  
+Version: v1.5.1 WAS Positioning Patch  
 Related Standard: STD-DEV-020
 
 ---
@@ -11,7 +11,7 @@ Related Standard: STD-DEV-020
 
 ## 2. Constitution Version
 
-Optimaks Development Constitution v1.5 Cleanup + Fusion
+Optimaks Development Constitution v1.5.1 WAS Positioning Patch
 
 ## 3. Project Context
 
