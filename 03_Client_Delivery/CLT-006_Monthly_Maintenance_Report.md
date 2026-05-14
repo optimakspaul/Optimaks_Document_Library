@@ -1,63 +1,77 @@
-# Monthly Maintenance Report
+# CLT-006 Monthly Maintenance and Client Value Report
 
 | Field | Value |
 |---|---|
 | Document Code | CLT-006 |
-| Version | v1.3 |
-| Effective Date | 2026-05-13 |
+| Version | v1.5 Cleanup + Fusion |
 | Owner | Optimaks Pte Ltd |
-| Status | Active |
-| Purpose | Define monthly health report policy and report content. |
+| Status | Active Client Delivery Template |
+| Related Standard | STD-DEV-022 |
 
 ---
 
+## 1. Purpose
 
-## Purpose
+This document defines a practical structure for showing monthly value to clients who pay recurring maintenance, hosting, support, or system fees.
 
-Monthly reports help show the value of recurring monthly service.
-
-## Suggested Report Contents
-
-1. Uptime / availability summary
-2. Backup status
-3. Security update status
-4. Bug fixes completed
-5. Content update completed
-6. Support tickets handled
-7. Form submissions / leads summary
-8. Website performance notes
-9. Recommendations for next month
-10. Risk / attention items
-
-## Optimaks OS Feature
-
-Optimaks OS should eventually include a one-click Customer Health Report generator.
-
-## Impact Scope for Feature Development
-
-- CRM Customer Profile
-- Maintenance Report Module
-- Database
-- Report Export
-- WhatsApp / Email format
-- Permission Control
+The governance principle is defined in `STD-DEV-022`. This file should focus on the client-facing report structure.
 
 ---
 
-## v1.4.3 Monthly Value Extension
+## 2. Monthly Report Sections
 
-If a client pays a recurring monthly maintenance or system fee, Optimaks should provide visible value evidence.
+### 2.1 System Health
 
-Recommended monthly value sections:
+- Uptime / availability note
+- Deployment status
+- Backup or export confirmation
+- Security or dependency update note
 
-1. System health summary.
-2. Hosting / deployment maintenance summary.
-3. Bug fix or issue log.
-4. Backup or export check.
-5. Basic security / dependency update note.
-6. Lead / workflow activity summary, if applicable.
-7. Client-requested small update record.
-8. Support communication summary.
-9. Next month recommended actions.
+### 2.2 Support and Maintenance Work
 
-This section supports STD-DEV-019 and should be adapted per client scope.
+- Bug fixes completed
+- Small content updates completed
+- Configuration changes
+- Manual support provided
+
+### 2.3 Business Activity Indicators
+
+Use only indicators relevant to the project scope.
+
+- Lead count
+- Follow-up count
+- Quote / proposal count
+- Booking count
+- Job status summary
+- Form submissions
+- WhatsApp CTA activity, if tracked
+
+### 2.4 Improvement Suggestions
+
+- Recommended next improvement
+- Risk or bottleneck observed
+- Possible CR / upsell opportunity
+
+---
+
+## 3. Simple Client-Facing Format
+
+```text
+Monthly System Value Summary
+Client:
+Month:
+
+1. System Health
+2. Maintenance Work Completed
+3. Business Activity Observed
+4. Issues / Risks
+5. Recommended Next Step
+```
+
+---
+
+## 4. Boundary
+
+This report is not a replacement for QA, PDPA, deployment, or handover checklists.
+
+It is a monthly communication tool to show ongoing value and reduce the chance that clients see monthly fees as invisible cost.

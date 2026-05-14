@@ -1,9 +1,39 @@
+# CHANGELOG
+
+## v1.5 Cleanup + Fusion — 2026-05-14
+
+### Added
+
+- Added `STD-DEV-020_AI_Context_Package_and_Semi_Automated_Execution_Standard.md`.
+- Added `STD-DEV-021_MVP_Layering_Small_Core_and_Dependency_Execution_Standard.md`.
+- Added `STD-DEV-022_Internal_MVP_Client_Delivery_and_Monthly_Value_Control_Standard.md`.
+- Added `TPL-DEV-009_AI_Context_Package_Template.md`.
+- Added `TPL-DEV-010_MVP_Layering_Template.md`.
+- Added `CHK-DEV-008_v1.5_AI_and_MVP_Readiness_Checklist.md`.
+- Added `00_Admin/CLEANUP_FUSION_REPORT_v1.5.md`.
+- Added `12_Archive` for superseded historical documents.
+
+### Changed
+
+- Promoted v1.5 Cleanup + Fusion to v1.5 Cleanup + Fusion stable release.
+- Rewrote root `README.md` for v1.5 positioning.
+- Rewrote `FND-002_Development_Constitution_Overview.md` as active v1.5 constitution overview.
+- Rebuilt document index, file tree, manifest, and version history.
+- Simplified folder README files.
+- Updated `CLT-006_Monthly_Maintenance_Report.md` to focus on client-facing report format and reference `STD-DEV-022` for governance principle.
+
+### Archived
+
+- Archived superseded v1.4.1 to v1.4.3 patch standards and templates under `12_Archive`.
+
+---
+
 # Changelog
 
 | Field | Value |
 |---|---|
 | Document Code | ADM-001 |
-| Current Version | v1.4.3 Integrated |
+| Current Version | v1.5 Cleanup + Fusion |
 | Effective Date | 2026-05-14 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |
@@ -11,7 +41,7 @@
 
 ---
 
-## v1.4.3 Integrated — 2026-05-14
+## v1.5 Cleanup + Fusion — 2026-05-14
 
 ### Added / Integrated
 
@@ -22,13 +52,13 @@
 5. Added UI/backend parallel development and AI context control rule.
 6. Added internal MVP vs client delivery version control rule.
 7. Added monthly value visibility rule for recurring maintenance clients.
-8. Corrected root README and folder README files to reflect v1.4.3 Integrated.
+8. Corrected root README and folder README files to reflect v1.5 Cleanup + Fusion.
 9. Regenerated document index to include files added after v1.3.
 10. Added document review report for duplication, merge, deletion, and amendment recommendations.
 
 ### Important Note
 
-v1.4.3 Integrated is a consolidation package built on the v1.3 clean document library baseline. Historical v1.3 files are kept for traceability, but v1.4.3 Integrated is the active operating version.
+v1.5 Cleanup + Fusion is a consolidation package built on the v1.3 clean document library baseline. Historical v1.3 files are kept for traceability, but v1.5 Cleanup + Fusion is the active operating version.
 
 ### Recommended Commit
 

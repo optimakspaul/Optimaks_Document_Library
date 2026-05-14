@@ -1,18 +1,40 @@
-# Optimaks Document Library v1.4.3 Integrated
+# Optimaks Document Library v1.5 Cleanup + Fusion
 
 This repository is the official GitHub-ready document library for Optimaks development governance.
 
-本文件庫是 Optimaks 的正式開發治理文件庫。v1.4.3 Integrated 不是推翻 v1.3，而是以 v1.3 clean document library 為基底，整合 v1.4、v1.4.1、v1.4.2 與 v1.4.3 的憲法增修內容。
+本文件庫是 Optimaks 的正式開發治理文件庫。v1.5 Cleanup + Fusion 是在 v1.4.3 Integrated 的基礎上，進行正式整理、去重、融合與定版。
 
 ## Version Positioning
 
 ```text
 v1.3   = Clean GitHub-ready document library baseline
-v1.4   = Self-management, issue classification, AI execution control, client value gate, constitution upgrade trigger
-v1.4.1 = AI-assisted semi-automated development pipeline
-v1.4.2 = MVP decomposition, dependency mapping, and document inheritance rule
-v1.4.3 = Small Core First, layered MVP execution, UI/backend parallel rule, internal MVP vs client delivery separation, monthly value rule
+v1.4   = Governance upgrade: self-management, issue classification, AI execution control, client value gate
+v1.4.1 = AI-assisted semi-automated development pipeline patch
+v1.4.2 = MVP decomposition and dependency mapping patch
+v1.4.3 = Small Core First and integrated operating patch
+v1.5   = Cleanup + Fusion stable release
 ```
+
+## What v1.5 Means
+
+v1.5 does not mainly add new ideas. It turns the v1.4 to v1.4.3 discussion outputs into a cleaner and more executable operating standard.
+
+```text
+Cleanup = remove duplication, fix version confusion, archive superseded files, update index/history
+Fusion  = merge overlapping rules into fewer stronger standards
+```
+
+## Active v1.5 Governance Standards
+
+The v1.5 active development governance layer is centered on:
+
+1. `STD-DEV-013` — Self-management, issue classification, AI execution, and client value control.
+2. `STD-DEV-014` — Constitution review and upgrade trigger rule.
+3. `STD-DEV-020` — AI Context Package and semi-automated execution standard.
+4. `STD-DEV-021` — MVP layering, small core, and dependency execution standard.
+5. `STD-DEV-022` — Internal MVP, client delivery, and monthly value control standard.
+
+Earlier v1.4.1 to v1.4.3 patch files are archived under `12_Archive` to preserve history without confusing AI tools about the current active rule set.
 
 ## Recommended Usage
 
@@ -22,59 +44,39 @@ Word / PDF = 對外輸出或備份版本
 GitHub Issues = 任務來源
 Branch / Commit / Pull Request = 變更軌跡
 Codex / Antigravity = 根據憲法與 MVP 文件執行開發
+12_Archive = 歷史版本，不作為當前開發指令來源
 ```
 
 ## Top-Level Structure
 
 ```text
-00_Admin                 文件索引、版本紀錄、manifest、整合說明與 review 報告
+00_Admin                 文件索引、版本紀錄、manifest、cleanup/fusion 報告
 01_Foundation            公司定位、開發憲法總覽、核心原則
-02_Development_Standard  開發流程、AI、GitHub、CR、手機、部署、QA、MVP 分解、Small Core First
-03_Client_Delivery       客戶交付、SOW、Blueprint、Handover、維護報告、月費價值證明
+02_Development_Standard  當前有效的開發流程、AI、GitHub、CR、MVP、交付治理標準
+03_Client_Delivery       客戶交付、SOW、Blueprint、Handover、月費價值報告
 04_Legal_Commercial      報價、付款、IP、PDPA、合約檢查
 05_ISO_Ready             ISO-ready 控制對照與稽核證據
 06_Grant_Ready           Grant-ready 證據包與案例模板
-07_Templates             CR、Issue、Codex prompt、Mobile capture、QA report、AI pipeline、MVP decomposition
-08_Checklists            QA、部署、交接、PDPA、手機測試、AI 執行、Pipeline readiness
+07_Templates             CR、Issue、AI Context Package、MVP、QA 等模板
+08_Checklists            QA、部署、交接、PDPA、AI 執行、MVP readiness checklist
 09_Registers             CSV register：risk、change、lessons、third-party
-10_Projects              專案 context：Optimaks OS、Aircon OS、ACRA Radar、MVP templates
+10_Projects              專案 context：Optimaks OS、Aircon OS、ACRA Radar
 11_Roadmap               憲法未來版本路線圖
+12_Archive               已被 v1.5 融合或取代的歷史文件
 ```
 
-## v1.4.3 Integrated Key Updates
+## v1.5 Key Updates
 
-- Maintains v1.3 as the clean document library baseline.
-- Integrates v1.4 governance upgrades.
-- Integrates v1.4.1 semi-automated AI development pipeline.
-- Integrates v1.4.2 MVP decomposition and dependency control.
-- Adds v1.4.3 Small Core First Rule.
-- Clarifies that documents are AI development input, not only records.
-- Defines UI / UX and backend parallel development rules.
-- Separates internal MVP standards from client delivery requirements.
-- Adds monthly value visibility rule for maintenance and subscription clients.
-
-## How to Update This Library
-
-```text
-Create branch
-  ↓
-Update affected Markdown files
-  ↓
-Update CHANGELOG.md
-  ↓
-Update VERSION_HISTORY.md if the version meaning changed
-  ↓
-Update DOC-INDEX-001_Document_Index.md if adding/removing files
-  ↓
-Commit
-  ↓
-Push
-  ↓
-Review diff
-  ↓
-Merge
-```
+- Promotes v1.4.3 Integrated into a stable minor version.
+- Archives superseded v1.4.1 to v1.4.3 patch documents.
+- Fuses AI prompt, AI pipeline, UI/backend context, and execution governance into `STD-DEV-020`.
+- Fuses MVP decomposition, dependency control, and Small Core First into `STD-DEV-021`.
+- Fuses internal MVP, client delivery standard, and monthly value evidence into `STD-DEV-022`.
+- Rebuilds document index, changelog, version history, file tree, and manifest.
+- Adds a cleanup/fusion report explaining what was merged, archived, and retained.
 
 ## Important Governance Note
 
-v1.4.3 Integrated is a consolidation package. Because several v1.4.3 additions are now formal repeated operating rules, the next cleanup release may be promoted to v1.5 if Optimaks decides to treat these rules as a minor-version governance upgrade.
+The current active version is **v1.5 Cleanup + Fusion**.
+
+Files under `12_Archive` are historical references only. They may explain how the rules evolved, but they should not override active files in `01_Foundation`, `02_Development_Standard`, `03_Client_Delivery`, `07_Templates`, or `08_Checklists`.
