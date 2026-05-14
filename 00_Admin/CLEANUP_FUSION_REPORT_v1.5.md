@@ -73,3 +73,8 @@ When giving context to AI tools, use:
 6. Relevant template / checklist / project file
 
 Do not feed archived v1.4.1 to v1.4.3 patch files as current instructions unless reviewing history.
+
+
+## Historical Report Note
+
+This is a v1.5 historical cleanup/fusion report. The current active package is v1.5.1 WAS Positioning Patch. This report explains the v1.5 cleanup process and should not override v1.5.1 files.

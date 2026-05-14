@@ -1,6 +1,6 @@
 # 04_Legal_Commercial
 
-This folder is part of **Optimaks Document Library v1.5 Cleanup + Fusion**.
+This folder is part of **Optimaks Document Library v1.5.1 WAS Positioning Patch**.
 
 Purpose: Quotation, payment, IP/source-code, agreement, and PDPA commercial/legal reference documents.
 

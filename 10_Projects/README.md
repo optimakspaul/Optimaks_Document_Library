@@ -1,6 +1,6 @@
 # 10_Projects
 
-This folder is part of **Optimaks Document Library v1.5 Cleanup + Fusion**.
+This folder is part of **Optimaks Document Library v1.5.1 WAS Positioning Patch**.
 
 Purpose: Project context files and project-level templates for Optimaks OS, Aircon OS, ACRA Radar, and future MVPs.
 

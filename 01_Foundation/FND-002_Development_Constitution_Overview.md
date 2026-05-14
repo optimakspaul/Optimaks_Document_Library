@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | Document Code | FND-002 |
-| Version | v1.5 Cleanup + Fusion |
+| Version | v1.5.1 WAS Positioning Patch |
 | Effective Date | 2026-05-14 |
 | Owner | Optimaks Pte Ltd |
-| Status | Active Stable Constitution |
+| Status | Active Stable Constitution with Product Positioning Patch |
 | Purpose | Provide the master overview of the Optimaks development constitution after v1.5 cleanup and fusion. |
 
 ---
@@ -16,7 +16,7 @@
 | Item | Value |
 |---|---|
 | Document Name | Optimaks Development Constitution / Optimaks 開發憲法 |
-| Current Version | v1.5 Cleanup + Fusion |
+| Current Version | v1.5.1 WAS Positioning Patch |
 | Effective Date | 2026-05-14 |
 | Owner | Optimaks Pte Ltd |
 | Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP/prototype systems, client workflow automation systems, AI-assisted development workflows |
@@ -41,6 +41,7 @@ It governs:
 8. Internal MVP vs client delivery version control.
 9. QA, staging, production, PDPA, handover, and maintenance evidence.
 10. Monthly value visibility for subscription or maintenance clients.
+11. Product positioning as industry-specific Workflow Automation Systems and SME Operating OS solutions.
 
 ---
 
@@ -54,6 +55,7 @@ It governs:
 | v1.4.2 | MVP decomposition patch | Added large-project decomposition, dependent vs independent MVP rule, MVP dependency map, and layered project documentation logic. |
 | v1.4.3 | Integrated operating patch | Added Small Core First, document-as-AI-input rule, UI/backend parallel control, internal-vs-client delivery separation, monthly value rule, and version discipline. |
 | v1.5 | Cleanup + Fusion stable release | Merged overlapping v1.4.1 to v1.4.3 patch files into fewer active standards and archived superseded files to reduce duplication and AI confusion. |
+| v1.5.1 | WAS positioning patch | Added formal product positioning: Optimaks does not build generic SaaS; Optimaks builds industry-specific Workflow Automation Systems and SME Operating OS solutions. |
 
 ---
 
@@ -142,6 +144,14 @@ If Optimaks charges a recurring system, hosting, maintenance, or support fee, th
 Active reference: `STD-DEV-022` and `CLT-006`.
 
 ---
+
+### Rule 11 — Product Positioning Before Product Expansion
+
+Optimaks does not build generic SaaS products. Optimaks builds industry-specific Workflow Automation Systems and SME Operating OS solutions around real workflows.
+
+Before a project becomes an implementation task, it must define the target industry, real workflow, pain point, Small Core MVP, data flow, and value proof.
+
+Active references: `FND-005` and `STD-DEV-023`.
 
 ## 6. Source of Truth Rule
 

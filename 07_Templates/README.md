@@ -1,3 +1,3 @@
 # 07_Templates
 
-Reusable templates for CR, GitHub Issues, mobile capture, project context, QA reports, AI Context Package, and MVP Layering under v1.5.
+Reusable templates for Optimaks v1.5.1, including Change Request, GitHub Issue, AI Context Package, MVP Layering, and Industry Workflow Blueprint.
