@@ -11,3 +11,8 @@ Active key files:
 3. `FND-003_Service_Model.md`
 4. `FND-004_Core_Principles.md`
 5. `FND-005_Product_Positioning_and_WAS_Principle.md`
+
+
+## v1.5.6 Note
+
+`FND-006` now includes the Optimaks One-Person Team Operating Model and role boundaries for founder, AI tools, platforms and external partners.

@@ -1,6 +1,6 @@
 # DOC-INDEX-001 Document Index
 
-Current Library Version: v1.5.4 — AI Market Research & Strategy Governance Release
+Current Library Version: v1.5.6 — One-Person Team Operating Model Patch
 Generated: 2026-05-16
 
 | Path | Description |
@@ -11,6 +11,7 @@ Generated: 2026-05-16
 | `.github/pull_request_template.md` | pull request template |
 | `00_Admin/CHANGELOG.md` | CHANGELOG |
 | `00_Admin/CLEANUP_FUSION_REPORT_v1.5.md` | CLEANUP FUSION REPORT v1.5 |
+| `00_Admin/DOC-INDEX-001_Document_Index.md` | DOC INDEX 001 Document Index |
 | `00_Admin/FILE_TREE.txt` | FILE TREE |
 | `00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md` | GITHUB DESKTOP CLEANUP GUIDE |
 | `00_Admin/README.md` | README |
@@ -18,13 +19,16 @@ Generated: 2026-05-16
 | `00_Admin/V1.5.2_SCOPE_DECISION.md` | V1.5.2 SCOPE DECISION |
 | `00_Admin/V1.5.3_SCOPE_DECISION.md` | V1.5.3 SCOPE DECISION |
 | `00_Admin/V1.5.4_SCOPE_DECISION.md` | V1.5.4 SCOPE DECISION |
+| `00_Admin/V1.5.4_VALIDATION_REPORT.md` | V1.5.4 VALIDATION REPORT |
+| `00_Admin/V1.5.5_SCOPE_DECISION.md` | V1.5.5 SCOPE DECISION |
+| `00_Admin/V1.5.6_SCOPE_DECISION.md` | V1.5.6 SCOPE DECISION |
 | `00_Admin/VERSION_HISTORY.md` | VERSION HISTORY |
-| `00_Admin/manifest.json` | manifest |
 | `01_Foundation/FND-001_Company_Positioning.md` | FND 001 Company Positioning |
 | `01_Foundation/FND-002_Development_Constitution_Overview.md` | FND 002 Development Constitution Overview |
 | `01_Foundation/FND-003_Service_Model.md` | FND 003 Service Model |
 | `01_Foundation/FND-004_Core_Principles.md` | FND 004 Core Principles |
 | `01_Foundation/FND-005_Product_Positioning_and_WAS_Principle.md` | FND 005 Product Positioning and WAS Principle |
+| `01_Foundation/FND-006_Strategic_Constitution_Guardrails.md` | FND 006 Strategic Constitution Guardrails |
 | `01_Foundation/README.md` | README |
 | `02_Development_Standard/README.md` | README |
 | `02_Development_Standard/STD-DEV-001_Standard_Development_Process.md` | STD DEV 001 Standard Development Process |
@@ -131,6 +135,9 @@ Generated: 2026-05-16
 | `13_Strategy/STR-003_PRICING_PACKAGES.md` | STR 003 PRICING PACKAGES |
 | `13_Strategy/STR-004_GTM_30_DAY_PLAN.md` | STR 004 GTM 30 DAY PLAN |
 | `13_Strategy/STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md` | STR 005 AI MARKET RESEARCH STRATEGY REVIEW WORKFLOW |
+| `13_Strategy/STR-006_SWOT_ANALYSIS.md` | STR 006 SWOT ANALYSIS |
+| `13_Strategy/STR-007_PORTER_FIVE_FORCES.md` | STR 007 PORTER FIVE FORCES |
+| `13_Strategy/STR-008_LANCHESTER_STRATEGY.md` | STR 008 LANCHESTER STRATEGY |
 | `14_Product_Strategy/PRD-001_SERVICE_OS_PRODUCT_SCOPE.md` | PRD 001 SERVICE OS PRODUCT SCOPE |
 | `14_Product_Strategy/PRD-002_AIRCON_TEMPLATE_SCOPE.md` | PRD 002 AIRCON TEMPLATE SCOPE |
 | `14_Product_Strategy/README.md` | README |
@@ -139,19 +146,3 @@ Generated: 2026-05-16
 | `15_Sales_GTM/SAL-002_DISCOVERY_QUESTIONS.md` | SAL 002 DISCOVERY QUESTIONS |
 | `15_Sales_GTM/SAL-003_DEMO_SCRIPT.md` | SAL 003 DEMO SCRIPT |
 | `README.md` | README |
-
----
-
-## v1.5.5 Added / Active Strategic Guardrail Documents
-
-| Folder | File | Purpose |
-|---|---|---|
-| `01_Foundation` | `FND-006_Strategic_Constitution_Guardrails.md` | Constitution-level strategic guardrails for positioning, scope, AI execution and sales decisions. |
-| `13_Strategy` | `STR-006_SWOT_ANALYSIS.md` | SWOT analysis for Optimaks Website-to-Workflow strategy. |
-| `13_Strategy` | `STR-007_PORTER_FIVE_FORCES.md` | Competitive pressure analysis and strategic responses. |
-| `13_Strategy` | `STR-008_LANCHESTER_STRATEGY.md` | Aircon / field service beachhead and expansion strategy. |
-| `00_Admin` | `V1.5.5_SCOPE_DECISION.md` | Scope decision for the v1.5.5 patch. |
-
-## v1.5.5 Decision Rule
-
-Use the v1.5.5 files when deciding whether a new service, feature, AI output, package, client request or landing page claim fits the Optimaks constitution.

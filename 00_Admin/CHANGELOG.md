@@ -1,5 +1,33 @@
 # Changelog
 
+## v1.5.6 — One-Person Team Operating Model Patch — 2026-05-16
+
+### Added
+
+- Added Optimaks One-Person Team Operating Model.
+- Added founder-led operating rule: Paul acts as Product Owner, Sales Lead, Delivery Manager and Final Quality Gatekeeper.
+- Added AI and partner non-decision rule: AI tools and external partners are execution/support layers governed by the Optimaks Constitution.
+- Added role boundaries for ChatGPT, Gemini, Codex, Antigravity, GitHub, Vercel, Supabase, external marketing partners and external developers/designers.
+- Added acceptance rule: all AI and partner outputs must be reviewed against the constitution before being accepted, merged, deployed or delivered to clients.
+
+### Updated
+
+- Updated root `README.md` to v1.5.6.
+- Updated `00_Admin/README.md`.
+- Updated `00_Admin/VERSION_HISTORY.md`.
+- Updated `01_Foundation/FND-002_Development_Constitution_Overview.md`.
+- Updated `01_Foundation/FND-006_Strategic_Constitution_Guardrails.md` with the full One-Person Team Operating Model.
+- Updated `02_Development_Standard/STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md` with AI role-boundary and non-delegation rules.
+- Updated `00_Admin/DOC-INDEX-001_Document_Index.md`.
+- Updated `00_Admin/FILE_TREE.txt`.
+- Updated `00_Admin/manifest.json`.
+
+### Purpose
+
+v1.5.6 clarifies how Optimaks can operate as a one-person, founder-led, AI-assisted, documentation-driven productized service company without allowing AI tools, platforms, freelancers or marketing partners to become uncontrolled decision makers.
+
+---
+
 ## v1.5.5 — Strategic Constitution Guardrails Patch — 2026-05-16
 
 ### Added
@@ -181,8 +209,6 @@ The goal is not to create more documents. The goal is to make sure every future 
 - Archived superseded v1.4.1 to v1.4.3 patch standards and templates under `12_Archive`.
 
 ---
-
-# Changelog
 
 | Field | Value |
 |---|---|

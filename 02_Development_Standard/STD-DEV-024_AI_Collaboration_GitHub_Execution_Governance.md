@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | Document Code | STD-DEV-024 |
-| Version | v1.5.4 Current Consolidated Release |
+| Version | v1.5.6 One-Person Team Operating Model Patch |
 | Effective Date | 2026-05-15 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |
-| Purpose | Define how Gemini Research Intake, ChatGPT, Codex, Antigravity, GitHub Issues, Git branches, pull requests, and Vercel Preview must work together during AI-assisted development. |
+| Purpose | Define how Gemini Research Intake, ChatGPT, Codex, Antigravity, GitHub Issues, Git branches, pull requests, Vercel Preview, Supabase and founder review must work together during AI-assisted development. |
 
 ---
 
@@ -163,6 +163,43 @@ Codex should not redesign UI without an approved UI issue.
 Antigravity should not rewrite database, auth, or RLS logic without an approved backend/security issue.
 Both tools must read the same approved context package before implementation. If Gemini was used, both tools must use the ChatGPT-reviewed context package, not the raw Gemini digest.
 ```
+
+---
+
+## 4A. One-Person Team and AI Role Boundary Rule
+
+Optimaks is founder-led and AI-assisted. AI tools, platforms and external partners are support layers, not decision makers.
+
+### Role Boundary Summary
+
+```text
+Founder = decision, scope, sales, delivery and final quality gate
+ChatGPT = strategy, documentation, constitution review, scope control and prompt design
+Gemini = market research, vendor research and competitor digest
+Codex = code implementation based on approved GitHub issues
+Antigravity = UI prototyping and app page generation based on approved scope
+GitHub = source of truth for code, documents, issues, versions and decisions
+Vercel = preview, demo, staging and production deployment gate
+Supabase = database, authentication, backend and data-security foundation
+External partners = execution / lead-source / design / development support only
+```
+
+### Non-Delegation Rule
+
+The following responsibilities must remain under founder review:
+
+```text
+- final company positioning
+- client selection
+- pricing decision
+- package scope
+- product roadmap priority
+- production release approval
+- client delivery acceptance
+- whether an AI or partner output is accepted
+```
+
+AI-generated or partner-generated work must not be accepted, merged, deployed or delivered unless reviewed against the Optimaks Constitution.
 
 ---
 

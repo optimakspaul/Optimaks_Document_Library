@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | Document Code | FND-002 |
-| Version | v1.5.5 Strategic Constitution Guardrails Patch |
+| Version | v1.5.6 One-Person Team Operating Model Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active Current Constitution Overview |
-| Purpose | Provide the master overview of the Optimaks development and strategic constitution after v1.5.5 consolidation. |
+| Purpose | Provide the master overview of the Optimaks development and strategic constitution after v1.5.6 operating model patch. |
 
 ---
 
@@ -16,7 +16,7 @@
 | Item | Value |
 |---|---|
 | Document Name | Optimaks Development Constitution / Optimaks 開發憲法 |
-| Current Version | v1.5.5 Strategic Constitution Guardrails Patch |
+| Current Version | v1.5.6 One-Person Team Operating Model Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP systems, client workflow automation systems, AI-assisted development, AI research intake, market strategy, pricing, GTM, sales governance, SWOT, Porter Five Forces and Lanchester strategic guardrails |
@@ -54,6 +54,7 @@ It governs both development and strategy:
 | v1.5.3 | AI research intake patch | Added Gemini Research Digest, large-context intake, and multi-model handoff governance. |
 | v1.5.4 | Strategy governance release | Added AI market research review, market positioning, pricing, GTM, sales and product strategy governance. |
 | v1.5.5 | Strategic constitution guardrails patch | Added SWOT, Five Forces, Lanchester strategy and constitution-level guardrails to prevent positioning, product and sales drift. |
+| v1.5.6 | One-person team operating model patch | Clarified founder, AI tool, platform and external partner role boundaries under the Optimaks Constitution. |
 
 ---
 
@@ -93,7 +94,7 @@ Production Release
 
 ---
 
-## 5. Active v1.5.5 Constitution Rules
+## 5. Active v1.5.6 Constitution Rules
 
 ### Rule 1 — Documents Before AI Execution
 
@@ -213,7 +214,7 @@ Optimaks Service OS = reusable core.
 Use v1.5.2 rules when dealing with AI code execution and GitHub governance.
 Use v1.5.3 rules when dealing with Gemini Digest, research intake and multi-model handoff.
 Use v1.5.4 rules when dealing with market research, competitor review, strategy, pricing, GTM, sales and product positioning.
-Use v1.5.5 rules when deciding whether a new idea, service, feature, price, pitch or AI output fits the Optimaks constitution.
+Use v1.5.6 rules when deciding whether a new idea, service, feature, price, pitch, AI output or partner output fits the Optimaks constitution.
 ```
 
 ---
@@ -272,11 +273,12 @@ The current active strategy set includes:
 
 ## 11. Summary
 
-v1.5.5 makes the Optimaks constitution clear across four layers:
+v1.5.6 makes the Optimaks constitution clear across five layers:
 
 ```text
 Development Governance = v1.5.2
 Research Intake Governance = v1.5.3
 Market Strategy Governance = v1.5.4
 Strategic Constitution Guardrails = v1.5.5
+One-Person Team Operating Model = v1.5.6
 ```

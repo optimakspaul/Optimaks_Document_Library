@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | Document Code | FND-006 |
-| Version | v1.5.5 Strategic Constitution Guardrails Patch |
+| Version | v1.5.6 One-Person Team Operating Model Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active Foundation Guardrail |
-| Purpose | Define which strategic principles must govern Optimaks product, sales, AI execution and client delivery decisions. |
+| Purpose | Define which strategic principles and operating role boundaries must govern Optimaks product, sales, AI execution, partner collaboration and client delivery decisions. |
 
 ---
 
@@ -209,9 +209,56 @@ unless explicitly approved through Change Request or Roadmap update.
 
 ---
 
-## 10. Decision Checklist
+---
 
-Before accepting a feature, package, client request, AI output or landing page claim, ask:
+## 10. One-Person Team Operating Model
+
+Optimaks operates as a founder-led, AI-assisted, documentation-driven productized service company.
+
+The founder acts as Product Owner, Sales Lead, Delivery Manager, and Final Quality Gatekeeper.
+
+AI tools and external partners are not decision makers. They are execution and support layers governed by the Optimaks Constitution.
+
+### Role Boundaries
+
+| Role / Tool / Partner | Primary Responsibility | Boundary Rule |
+|---|---|---|
+| Paul / Founder | Product Owner, Sales Lead, Delivery Manager, final quality gatekeeper | Makes final decisions on positioning, scope, pricing, delivery and release readiness. |
+| ChatGPT | Strategy, documentation, constitution review, scope control, prompt design | May recommend, structure and review; must not replace founder approval. |
+| Gemini | Market research, vendor research, competitor digest | Produces research digest only; raw output must be reviewed before strategy or implementation. |
+| Codex | Code implementation based on approved GitHub Issues | Executes scoped issues only; must not decide product direction or expand scope. |
+| Antigravity | UI prototyping and app page generation based on approved scope | Builds or iterates UI only within approved product and data boundaries. |
+| GitHub | Source of truth for code, documents, issues, versions, and decision records | Anything not committed or tracked is not official. |
+| Vercel | Preview, demo, staging, and production deployment gate | Preview must be reviewed before production deployment or client delivery. |
+| Supabase | Database, authentication, backend foundation, and data security layer | Schema, RLS and production data changes require approved scope and review. |
+| External marketing partners | Lead generation support only | They may support traffic, content or campaign execution, but not product strategy ownership. |
+| External developers/designers | Execution partners only | They must work from approved scope, documentation, issues and review gates. |
+
+### Operating Chain
+
+```text
+Paul decides direction and final acceptance
+↓
+ChatGPT converts ideas into strategy, scope, documentation and prompts
+↓
+Gemini supports research when needed
+↓
+GitHub records approved issues, docs and decisions
+↓
+Codex / Antigravity execute approved scope
+↓
+Vercel / Supabase provide deployment and data foundations
+↓
+Paul reviews before merge, deployment or client delivery
+```
+
+### Acceptance Rule
+
+All AI and partner outputs must be reviewed against the constitution before being accepted, merged, deployed, or delivered to clients.
+
+## 11. Decision Checklist
+
+Before accepting a feature, package, client request, AI output, partner output or landing page claim, ask:
 
 1. Does this support Website-to-Workflow positioning?
 2. Does this help the service SME core workflow?
@@ -220,5 +267,6 @@ Before accepting a feature, package, client request, AI output or landing page c
 5. Is this core, add-on, future version, partner service, CR or rejected?
 6. Does this risk turning Optimaks into a generic web / social / ERP agency?
 7. Is this documented before implementation?
+8. Has the founder reviewed and accepted the output before merge, deployment or client delivery?
 
 If the answer is unclear, do not implement directly. Create a strategy review or change request first.

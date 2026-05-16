@@ -1,27 +1,28 @@
 {
-  "package_name": "Optimaks_Document_Library_v1.5.5_Strategic_Constitution_Guardrails",
-  "version": "v1.5.5",
-  "version_name": "Strategic Constitution Guardrails Patch",
+  "package_name": "Optimaks_Document_Library_v1.5.6_One_Person_Team_Operating_Model",
+  "version": "v1.5.6",
+  "version_name": "One-Person Team Operating Model Patch",
   "effective_date": "2026-05-16",
   "owner": "Optimaks Pte Ltd",
   "status": "Active Current Release",
-  "description": "Strategic Constitution Guardrails package built on v1.5.4 AI Market Research and Strategy Governance. Adds SWOT, Porter Five Forces, Lanchester strategy, company positioning and scope-control rules.",
+  "description": "One-Person Team Operating Model package built on v1.5.5 Strategic Constitution Guardrails. Adds founder, AI tool, platform and external partner role boundaries.",
   "version_definition": {
     "v1.5.2": "AI Collaboration + GitHub Execution Governance",
     "v1.5.3": "AI Research Intake + Multi-Model Handoff Governance",
     "v1.5.4": "AI Market Research + Strategy Review + Pricing / GTM / Sales Governance",
-    "v1.5.5": "Strategic Constitution Guardrails + SWOT / Five Forces / Lanchester Governance"
+    "v1.5.5": "Strategic Constitution Guardrails + SWOT / Five Forces / Lanchester Governance",
+    "v1.5.6": "One-Person Team Operating Model + AI / Platform / Partner Role Boundaries"
   },
   "active_standards": [
+    "FND-006_Strategic_Constitution_Guardrails.md",
     "STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md",
     "STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md",
     "STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md",
-    "FND-006_Strategic_Constitution_Guardrails.md",
     "STR-006_SWOT_ANALYSIS.md",
     "STR-007_PORTER_FIVE_FORCES.md",
     "STR-008_LANCHESTER_STRATEGY.md"
   ],
-  "file_count_excluding_manifest": 140,
+  "file_count_excluding_manifest": 141,
   "generated_at": "2026-05-16",
   "files": [
     {
@@ -46,8 +47,8 @@
     },
     {
       "path": "00_Admin/CHANGELOG.md",
-      "size_bytes": 16822,
-      "sha256": "fe0da207231d720374751f4bbbce05f0bfdf418a30d33428d6301bc3607b7ff4"
+      "size_bytes": 18366,
+      "sha256": "4658175aa0f9ee66fbb7421727d907fd87b86abaeb8a0a2b45329a2ededf15bc"
     },
     {
       "path": "00_Admin/CLEANUP_FUSION_REPORT_v1.5.md",
@@ -56,13 +57,13 @@
     },
     {
       "path": "00_Admin/DOC-INDEX-001_Document_Index.md",
-      "size_bytes": 13931,
-      "sha256": "fa7cb527be451c5f14a1f029c558cfe98573990863265ff8167bf9b4a5b09749"
+      "size_bytes": 13623,
+      "sha256": "92925a5d3051078b5ca78ecf85219192fc6ca3176715c58792e71b9f59b6dbce"
     },
     {
       "path": "00_Admin/FILE_TREE.txt",
-      "size_bytes": 7706,
-      "sha256": "73415aa53f7c463126f44cd3b9fd19139eae0e73077b5940f4af869dc1932835"
+      "size_bytes": 6179,
+      "sha256": "0f0cab42f3de42987dbed2894b5b7bb3ec6834f9a0c830fb3db5cff6fde3847b"
     },
     {
       "path": "00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md",
@@ -71,8 +72,8 @@
     },
     {
       "path": "00_Admin/README.md",
-      "size_bytes": 564,
-      "sha256": "72835b3252c1ae19cfe3fe6c4b3e07927ba28c3dc84b529d272d7e597304bccc"
+      "size_bytes": 720,
+      "sha256": "cf7bb6aa5741692c007622ba700da8a72241602ec4678f9853d9ee4630f8d6a1"
     },
     {
       "path": "00_Admin/V1.5.1_SCOPE_DECISION.md",
@@ -105,9 +106,19 @@
       "sha256": "3e40f575a41f95fbc4238d0089cf9428621c3317524b2180ca74c40ed39dc25e"
     },
     {
+      "path": "00_Admin/V1.5.6_SCOPE_DECISION.md",
+      "size_bytes": 2572,
+      "sha256": "9bf7adef38161ec2b6cdc1b8c776d7286675e367dd8830e5521598bd05ab3aa4"
+    },
+    {
       "path": "00_Admin/VERSION_HISTORY.md",
-      "size_bytes": 4613,
-      "sha256": "e230d96e2fcd364242cce5827858d3274856e5d8d9a20db3da3dc15654c79d8c"
+      "size_bytes": 5598,
+      "sha256": "849014c605059df9df20ae6dbeb3f2967fb134c42db99a82dce2aeb49ec49891"
+    },
+    {
+      "path": "00_Admin/manifest.json",
+      "size_bytes": 28440,
+      "sha256": "f3c8bd50e625f18d56efb12e403986672c515e68998f90ca595ebd5dea0120fa"
     },
     {
       "path": "01_Foundation/FND-001_Company_Positioning.md",
@@ -116,8 +127,8 @@
     },
     {
       "path": "01_Foundation/FND-002_Development_Constitution_Overview.md",
-      "size_bytes": 8565,
-      "sha256": "facc2dc22f72f25d6a6f2748fba9b15c388d3e310ffa4047d5f504972911fbce"
+      "size_bytes": 8786,
+      "sha256": "4061bee99dcb94d7a1a56bcbd260dbb9bd7968c26c079591d8ee77eee7e89d81"
     },
     {
       "path": "01_Foundation/FND-003_Service_Model.md",
@@ -136,13 +147,13 @@
     },
     {
       "path": "01_Foundation/FND-006_Strategic_Constitution_Guardrails.md",
-      "size_bytes": 5257,
-      "sha256": "c2f973d365419fd88169044b20613458796d4f7a79082629c9fc81a95f8d8928"
+      "size_bytes": 8023,
+      "sha256": "24b8442b97454c7c92f4ae80e832b7c5903396a264f10815301d6631a9bc962b"
     },
     {
       "path": "01_Foundation/README.md",
-      "size_bytes": 552,
-      "sha256": "577df86151ef7bd307a1bb5d617169b9f8f27a878633b818e913ba0d72bc3aab"
+      "size_bytes": 714,
+      "sha256": "b5eec0a263d12daa0b4da60f7e8cb4d62bbabd48beb180ba97ea1cd8586c81dd"
     },
     {
       "path": "02_Development_Standard/README.md",
@@ -241,8 +252,8 @@
     },
     {
       "path": "02_Development_Standard/STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md",
-      "size_bytes": 7847,
-      "sha256": "a71855492b46261483820b3401430aca5d4bead6be33463648c5d1677efcf459"
+      "size_bytes": 9211,
+      "sha256": "5f0c34eeadef6a484e7ab705d5455494ad02f8664ee0537283f2c88a065f97b5"
     },
     {
       "path": "02_Development_Standard/STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md",
@@ -721,8 +732,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 6717,
-      "sha256": "4ed6f2f6756b11db44dfa1225ce6c96eb29d0dcb132786a5a860025b2e3f1ee7"
+      "size_bytes": 8441,
+      "sha256": "b176bb73fd7bcfb2b147dd14c5d15857781b174478842a80b3ab0ec641987853"
     }
   ]
 }
