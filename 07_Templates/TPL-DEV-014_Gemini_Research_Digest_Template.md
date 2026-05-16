@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Template Code | TPL-DEV-014 |
-| Version | v1.5.3 |
+| Version | v1.5.4 Current Consolidated Release |
 | Related Standard | STD-DEV-025 |
 | Purpose | Standard digest format for Gemini or any large-context research tool before ChatGPT review. |
 

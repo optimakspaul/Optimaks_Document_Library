@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Template Code | TPL-DEV-013 |
-| Version | v1.5.3 |
+| Version | v1.5.4 Current Consolidated Release |
 | Purpose | Standard prompt format for sending a GitHub Issue to Codex, Antigravity, or another AI development tool. |
 
 ---

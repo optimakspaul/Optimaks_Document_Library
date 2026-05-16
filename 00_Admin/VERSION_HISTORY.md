@@ -1,97 +1,96 @@
-# VERSION HISTORY
+# Version History
 
-## Current Version
-
-**v1.5.2 AI Collaboration & GitHub Governance Patch**  
-Effective Date: 2026-05-15  
-Status: Active Stable Constitution Patch
+**Current Active Version:** v1.5.4 — AI Market Research & Strategy Governance Release  
+**Effective Date:** 2026-05-16  
+**Owner:** Optimaks Pte Ltd  
+**Status:** Active Current Release
 
 ---
 
-## Version Table
+## Version Lineage Summary
 
-| Version | Type | Summary |
+| Version | Type | Meaning |
 |---|---|---|
-| v1.3 | Baseline | Clean GitHub-ready document library with development governance, mobile-assisted workflow, Codex + Antigravity structure, CR flow, staging, QA, PDPA, ISO-ready and grant-ready structure. |
-| v1.4 | Minor governance upgrade | Self-management, daily priority, issue classification, AI execution control, client value gate, constitution upgrade trigger. |
-| v1.4.1 | Patch | Semi-automated AI development pipeline. |
-| v1.4.2 | Patch | MVP decomposition, dependent/independent MVP rule, dependency map and document inheritance logic. |
-| v1.4.3 | Patch / integrated package | Small Core First, UI/backend parallel rule, internal MVP vs client delivery rule, monthly value rule, README/index review. |
-| v1.5 | Minor cleanup/fusion release | Consolidated v1.4.1 to v1.4.3 overlapping rules into stable active standards, archived superseded patch files, rebuilt index and version control documents. |
-| v1.5.1 | Patch | Product positioning patch: industry-specific WAS / SME Operating OS principle. |
-| v1.5.2 | Patch | AI collaboration and GitHub execution governance: one issue / one branch / one PR, Codex / Antigravity tool boundaries, AI code review, preview-before-production, and traceability. |
+| v1.3 | Baseline | GitHub-ready document library baseline. |
+| v1.4 | Governance Upgrade | Self-management, issue classification, AI execution control, client value gate. |
+| v1.4.1 | Patch | AI-assisted semi-automated development pipeline. |
+| v1.4.2 | Patch | MVP decomposition, dependency mapping, large project layering. |
+| v1.4.3 | Patch | Small Core First, document-as-AI-input, internal-vs-client delivery separation. |
+| v1.5 | Stable Release | Cleanup + Fusion stable release; reduced duplicated patch documents. |
+| v1.5.1 | Product Positioning Patch | Industry-specific Workflow Automation System / SME Operating OS principle. |
+| v1.5.2 | AI GitHub Governance Patch | Codex / Antigravity + GitHub Issue / Branch / PR / Preview governance. |
+| v1.5.3 | AI Research Intake Patch | Gemini Digest, large-context research intake, and multi-model handoff governance. |
+| v1.5.4 | Strategy Governance Release | AI market research, ChatGPT strategy review, market positioning, pricing, GTM, sales and product strategy governance. |
 
 ---
 
-## v1.5.2 Active Standards
+## v1.5.4 — Current Active Release
 
-| Standard | Role |
-|---|---|
-| STD-DEV-013 | Self-management, issue classification, AI execution, client value control |
-| STD-DEV-014 | Constitution upgrade trigger and version governance |
-| STD-DEV-020 | AI context package and semi-automated execution |
-| STD-DEV-021 | MVP layering, Small Core First, dependency execution |
-| STD-DEV-022 | Internal MVP vs client delivery and monthly value control |
-| STD-DEV-023 | Industry workflow-first and SME OS scope standard |
-| STD-DEV-024 | AI collaboration and GitHub execution governance |
+v1.5.4 formalizes the business strategy layer that sits between AI research and implementation.
 
----
+### v1.5.4 Controls
 
-## Versioning Rule
+```text
+Market Research Digest
+↓
+ChatGPT Strategy Review
+↓
+Approved Strategy Docs
+↓
+Product / Pricing / Sales / GTM Documents
+↓
+GitHub Issues and AI Context Packages
+↓
+Implementation
+```
 
-Patch versions such as v1.4.1 may clarify or add a narrow rule.
+### v1.5.4 Active Documents
 
-Minor versions such as v1.5 should be used when multiple patch rules become repeated operating standards and need cleanup, fusion, or structure changes.
-
-Major versions should be reserved for company-stage changes, multi-tenant SaaS architecture adoption, formal client delivery systemization, or significant legal/commercial governance changes.
-
-
-## v1.5.1 — WAS Positioning Patch
-
-Added formal product positioning: Optimaks does not build generic SaaS. Optimaks builds industry-specific Workflow Automation Systems and SME Operating OS solutions.
-
-Key additions:
-
-1. `FND-005` product positioning and WAS principle.
-2. `STD-DEV-023` industry workflow-first and SME OS scope standard.
-3. `TPL-DEV-011` industry workflow blueprint template.
-4. `CHK-DEV-009` workflow positioning and scope checklist.
-5. Admin scope decision separating constitution-level principles from market research notes.
-
-
-## v1.5.2 — AI Collaboration & GitHub Governance Patch
-
-Added formal governance for moving Codex / Antigravity / AI-generated code into GitHub safely.
-
-Key additions:
-
-1. `STD-DEV-024` AI collaboration and GitHub execution governance standard.
-2. `TPL-DEV-012` pull request review template.
-3. `TPL-DEV-013` AI issue execution prompt template.
-4. `CHK-DEV-010` AI GitHub PR governance checklist.
-5. `.github/pull_request_template.md`.
-6. `.github/ISSUE_TEMPLATE/ai_execution_task.md`.
-7. Admin scope decision separating constitution-level AI collaboration rules from one-off project execution details.
+- `STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md`
+- `13_Strategy/STR-001_MARKET_POSITIONING.md`
+- `13_Strategy/STR-002_COMPETITOR_REVIEW_SG_SME.md`
+- `13_Strategy/STR-003_PRICING_PACKAGES.md`
+- `13_Strategy/STR-004_GTM_30_DAY_PLAN.md`
+- `13_Strategy/STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md`
+- `14_Product_Strategy/PRD-001_SERVICE_OS_PRODUCT_SCOPE.md`
+- `14_Product_Strategy/PRD-002_AIRCON_TEMPLATE_SCOPE.md`
+- `15_Sales_GTM/SAL-001_COLD_OUTREACH_PLAYBOOK.md`
+- `15_Sales_GTM/SAL-002_DISCOVERY_QUESTIONS.md`
+- `15_Sales_GTM/SAL-003_DEMO_SCRIPT.md`
+- `07_Templates/TPL-BIZ-001_Strategy_Review_Template.md`
+- `08_Checklists/CHK-BIZ-001_Market_Research_Strategy_Review_Checklist.md`
 
 ---
 
 ## v1.5.3 — AI Research Intake & Multi-Model Handoff Patch
 
-| Field | Value |
-|---|---|
-| Date | 2026-05-16 |
-| Type | Governance Patch |
-| Main Addition | Gemini Research Intake + ChatGPT Review Handoff |
-| Status | Active |
+v1.5.3 introduced the controlled use of Gemini / large-context AI tools for:
 
-### Summary
+- API documents.
+- PDFs and long external documents.
+- Open Data documents.
+- Existing large codebases.
+- Market or competitor research digests.
+- Multi-model handoff into ChatGPT, Codex, Antigravity, VS Code and GitHub.
 
-v1.5.3 introduces a controlled multi-AI workflow for Optimaks:
+v1.5.3 does **not** define final market positioning, pricing or GTM strategy. Those are now governed by v1.5.4.
+
+---
+
+## v1.5.2 — AI Collaboration & GitHub Governance Patch
+
+v1.5.2 introduced the rule that AI-generated code must not directly enter main. Every meaningful implementation must go through:
 
 ```text
-Gemini reads / digests large context.
-ChatGPT reviews and converts to architecture / scope / issues.
-Codex implements backend and logic.
-Antigravity implements UI and browser verification.
-VS Code + GitHub remain final control and source of truth.
+GitHub Issue → Feature Branch → Pull Request → Preview / Test → Human Review → Merge → Changelog / Docs
+```
+
+---
+
+## Version Rule
+
+```text
+Use v1.5.2 for code governance.
+Use v1.5.3 for research intake and AI handoff.
+Use v1.5.4 for market strategy, pricing, GTM, product positioning and sales governance.
 ```

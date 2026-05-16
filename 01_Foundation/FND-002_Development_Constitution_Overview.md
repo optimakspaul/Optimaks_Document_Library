@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | Document Code | FND-002 |
-| Version | v1.5.2 AI Collaboration & GitHub Governance Patch |
-| Effective Date | 2026-05-15 |
+| Version | v1.5.4 AI Market Research & Strategy Governance Release |
+| Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
-| Status | Active Stable Constitution with AI Collaboration & GitHub Governance Patch |
-| Purpose | Provide the master overview of the Optimaks development constitution after v1.5 cleanup and fusion. |
+| Status | Active Current Constitution Overview |
+| Purpose | Provide the master overview of the Optimaks development constitution after v1.5.4 consolidation. |
 
 ---
 
@@ -16,32 +16,31 @@
 | Item | Value |
 |---|---|
 | Document Name | Optimaks Development Constitution / Optimaks 開發憲法 |
-| Current Version | v1.5.2 AI Collaboration & GitHub Governance Patch |
-| Effective Date | 2026-05-15 |
+| Current Version | v1.5.4 AI Market Research & Strategy Governance Release |
+| Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
-| Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP/prototype systems, client workflow automation systems, AI-assisted development workflows |
+| Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP systems, client workflow automation systems, AI-assisted development, AI research intake, market strategy, pricing, GTM and sales governance |
 
 ---
 
 ## 2. Purpose
 
-This constitution establishes a repeatable, traceable, reviewable, deliverable, and scalable AI-era development standard for Optimaks.
+This constitution establishes a repeatable, traceable, reviewable, deliverable and scalable AI-era operating standard for Optimaks.
 
-The constitution is not a notebook and not only a documentation archive. It is the operating system of Optimaks development.
-
-It governs:
+It governs both development and strategy:
 
 1. Idea capture and daily priority control.
-2. Mini Issue / Issue / CR / Full CR classification.
+2. Issue / CR / MVP classification.
 3. MVP decomposition and dependency control.
 4. Small Core First execution.
-5. AI context package preparation.
-6. Codex / Antigravity / ChatGPT division of responsibility.
-7. GitHub Issue, branch, commit, diff, changelog, and documentation governance.
+5. AI Context Package preparation.
+6. Codex / Antigravity / ChatGPT / Gemini division of responsibility.
+7. GitHub Issue, branch, commit, PR, preview, diff review and changelog governance.
 8. Internal MVP vs client delivery version control.
-9. QA, staging, production, PDPA, handover, and maintenance evidence.
-10. Monthly value visibility for subscription or maintenance clients.
-11. Product positioning as industry-specific Workflow Automation Systems and SME Operating OS solutions.
+9. QA, staging, production, PDPA, handover and maintenance evidence.
+10. Product positioning as industry-specific Workflow Automation Systems and SME Operating OS solutions.
+11. AI Research Intake and Multi-Model Handoff.
+12. AI Market Research, Strategy Review, Pricing, GTM, Sales and Product Strategy Governance.
 
 ---
 
@@ -49,215 +48,160 @@ It governs:
 
 | Version | Role | Summary |
 |---|---|---|
-| v1.3 | Baseline governance | Established GitHub Markdown document library, mobile-assisted workflow, Codex + Antigravity architecture, CR flow, staging-before-production, QA, PDPA, ISO-ready and grant-ready structure. |
-| v1.4 | Governance upgrade | Added self-management, daily priority, issue classification, AI execution control, client value gate, and constitution upgrade trigger rules. |
-| v1.4.1 | AI pipeline patch | Added semi-automated AI development pipeline from idea to project brief, user flow, architecture, UI screen list, data model, issue breakdown, AI prompt, implementation, testing, GitHub diff, and changelog. |
-| v1.4.2 | MVP decomposition patch | Added large-project decomposition, dependent vs independent MVP rule, MVP dependency map, and layered project documentation logic. |
-| v1.4.3 | Integrated operating patch | Added Small Core First, document-as-AI-input rule, UI/backend parallel control, internal-vs-client delivery separation, monthly value rule, and version discipline. |
-| v1.5 | Cleanup + Fusion stable release | Merged overlapping v1.4.1 to v1.4.3 patch files into fewer active standards and archived superseded files to reduce duplication and AI confusion. |
-| v1.5.1 | WAS positioning patch | Added formal product positioning: Optimaks does not build generic SaaS; Optimaks builds industry-specific Workflow Automation Systems and SME Operating OS solutions. |
-| v1.5.2 | AI collaboration governance patch | Added formal rules for Codex / Antigravity collaboration, one issue / one branch / one PR, AI code review, preview-before-production, batch scope boundary, and PR traceability. |
+| v1.5.1 | Product positioning patch | Formalized industry-specific Workflow Automation Systems and SME Operating OS principle. |
+| v1.5.2 | AI GitHub governance patch | Added Codex / Antigravity / GitHub Issue / Branch / PR / Preview governance. |
+| v1.5.3 | AI research intake patch | Added Gemini Research Digest, large-context intake, and multi-model handoff governance. |
+| v1.5.4 | Strategy governance release | Added AI market research review, market positioning, pricing, GTM, sales and product strategy governance. |
 
 ---
 
 ## 4. Highest Operating Principle
 
+```text
 No idea should directly become code.
+No research digest should directly become strategy.
+No strategy should directly become implementation.
+No implementation should directly enter production.
+```
 
-No large project should directly become a full system.
-
-No AI tool should restart from zero when approved documents already exist.
-
-Any meaningful change should be traceable from:
+Every meaningful change should be traceable from:
 
 ```text
-Idea
+Idea / Research / Client Need
 ↓
-Capture / Triage
+Capture / Digest / Review
 ↓
-Issue / CR / MVP Document
+Approved Docs / Issue / CR / MVP Document
 ↓
 AI Context Package
 ↓
 Branch / Implementation
 ↓
-Testing
+Testing / Preview
 ↓
 GitHub Diff Review
 ↓
 Changelog / Documentation Update
-↓
-Staging
 ↓
 Production Release
 ```
 
 ---
 
-## 5. Active v1.5.2 Constitution Rules
+## 5. Active v1.5.4 Constitution Rules
 
-### Rule 1 — Priority Before Execution
+### Rule 1 — Documents Before AI Execution
 
-Every idea must pass through capture, triage, issue classification, and value check before it becomes implementation work.
+AI tools should not start from vague instructions when approved documents already exist.
 
-Active reference: `STD-DEV-013`.
+### Rule 2 — Research Digest Is Not Strategy
 
-### Rule 2 — Constitution Is Updated Only When a Rule Becomes Repeated
+Gemini or other research output is supporting material only. It must be reviewed before it becomes positioning, pricing, GTM, sales claims or product scope.
 
-The constitution should not be modified for every new thought. A rule should enter the constitution only when it affects repeated operation, AI execution, delivery governance, client promise, risk control, or company stage maturity.
+### Rule 3 — Strategy Before Implementation
 
-Active reference: `STD-DEV-014`.
+Market positioning, pricing and product package decisions must be stored in official docs before they become GitHub Issues or AI implementation prompts.
 
-### Rule 3 — AI Requires a Context Package
+### Rule 4 — One Issue / One Branch / One PR
 
-AI should not be asked to build from a one-line prompt when the task affects system structure. Before AI execution, provide the constitution, project context, scope, non-goals, data model, page map, acceptance criteria, and test method.
+Each meaningful implementation should have a clear GitHub Issue, feature branch, Pull Request, preview, human review, and changelog entry.
 
-Active reference: `STD-DEV-020`.
+### Rule 5 — Tool Boundaries
 
-### Rule 4 — Small Core First
+| Tool | Role |
+|---|---|
+| Gemini | Optional large-context research and digest tool |
+| ChatGPT | Strategy, architecture, logic, governance and QA reviewer |
+| Codex | Code implementation and technical execution under approved scope |
+| Antigravity | UI, app shell, browser preview and agentic execution under approved scope |
+| VS Code / GitHub | Final control, diff review, evidence and Source of Truth |
 
-Every software product or workflow automation project should start from the smallest useful core that is understandable, testable, and extendable.
+### Rule 6 — Source of Truth
 
-Active reference: `STD-DEV-021`.
+The Source of Truth is:
 
-### Rule 5 — MVPs Must Be Layered by Dependency
+- Approved Markdown documents.
+- GitHub Issues.
+- Pull Requests.
+- CHANGELOG.
+- Version history.
+- Approved strategy, product and sales documents.
 
-Dependent MVPs inherit previous decisions, data assumptions, UI patterns, constraints, and testing outcomes. Independent MVPs may be prepared in parallel, but must be reviewed again before integration.
+The Source of Truth is not:
 
-Active reference: `STD-DEV-021`.
-
-### Rule 6 — UI and Backend Can Run in Parallel Only with Shared Context
-
-Antigravity may focus on UI/UX and visual flow. Codex may focus on implementation, refactor, data structure, APIs, and tests. Both must share the same approved context package and be reconciled through diff review.
-
-Active reference: `STD-DEV-020`.
-
-### Rule 7 — Internal MVP and Client Delivery Are Not the Same Standard
-
-Internal MVPs may omit auth, payment, e-sign, invoice, client portal, multi-tenant architecture, and full reporting if the purpose is validation. Client delivery versions require stronger QA, PDPA, deployment, handover, support boundary, and maintenance governance.
-
-Active reference: `STD-DEV-022`.
-
-### Rule 8 — Monthly Fees Require Visible Monthly Value
-
-If Optimaks charges a recurring system, hosting, maintenance, or support fee, there should be visible monthly value evidence, such as system health, bug fixes, backup, uptime, lead/follow-up activity, content updates, or performance indicators.
-
-Active reference: `STD-DEV-022` and `CLT-006`.
+- Raw AI chat output.
+- Unreviewed Gemini Digest.
+- Draft screenshots.
+- Temporary prompts.
+- Uncommitted local files.
 
 ---
 
-### Rule 11 — Product Positioning Before Product Expansion
-
-Optimaks does not build generic SaaS products. Optimaks builds industry-specific Workflow Automation Systems and SME Operating OS solutions around real workflows.
-
-Before a project becomes an implementation task, it must define the target industry, real workflow, pain point, Small Core MVP, data flow, and value proof.
-
-Active references: `FND-005` and `STD-DEV-023`.
-
-## 6. Source of Truth Rule
+## 6. Version Usage Rule
 
 ```text
-Markdown 分檔 = 正式原始文件
-GitHub Issues = 任務來源
-GitHub branch / commit / PR = 變更軌跡
-GitHub diff = review evidence
-Staging = safety verification
-Production = approved release only
-12_Archive = historical reference only
+Use v1.5.2 rules when dealing with AI code execution and GitHub governance.
+Use v1.5.3 rules when dealing with Gemini Digest, research intake and multi-model handoff.
+Use v1.5.4 rules when dealing with market research, competitor review, strategy, pricing, GTM, sales and product positioning.
 ```
 
-Word, PDF, or chat outputs may be useful for presentation or backup, but the GitHub Markdown library is the operational source of truth.
+---
+
+## 7. Relationship to Optimaks Business Direction
+
+Optimaks is not positioned as a generic SaaS company or a normal web agency.
+
+Optimaks builds productized Workflow Automation Systems for service SMEs, starting with Aircon / Field Service and expanding through reusable industry templates.
+
+The active strategic direction is:
+
+```text
+Website / Lead Capture
++
+WhatsApp-first Sales Workflow
++
+Lightweight Job / Quote / Invoice Tracking
++
+Service SME Productized Delivery
+```
 
 ---
 
-## 7. Archive Rule
+## 8. Current Active Standard Set
 
-Files under `12_Archive` are preserved for traceability.
+The current active standard set includes:
 
-They should not override active v1.5 files.
-
-When giving context to ChatGPT, Codex, Antigravity, or another AI tool, use active v1.5 files first. Use archive files only when reviewing how a rule evolved.
-
----
-
-## 8. Current Active Standards
-
-| Standard | Current Role |
-|---|---|
-| `STD-DEV-013` | Priority, issue classification, AI execution, and client value control |
-| `STD-DEV-014` | Constitution upgrade trigger and version governance |
-| `STD-DEV-020` | AI context package, semi-automated execution pipeline, and UI/backend reconciliation |
-| `STD-DEV-021` | MVP decomposition, dependency control, Small Core First, and layered execution |
-| `STD-DEV-022` | Internal MVP vs client delivery standard and monthly value control |
+- `STD-DEV-020` — AI Context Package and Semi-Automated Execution.
+- `STD-DEV-023` — Industry Workflow First and SME OS Scope.
+- `STD-DEV-024` — AI Collaboration and GitHub Execution Governance.
+- `STD-DEV-025` — AI Research Intake and Multi-Model Handoff.
+- `STD-DEV-026` — AI Market Research and Strategy Review Governance.
 
 ---
 
-## 9. Next Recommended Version Direction
+## 9. Current Active Strategy Set
 
-v1.5 should be treated as the stable operating release for near-term Optimaks development.
+The current active strategy set includes:
 
-Future versions should not be created only because of new ideas. A new version should be considered only when the operating model changes again, such as:
-
-1. Optimaks starts repeated paid client delivery.
-2. Multi-tenant SaaS becomes an active architecture requirement.
-3. A formal legal / PDPA / contract pack becomes mandatory.
-4. A standardized client onboarding and support workflow becomes repeatable.
-5. AI development tools or deployment architecture materially change.
+- `STR-001_MARKET_POSITIONING.md`
+- `STR-002_COMPETITOR_REVIEW_SG_SME.md`
+- `STR-003_PRICING_PACKAGES.md`
+- `STR-004_GTM_30_DAY_PLAN.md`
+- `STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md`
+- `PRD-001_SERVICE_OS_PRODUCT_SCOPE.md`
+- `PRD-002_AIRCON_TEMPLATE_SCOPE.md`
+- `SAL-001_COLD_OUTREACH_PLAYBOOK.md`
+- `SAL-002_DISCOVERY_QUESTIONS.md`
+- `SAL-003_DEMO_SCRIPT.md`
 
 ---
 
-## v1.5.2 Patch Addendum — AI Collaboration & GitHub Execution Governance
+## 10. Summary
 
-The following rules are added as active constitution rules from v1.5.2 onward.
+v1.5.4 makes the Optimaks constitution clear across three layers:
 
-### Rule 12 — One Issue / One Branch / One PR
-
-Every implementation task should be traceable through one GitHub Issue, one feature branch, and one Pull Request.
-
-Direct development on `main` is not allowed for meaningful implementation work.
-
-Active reference: `STD-DEV-024`.
-
-### Rule 13 — AI Code Requires Human Review
-
-Code generated by Codex, Antigravity, or any other AI development tool must be reviewed through git diff, local test, PR review, and preview / staging test before merge.
-
-Active reference: `STD-DEV-024` and `CHK-DEV-010`.
-
-### Rule 14 — Codex and Antigravity Must Respect Tool Boundaries
-
-Codex is primarily responsible for backend, Supabase, Auth, RLS, CRUD, workflow logic, reporting, and refactoring.
-
-Antigravity is primarily responsible for UI layout, App Shell, navigation, shared components, responsive design, and browser-based UI verification.
-
-Active reference: `STD-DEV-024`.
-
-### Rule 15 — Batch Scope Boundary
-
-Each development batch must do only its approved scope.
-
-If an AI tool adds future-version features or unrelated implementation, the extra work must be removed, rejected, or converted into a Change Request.
-
-Active reference: `STD-DEV-024`.
-
-### Rule 16 — Client Workspace Data Isolation Is a Core Safety Rule
-
-All client-owned operational records must include `client_id` and use the `profiles / clients / client_users` relationship to support workspace-based access.
-
-RLS policies must be used to prevent cross-client data leakage before client demo or delivery.
-
-Active reference: `STD-DEV-024`.
-
-### Rule 17 — Preview Before Production
-
-Feature branches must be tested through local test and Vercel Preview or staging before production merge.
-
-Production is an approved release target, not an experiment area.
-
-Active reference: `STD-DEV-024` and `STD-DEV-007`.
-
-### Rule 18 — Issue / Changelog Traceability
-
-Completed work must leave traceable evidence through GitHub Issue status, PR notes, test results, changelog updates, and documentation updates where applicable.
-
-Active reference: `STD-DEV-024` and `STD-DEV-008`.
+```text
+Development Governance = v1.5.2
+Research Intake Governance = v1.5.3
+Market Strategy Governance = v1.5.4
+```

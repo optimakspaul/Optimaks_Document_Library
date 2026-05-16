@@ -1,118 +1,153 @@
-.github/ISSUE_TEMPLATE/ai_execution_task.md
-.github/ISSUE_TEMPLATE/bug_report.md
-.github/ISSUE_TEMPLATE/change_request.md
-.github/pull_request_template.md
-00_Admin/CHANGELOG.md
-00_Admin/CLEANUP_FUSION_REPORT_v1.5.md
-00_Admin/DOC-INDEX-001_Document_Index.md
-00_Admin/FILE_TREE.txt
-00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md
-00_Admin/README.md
-00_Admin/V1.5.1_SCOPE_DECISION.md
-00_Admin/V1.5.2_SCOPE_DECISION.md
-00_Admin/V1.5.3_SCOPE_DECISION.md
-00_Admin/VERSION_HISTORY.md
-00_Admin/manifest.json
-01_Foundation/FND-001_Company_Positioning.md
-01_Foundation/FND-002_Development_Constitution_Overview.md
-01_Foundation/FND-003_Service_Model.md
-01_Foundation/FND-004_Core_Principles.md
-01_Foundation/FND-005_Product_Positioning_and_WAS_Principle.md
-01_Foundation/README.md
-02_Development_Standard/README.md
-02_Development_Standard/STD-DEV-001_Standard_Development_Process.md
-02_Development_Standard/STD-DEV-002_AI_Assisted_Development_Workflow.md
-02_Development_Standard/STD-DEV-003_GitHub_Documentation_SOP.md
-02_Development_Standard/STD-DEV-004_Change_Request_Workflow.md
-02_Development_Standard/STD-DEV-005_Mobile_Assisted_Development_Workflow.md
-02_Development_Standard/STD-DEV-006_Branch_Commit_Push_Workflow.md
-02_Development_Standard/STD-DEV-007_Staging_Preview_Production_Workflow.md
-02_Development_Standard/STD-DEV-008_Document_Update_Workflow.md
-02_Development_Standard/STD-DEV-009_QA_and_Security_Standard.md
-02_Development_Standard/STD-DEV-010_MVP_Module_Integration_Policy.md
-02_Development_Standard/STD-DEV-011_Codex_Prompt_Standard.md
-02_Development_Standard/STD-DEV-012_Repository_Structure.md
-02_Development_Standard/STD-DEV-013_Self_Management_AI_Client_Value_Control_Rule.md
-02_Development_Standard/STD-DEV-014_Constitution_Upgrade_Trigger_Rule.md
-02_Development_Standard/STD-DEV-020_AI_Context_Package_and_Semi_Automated_Execution_Standard.md
-02_Development_Standard/STD-DEV-021_MVP_Layering_Small_Core_and_Dependency_Execution_Standard.md
-02_Development_Standard/STD-DEV-022_Internal_MVP_Client_Delivery_and_Monthly_Value_Control_Standard.md
-02_Development_Standard/STD-DEV-023_Industry_Workflow_First_and_SME_OS_Scope_Standard.md
-02_Development_Standard/STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md
-02_Development_Standard/STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md
-03_Client_Delivery/CLT-001_Client_Discovery_Form.md
-03_Client_Delivery/CLT-002_Scope_of_Work_Template.md
-03_Client_Delivery/CLT-003_Solution_Blueprint_Template.md
-03_Client_Delivery/CLT-004_Project_Milestone_Plan.md
-03_Client_Delivery/CLT-005_Client_Handover_Guide.md
-03_Client_Delivery/CLT-006_Monthly_Maintenance_Report.md
-03_Client_Delivery/CLT-007_10_Step_Delivery_Process.md
-03_Client_Delivery/CLT-008_Proposal_Contract_Esign_Flow.md
-03_Client_Delivery/README.md
-04_Legal_Commercial/LEG-001_Quotation_Template.md
-04_Legal_Commercial/LEG-002_Client_Agreement_Checklist.md
-04_Legal_Commercial/LEG-003_Payment_Terms_Policy.md
-04_Legal_Commercial/LEG-004_IP_and_Source_Code_Policy.md
-04_Legal_Commercial/LEG-005_PDPA_and_Data_Protection_Notice.md
-04_Legal_Commercial/README.md
-05_ISO_Ready/ISO-001_ISO_Ready_Control_Map.md
-05_ISO_Ready/ISO-002_Quality_Management_Lite.md
-05_ISO_Ready/ISO-003_Evidence_and_Audit_Trail.md
-05_ISO_Ready/ISO-004_Risk_and_Change_Control.md
-05_ISO_Ready/README.md
-06_Grant_Ready/GRT-001_Grant_Ready_Evidence_Pack.md
-06_Grant_Ready/GRT-002_Case_Study_Template.md
-06_Grant_Ready/GRT-003_Project_Outcome_Report.md
-06_Grant_Ready/README.md
-07_Templates/CHANGE_REQUEST_Template.md
-07_Templates/CODEX_TASK_PROMPT_Template.md
-07_Templates/GITHUB_ISSUE_Template.md
-07_Templates/MOBILE_CAPTURE_Template.md
-07_Templates/PROJECT_CONTEXT_Template.md
-07_Templates/QA_REPORT_Template.md
-07_Templates/README.md
-07_Templates/TPL-DEV-006_Daily_Priority_and_Issue_Triage_Template.md
-07_Templates/TPL-DEV-009_AI_Context_Package_Template.md
-07_Templates/TPL-DEV-010_MVP_Layering_Template.md
-07_Templates/TPL-DEV-011_Industry_Workflow_Blueprint_Template.md
-07_Templates/TPL-DEV-012_Pull_Request_Review_Template.md
-07_Templates/TPL-DEV-013_AI_Issue_Execution_Prompt_Template.md
-07_Templates/TPL-DEV-014_Gemini_Research_Digest_Template.md
-08_Checklists/CHK-DEV-006_AI_Execution_and_Client_Value_Checklist.md
-08_Checklists/CHK-DEV-008_v1.5_AI_and_MVP_Readiness_Checklist.md
-08_Checklists/CHK-DEV-009_Workflow_Positioning_and_Scope_Checklist.md
-08_Checklists/CHK-DEV-010_AI_GitHub_PR_Governance_Checklist.md
-08_Checklists/CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md
-08_Checklists/DEP-001_Deployment_Checklist.md
-08_Checklists/HAN-001_Handover_Checklist.md
-08_Checklists/MOB-001_Mobile_Testing_Checklist.md
-08_Checklists/PDPA-001_Data_Protection_Checklist.md
-08_Checklists/QA-001_QA_Checklist.md
-08_Checklists/README.md
-09_Registers/README.md
-09_Registers/REG-CHANGE-001_Change_Request_Register.csv
-09_Registers/REG-LESSONS-001_Lessons_Learned_Register.csv
-09_Registers/REG-RISK-001_Risk_Register.csv
-09_Registers/REG-THIRD-PARTY-001_Third_Party_Service_Register.csv
-10_Projects/ACRA-RADAR_Project_Context.md
-10_Projects/AIRCON-OS_Project_Context.md
-10_Projects/OPTIMAKS-OS_Project_Context.md
-10_Projects/README.md
-10_Projects/_Templates/00_MVP_Dependency_Map_TEMPLATE.md
-11_Roadmap/ROADMAP-001_Constitution_Roadmap.md
-12_Archive/README.md
-12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/DOCUMENT_REVIEW_REPORT_v1.4.3.md
-12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/FILE_TREE_v1.4.3.txt
-12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/README_v1.4.3_UPDATE_INSTRUCTIONS.md
-12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/REFERENCE_FULL_SINGLE_FILE_v1.3.md
-12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/REFERENCE_FULL_SINGLE_FILE_v1.4.3.md
-12_Archive/v1.3_to_v1.4.3_Superseded/00_Admin/VERSION_DELTA_SUMMARY_v1.3_to_v1.4.3.md
-12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-015_AI_Assisted_Semi_Automated_Development_Pipeline.md
-12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-016_MVP_Decomposition_and_Dependency_Rule.md
-12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-017_Small_Core_First_and_Layered_MVP_Execution_Rule.md
-12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-018_UI_Backend_Parallel_Development_and_AI_Context_Control_Rule.md
-12_Archive/v1.3_to_v1.4.3_Superseded/02_Development_Standard/STD-DEV-019_Internal_MVP_vs_Client_Delivery_Version_Control_Rule.md
-12_Archive/v1.3_to_v1.4.3_Superseded/07_Templates/TPL-DEV-007_AI_Pipeline_Context_Package_Template.md
-12_Archive/v1.3_to_v1.4.3_Superseded/07_Templates/TPL-DEV-008_MVP_Decomposition_Template.md
-12_Archive/v1.3_to_v1.4.3_Superseded/08_Checklists/CHK-DEV-007_Semi_Automated_Pipeline_Readiness_Checklist.md
-README.md
+Optimaks_Document_Library_v1.5.4_AI_Market_Research_Strategy_Governance
+├── README.md
+├── 00_Admin/
+  ├── CHANGELOG.md
+  ├── CLEANUP_FUSION_REPORT_v1.5.md
+  ├── DOC-INDEX-001_Document_Index.md
+  ├── GITHUB_DESKTOP_CLEANUP_GUIDE.md
+  ├── README.md
+  ├── V1.5.1_SCOPE_DECISION.md
+  ├── V1.5.2_SCOPE_DECISION.md
+  ├── V1.5.3_SCOPE_DECISION.md
+  ├── V1.5.4_SCOPE_DECISION.md
+  ├── VERSION_HISTORY.md
+  ├── manifest.json
+├── 01_Foundation/
+  ├── FND-001_Company_Positioning.md
+  ├── FND-002_Development_Constitution_Overview.md
+  ├── FND-003_Service_Model.md
+  ├── FND-004_Core_Principles.md
+  ├── FND-005_Product_Positioning_and_WAS_Principle.md
+  ├── README.md
+├── 02_Development_Standard/
+  ├── README.md
+  ├── STD-DEV-001_Standard_Development_Process.md
+  ├── STD-DEV-002_AI_Assisted_Development_Workflow.md
+  ├── STD-DEV-003_GitHub_Documentation_SOP.md
+  ├── STD-DEV-004_Change_Request_Workflow.md
+  ├── STD-DEV-005_Mobile_Assisted_Development_Workflow.md
+  ├── STD-DEV-006_Branch_Commit_Push_Workflow.md
+  ├── STD-DEV-007_Staging_Preview_Production_Workflow.md
+  ├── STD-DEV-008_Document_Update_Workflow.md
+  ├── STD-DEV-009_QA_and_Security_Standard.md
+  ├── STD-DEV-010_MVP_Module_Integration_Policy.md
+  ├── STD-DEV-011_Codex_Prompt_Standard.md
+  ├── STD-DEV-012_Repository_Structure.md
+  ├── STD-DEV-013_Self_Management_AI_Client_Value_Control_Rule.md
+  ├── STD-DEV-014_Constitution_Upgrade_Trigger_Rule.md
+  ├── STD-DEV-020_AI_Context_Package_and_Semi_Automated_Execution_Standard.md
+  ├── STD-DEV-021_MVP_Layering_Small_Core_and_Dependency_Execution_Standard.md
+  ├── STD-DEV-022_Internal_MVP_Client_Delivery_and_Monthly_Value_Control_Standard.md
+  ├── STD-DEV-023_Industry_Workflow_First_and_SME_OS_Scope_Standard.md
+  ├── STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md
+  ├── STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md
+  ├── STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md
+├── 03_Client_Delivery/
+  ├── CLT-001_Client_Discovery_Form.md
+  ├── CLT-002_Scope_of_Work_Template.md
+  ├── CLT-003_Solution_Blueprint_Template.md
+  ├── CLT-004_Project_Milestone_Plan.md
+  ├── CLT-005_Client_Handover_Guide.md
+  ├── CLT-006_Monthly_Maintenance_Report.md
+  ├── CLT-007_10_Step_Delivery_Process.md
+  ├── CLT-008_Proposal_Contract_Esign_Flow.md
+  ├── README.md
+├── 04_Legal_Commercial/
+  ├── LEG-001_Quotation_Template.md
+  ├── LEG-002_Client_Agreement_Checklist.md
+  ├── LEG-003_Payment_Terms_Policy.md
+  ├── LEG-004_IP_and_Source_Code_Policy.md
+  ├── LEG-005_PDPA_and_Data_Protection_Notice.md
+  ├── README.md
+├── 05_ISO_Ready/
+  ├── ISO-001_ISO_Ready_Control_Map.md
+  ├── ISO-002_Quality_Management_Lite.md
+  ├── ISO-003_Evidence_and_Audit_Trail.md
+  ├── ISO-004_Risk_and_Change_Control.md
+  ├── README.md
+├── 06_Grant_Ready/
+  ├── GRT-001_Grant_Ready_Evidence_Pack.md
+  ├── GRT-002_Case_Study_Template.md
+  ├── GRT-003_Project_Outcome_Report.md
+  ├── README.md
+├── 07_Templates/
+  ├── CHANGE_REQUEST_Template.md
+  ├── CODEX_TASK_PROMPT_Template.md
+  ├── GITHUB_ISSUE_Template.md
+  ├── MOBILE_CAPTURE_Template.md
+  ├── PROJECT_CONTEXT_Template.md
+  ├── QA_REPORT_Template.md
+  ├── README.md
+  ├── TPL-BIZ-001_Strategy_Review_Template.md
+  ├── TPL-DEV-006_Daily_Priority_and_Issue_Triage_Template.md
+  ├── TPL-DEV-009_AI_Context_Package_Template.md
+  ├── TPL-DEV-010_MVP_Layering_Template.md
+  ├── TPL-DEV-011_Industry_Workflow_Blueprint_Template.md
+  ├── TPL-DEV-012_Pull_Request_Review_Template.md
+  ├── TPL-DEV-013_AI_Issue_Execution_Prompt_Template.md
+  ├── TPL-DEV-014_Gemini_Research_Digest_Template.md
+├── 08_Checklists/
+  ├── CHK-BIZ-001_Market_Research_Strategy_Review_Checklist.md
+  ├── CHK-DEV-006_AI_Execution_and_Client_Value_Checklist.md
+  ├── CHK-DEV-008_v1.5_AI_and_MVP_Readiness_Checklist.md
+  ├── CHK-DEV-009_Workflow_Positioning_and_Scope_Checklist.md
+  ├── CHK-DEV-010_AI_GitHub_PR_Governance_Checklist.md
+  ├── CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md
+  ├── DEP-001_Deployment_Checklist.md
+  ├── HAN-001_Handover_Checklist.md
+  ├── MOB-001_Mobile_Testing_Checklist.md
+  ├── PDPA-001_Data_Protection_Checklist.md
+  ├── QA-001_QA_Checklist.md
+  ├── README.md
+├── 09_Registers/
+  ├── README.md
+  ├── REG-CHANGE-001_Change_Request_Register.csv
+  ├── REG-LESSONS-001_Lessons_Learned_Register.csv
+  ├── REG-RISK-001_Risk_Register.csv
+  ├── REG-THIRD-PARTY-001_Third_Party_Service_Register.csv
+├── 10_Projects/
+  ├── ACRA-RADAR_Project_Context.md
+  ├── AIRCON-OS_Project_Context.md
+  ├── OPTIMAKS-OS_Project_Context.md
+  ├── README.md
+  ├── _Templates/
+    ├── 00_MVP_Dependency_Map_TEMPLATE.md
+├── 11_Roadmap/
+  ├── ROADMAP-001_Constitution_Roadmap.md
+├── 12_Archive/
+  ├── README.md
+  ├── v1.3_to_v1.4.3_Superseded/
+    ├── 00_Admin/
+      ├── DOCUMENT_REVIEW_REPORT_v1.4.3.md
+      ├── FILE_TREE_v1.4.3.txt
+      ├── README_v1.4.3_UPDATE_INSTRUCTIONS.md
+      ├── REFERENCE_FULL_SINGLE_FILE_v1.3.md
+      ├── REFERENCE_FULL_SINGLE_FILE_v1.4.3.md
+      ├── VERSION_DELTA_SUMMARY_v1.3_to_v1.4.3.md
+    ├── 02_Development_Standard/
+      ├── STD-DEV-015_AI_Assisted_Semi_Automated_Development_Pipeline.md
+      ├── STD-DEV-016_MVP_Decomposition_and_Dependency_Rule.md
+      ├── STD-DEV-017_Small_Core_First_and_Layered_MVP_Execution_Rule.md
+      ├── STD-DEV-018_UI_Backend_Parallel_Development_and_AI_Context_Control_Rule.md
+      ├── STD-DEV-019_Internal_MVP_vs_Client_Delivery_Version_Control_Rule.md
+    ├── 07_Templates/
+      ├── TPL-DEV-007_AI_Pipeline_Context_Package_Template.md
+      ├── TPL-DEV-008_MVP_Decomposition_Template.md
+    ├── 08_Checklists/
+      ├── CHK-DEV-007_Semi_Automated_Pipeline_Readiness_Checklist.md
+├── 13_Strategy/
+  ├── README.md
+  ├── STR-001_MARKET_POSITIONING.md
+  ├── STR-002_COMPETITOR_REVIEW_SG_SME.md
+  ├── STR-003_PRICING_PACKAGES.md
+  ├── STR-004_GTM_30_DAY_PLAN.md
+  ├── STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md
+├── 14_Product_Strategy/
+  ├── PRD-001_SERVICE_OS_PRODUCT_SCOPE.md
+  ├── PRD-002_AIRCON_TEMPLATE_SCOPE.md
+  ├── README.md
+├── 15_Sales_GTM/
+  ├── README.md
+  ├── SAL-001_COLD_OUTREACH_PLAYBOOK.md
+  ├── SAL-002_DISCOVERY_QUESTIONS.md
+  ├── SAL-003_DEMO_SCRIPT.md

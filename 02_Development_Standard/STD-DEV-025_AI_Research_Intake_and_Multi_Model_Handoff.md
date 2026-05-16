@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document Code | STD-DEV-025 |
-| Version | v1.5.3 |
+| Version | v1.5.4 Current Consolidated Release / Introduced in v1.5.3 |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |
@@ -313,3 +313,10 @@ A Research Intake task is done only when:
 [ ] ChatGPT review converted the digest into execution-ready context.
 [ ] Follow-up GitHub Issues or CRs are created if implementation is needed.
 ```
+
+
+---
+
+## v1.5.4 Clarification
+
+This standard remains the v1.5.3 research intake layer, and is included as active within the v1.5.4 consolidated release. Market strategy decisions are governed by `STD-DEV-026`.

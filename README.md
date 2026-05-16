@@ -1,316 +1,139 @@
-# Optimaks Document Library v1.5.3  
-## AI Research Intake & Multi-Model Handoff Patch
+# Optimaks Document Library v1.5.4 — AI Market Research & Strategy Governance
 
-This repository is the official GitHub-ready document library for Optimaks development governance.
+This repository is the official GitHub-ready governance and strategy document library for Optimaks Pte Ltd.
 
-本文件庫是 Optimaks 的正式開發治理文件庫。  
-目前有效版本為：
+本文件庫是 Optimaks 的正式開發治理、AI 協作、市場研究、產品策略、定價與 GTM 文件庫。
 
-```text
-v1.5.3 = AI Research Intake & Multi-Model Handoff Patch
-```
-
-v1.5.3 是建立在 v1.5.2 的 AI Collaboration & GitHub Governance 基礎上，不是推翻 v1.5.2，而是新增一層「大型資料導讀 / 多 AI 接力 / 實作前審查」流程。
+**Current Active Version:** `v1.5.4 — AI Market Research & Strategy Governance Release`  
+**Effective Date:** 2026-05-16  
+**Owner:** Optimaks Pte Ltd  
+**Status:** Active Current Release
 
 ---
 
-## Current Active Version
+## 1. Version Definition
 
 ```text
-Current Active Version:
-v1.5.3 AI Research Intake & Multi-Model Handoff Patch
-
-Base Governance:
-v1.5.2 AI Collaboration & GitHub Governance Patch
+v1.5.2 = AI Collaboration + GitHub Execution Governance
+v1.5.3 = AI Research Intake + Multi-Model Handoff Governance
+v1.5.4 = AI Market Research + Strategy Review + Pricing / GTM / Sales Governance
 ```
 
-中文說明：
+### What this means
 
-```text
-v1.5.2 = 規範 Codex / Antigravity / GitHub Issue / Branch / PR / Preview / Human QA
-v1.5.3 = 在 v1.5.2 上新增 Gemini Research Digest + ChatGPT Review + Multi-Model Handoff
-```
+- **v1.5.2** controls how Codex / Antigravity / ChatGPT outputs enter GitHub through Issue, Branch, PR, Preview, human review, and changelog.
+- **v1.5.3** controls how large-context research tools such as Gemini are used for API documents, PDFs, Open Data, long codebases, and multi-model handoff.
+- **v1.5.4** controls how AI-generated market research becomes official Optimaks strategy, product positioning, pricing, GTM plans, sales scripts, and product strategy documents.
+
+> v1.5.4 does not replace v1.5.2 or v1.5.3. It consolidates them and adds the business strategy governance layer.
 
 ---
 
-## Version Positioning
+## 2. Highest Operating Principle
 
 ```text
-v1.3   = Clean GitHub-ready document library baseline
-v1.4   = Governance upgrade: self-management, issue classification, AI execution control, client value gate
-v1.4.1 = AI-assisted semi-automated development pipeline patch
-v1.4.2 = MVP decomposition and dependency mapping patch
-v1.4.3 = Small Core First and integrated operating patch
-v1.5   = Cleanup + Fusion stable release
-v1.5.1 = Product positioning patch: industry-specific WAS / SME Operating OS principle
-v1.5.2 = AI collaboration patch: Codex / Antigravity + GitHub Issue / Branch / PR / Preview governance
-v1.5.3 = AI research intake patch: Gemini / ChatGPT / Codex / Antigravity multi-model handoff governance
+Research Digest is not strategy.
+Strategy is not implementation.
+Implementation is not production.
 ```
 
----
-
-## What v1.5.3 Adds
-
-v1.5.3 adds a formal pre-implementation research and review layer.
-
-It is designed for situations involving:
+Optimaks must follow this chain:
 
 ```text
-- Large documents
-- API documentation
-- Government open data
-- Competitor research
-- Client SOP documents
-- Existing large codebases
-- Complex third-party SaaS integration
-```
-
-The key principle is:
-
-> Large external materials should not be sent directly to Codex or Antigravity for implementation. They must first be converted into a structured Research Digest, reviewed by ChatGPT, and then transformed into an AI Context Package, GitHub Issue, and implementation prompt.
-
-中文核心治理：
-
-> 大型文件、API 文件、Open Data、競品研究與客戶 SOP 不應直接丟給 Codex / Antigravity 實作。  
-> 應先產生 Gemini Research Digest，再由 ChatGPT 做架構、策略、風險與 scope review，最後才轉成 AI Context Package、GitHub Issue 與 Codex / Antigravity prompt。
-
----
-
-## Multi-AI Role Definition
-
-```text
-Gemini
-= Large document / API / dataset / competitor research digest
-
-ChatGPT
-= Architecture, strategy, scope, risk, governance, prompt, and issue review
-
-Codex
-= Backend, Supabase, Auth, RLS, API, CRUD, tests, implementation
-
-Antigravity
-= UI, App Shell, navigation, responsive layout, browser verification
-
-VS Code + GitHub
-= Diff review, source control, PR, preview, approval, merge, and evidence trail
-```
-
-中文版本：
-
-```text
-Gemini = 讀大量資料
-ChatGPT = 定規則與審查
-Codex = 寫後端與邏輯
-Antigravity = 做介面與預覽
-VS Code + GitHub = 最終控制與留證據
-```
-
----
-
-## Required Workflow
-
-The official v1.5.3 workflow is:
-
-```text
-Large Document / API / Dataset / Competitor Research
+External Research / Market Data / API Docs
 ↓
-Gemini Research Digest
+Gemini or Research Digest
 ↓
-ChatGPT Architecture / Strategy / Risk Review
+ChatGPT Strategy / Architecture Review
 ↓
-AI Context Package
+Approved Strategy / Product / Sales Docs
 ↓
-GitHub Issue
-↓
-Feature Branch
+GitHub Issue / AI Context Package
 ↓
 Codex / Antigravity Implementation
 ↓
-VS Code Diff Review
+Branch / PR / Preview / Human Review
 ↓
-Preview / Local Test
-↓
-Pull Request
-↓
-Human Approval
-↓
-Merge
-↓
-CHANGELOG / VERSION_HISTORY / Docs Update
+Merge / CHANGELOG / Version Update
 ```
 
 ---
 
-## Active v1.5.3 Governance Standards
+## 3. Active v1.5.4 Governance Standards
 
-The v1.5.3 active governance layer is centered on:
+The current active governance layer includes:
+
+1. `FND-001` — Company positioning.
+2. `FND-002` — Development constitution overview.
+3. `FND-005` — Product positioning and Workflow Automation System principle.
+4. `STD-DEV-013` — Self-management, issue classification, AI execution, and client value control.
+5. `STD-DEV-014` — Constitution upgrade trigger rule.
+6. `STD-DEV-020` — AI Context Package and semi-automated execution standard.
+7. `STD-DEV-021` — MVP layering, small core, and dependency execution standard.
+8. `STD-DEV-022` — Internal MVP, client delivery, and monthly value control standard.
+9. `STD-DEV-023` — Industry workflow-first and SME OS scope standard.
+10. `STD-DEV-024` — AI collaboration and GitHub execution governance standard.
+11. `STD-DEV-025` — AI research intake and multi-model handoff standard.
+12. `STD-DEV-026` — AI market research and strategy review governance standard.
+
+---
+
+## 4. Top-Level Structure
 
 ```text
-FND-001      Company positioning
-FND-002      Development constitution overview
-FND-005      Product positioning and Workflow Automation System principle
-
-STD-DEV-013  Self-management, issue classification, AI execution, and client value control
-STD-DEV-014  Constitution review and upgrade trigger rule
-STD-DEV-020  AI Context Package and semi-automated execution standard
-STD-DEV-021  MVP layering, small core, and dependency execution standard
-STD-DEV-022  Internal MVP, client delivery, and monthly value control standard
-STD-DEV-023  Industry workflow-first and SME OS scope standard
-STD-DEV-024  AI collaboration and GitHub execution governance standard
-STD-DEV-025  AI Research Intake and Multi-Model Handoff standard
+00_Admin                 Document index, changelog, version history, manifest, scope decisions
+01_Foundation            Company positioning, constitution overview, product positioning principles
+02_Development_Standard  Active development, AI, GitHub, MVP, research, and strategy governance standards
+03_Client_Delivery       Client discovery, SOW, blueprint, milestone, handover, monthly report templates
+04_Legal_Commercial      Quotation, payment, IP, PDPA, agreement checklist
+05_ISO_Ready             ISO-ready control map, audit trail, risk and change control
+06_Grant_Ready           Grant-ready evidence, case study and outcome report templates
+07_Templates             CR, Issue, AI Context Package, Gemini Digest, Strategy Review templates
+08_Checklists            QA, deployment, PDPA, AI PR, research handoff, market strategy checklists
+09_Registers             Risk, change, lessons learned, and third-party registers
+10_Projects              Optimaks OS, Aircon OS, and ACRA Radar project context files
+11_Roadmap               Constitution roadmap
+12_Archive               Historical / superseded documents only
+13_Strategy              Market positioning, competitor review, pricing, GTM, strategy workflow
+14_Product_Strategy      Optimaks Service OS and Aircon Template product scope
+15_Sales_GTM             Cold outreach, discovery questions, demo script
 ```
 
 ---
 
-## New v1.5.3 Files
+## 5. Where Each Type of Content Belongs
 
-v1.5.3 adds the following files:
+| Content Type | Correct Location | Rule |
+|---|---|---|
+| AI execution rules | `02_Development_Standard/` | Must be followed before code generation |
+| Market research digest | `13_Strategy/` or project research folder | Supporting evidence only, not final decision |
+| Final positioning | `13_Strategy/STR-001_MARKET_POSITIONING.md` | Must be approved before landing page updates |
+| Competitor analysis | `13_Strategy/STR-002_COMPETITOR_REVIEW_SG_SME.md` | Must be reviewed before sales claims |
+| Pricing | `13_Strategy/STR-003_PRICING_PACKAGES.md` | Must be updated before public package changes |
+| GTM plan | `13_Strategy/STR-004_GTM_30_DAY_PLAN.md` | Must guide outreach execution |
+| Product scope | `14_Product_Strategy/` and `10_Projects/` | Must feed GitHub Issues and Codex prompts |
+| Sales scripts | `15_Sales_GTM/` | Must match approved positioning |
+| Implementation tasks | GitHub Issues + AI Context Package | Must not come directly from research digest |
+
+---
+
+## 6. Recommended Usage
 
 ```text
-00_Admin/
-V1.5.3_SCOPE_DECISION.md
-
-02_Development_Standard/
-STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md
-
-07_Templates/
-TPL-DEV-014_Gemini_Research_Digest_Template.md
-
-08_Checklists/
-CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md
+Markdown files = official source documents
+GitHub Issues = task source
+Branch / Commit / Pull Request = change evidence
+Vercel Preview / staging = validation before production
+Codex / Antigravity = execution agents under approved scope
+ChatGPT = reasoning, strategy, architecture, QA, and governance reviewer
+Gemini = optional large-context research / digest tool
+12_Archive = history only, not current development instruction
 ```
 
 ---
 
-## Updated Files in v1.5.3
-
-v1.5.3 updates the following existing files:
+## 7. Commit Message for This Release
 
 ```text
-README.md
-
-00_Admin/
-CHANGELOG.md
-DOC-INDEX-001_Document_Index.md
-FILE_TREE.txt
-VERSION_HISTORY.md
-manifest.json
-
-02_Development_Standard/
-STD-DEV-002_AI_Assisted_Development_Workflow.md
-STD-DEV-020_AI_Context_Package_and_Semi_Automated_Execution_Standard.md
-STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md
-
-07_Templates/
-TPL-DEV-009_AI_Context_Package_Template.md
-TPL-DEV-013_AI_Issue_Execution_Prompt_Template.md
-
-08_Checklists/
-CHK-DEV-010_AI_GitHub_PR_Governance_Checklist.md
-```
-
----
-
-## Repository Structure
-
-```text
-00_Admin                 文件索引、版本紀錄、manifest、scope decision、file tree
-01_Foundation            公司定位、開發憲法總覽、產品定位、WAS / SME OS 原則
-02_Development_Standard  當前有效的開發流程、AI、GitHub、CR、MVP、交付治理標準
-03_Client_Delivery       客戶交付、SOW、Blueprint、Handover、月費價值報告
-04_Legal_Commercial      報價、付款、IP、PDPA、合約檢查
-05_ISO_Ready             ISO-ready 控制對照與稽核證據
-06_Grant_Ready           Grant-ready 證據包與案例模板
-07_Templates             CR、Issue、AI Context Package、MVP、Workflow Blueprint、QA、Gemini Digest 等模板
-08_Checklists            QA、部署、交接、PDPA、AI 執行、PR Governance、Research Intake checklist
-09_Registers             CSV register：risk、change、lessons、third-party
-10_Projects              專案 context：Optimaks OS、Aircon OS、ACRA Radar
-11_Roadmap               憲法未來版本路線圖
-12_Archive               歷史版本、舊 patch、已取代文件、重複資料夾封存
-.github                  GitHub Issue / PR templates
-```
-
----
-
-## Important Governance Note
-
-The current active version is:
-
-```text
-v1.5.3 AI Research Intake & Multi-Model Handoff Patch
-```
-
-Files under `12_Archive` are historical references only.  
-They may explain how the rules evolved, but they should not override active files in:
-
-```text
-01_Foundation
-02_Development_Standard
-03_Client_Delivery
-07_Templates
-08_Checklists
-```
-
----
-
-## Recommended Usage
-
-```text
-Markdown 分檔 = 正式原始文件
-Word / PDF = 對外輸出或備份版本
-GitHub Issues = 任務來源
-Branch / Commit / Pull Request = 變更軌跡
-Gemini = 大型資料導讀與 Research Digest
-ChatGPT = 架構、策略、風險與 scope review
-Codex = 後端、資料庫、API、RLS、CRUD、測試實作
-Antigravity = UI、App Shell、Navigation、Browser Preview
-VS Code = Diff review 與本機控制
-GitHub = Source of Truth、PR、merge、evidence trail
-12_Archive = 歷史版本，不作為當前開發指令來源
-```
-
----
-
-## No Secret Rule
-
-Do not send the following information directly into external AI tools:
-
-```text
-- .env files
-- Supabase service role key
-- API keys
-- Client personal data
-- Customer email / phone / address
-- Contracts
-- Invoices
-- Payment records
-- Confidential client SOPs without anonymization
-```
-
-Allowed research inputs should be:
-
-```text
-- Public API documentation
-- Public open data
-- Anonymized sample data
-- Field structures
-- Fake test data
-- Non-sensitive workflow descriptions
-- Public competitor website information
-```
-
----
-
-## Final Confirmation
-
-```text
-This repository keeps the existing Optimaks Document Library structure.
-
-It does not create a separate v1.5.3 folder.
-
-The repository content is now upgraded to:
-v1.5.3 AI Research Intake & Multi-Model Handoff Patch.
-
-The v1.5.2 governance rules remain active as the base layer.
-The v1.5.3 research-intake and multi-model handoff rules are now added as the current active patch.
+docs: release v1.5.4 AI market research and strategy governance
 ```

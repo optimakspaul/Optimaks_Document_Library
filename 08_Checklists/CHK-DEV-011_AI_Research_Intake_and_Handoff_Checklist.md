@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Checklist Code | CHK-DEV-011 |
-| Version | v1.5.3 |
+| Version | v1.5.4 Current Consolidated Release |
 | Related Standard | STD-DEV-025 |
 | Purpose | Checklist for deciding whether Gemini Research Intake is needed and whether the digest is ready for ChatGPT review. |
 

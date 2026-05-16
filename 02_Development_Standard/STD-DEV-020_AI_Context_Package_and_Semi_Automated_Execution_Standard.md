@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document Code | STD-DEV-020 |
-| Version | v1.5.3 Research Intake Patch |
+| Version | v1.5.4 Current Consolidated Release |
 | Owner | Optimaks Pte Ltd |
 | Status | Active Stable Standard |
 | Supersedes | STD-DEV-015, parts of STD-DEV-018, TPL-DEV-007 |

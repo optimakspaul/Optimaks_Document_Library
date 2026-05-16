@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Document Code | STD-DEV-024 |
-| Version | v1.5.3 |
+| Version | v1.5.4 Current Consolidated Release |
 | Effective Date | 2026-05-15 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |

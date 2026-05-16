@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Checklist Code | CHK-DEV-010 |
-| Version | v1.5.3 |
+| Version | v1.5.4 Current Consolidated Release |
 | Purpose | Checklist for reviewing Codex / Antigravity / AI-generated code before merge. |
 
 ---

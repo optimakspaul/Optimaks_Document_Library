@@ -1,5 +1,72 @@
 # Changelog
 
+## v1.5.4 — AI Market Research & Strategy Governance Release — 2026-05-16
+
+### Added
+
+- Added formal v1.5.4 version definition: AI Market Research, Strategy Review, Pricing, GTM, Sales and Product Strategy Governance.
+- Added `00_Admin/V1.5.4_SCOPE_DECISION.md` to clearly define why this release is v1.5.4 rather than v1.5.3.
+- Consolidated the strategy review layer as an official release rather than an undefined v1.5.3 addendum.
+- Clarified that `STD-DEV-025` remains the v1.5.3 research intake and multi-model handoff standard.
+- Clarified that `STD-DEV-026` is the v1.5.4 business strategy governance standard.
+- Added current-version metadata across active strategy, product strategy, sales, template, checklist, and governance files.
+
+### Updated
+
+- Updated root README to identify v1.5.4 as the active current release.
+- Updated `FND-002_Development_Constitution_Overview.md` to make v1.5.4 the current active constitution version.
+- Updated `VERSION_HISTORY.md`, `DOC-INDEX`, `FILE_TREE`, and `manifest.json`.
+- Updated active section README files to reflect v1.5.4.
+- Renamed the previous strategy-review scope decision into the official `V1.5.4_SCOPE_DECISION.md`.
+
+### Governance Decision
+
+- v1.5.3 is reserved for AI Research Intake and Multi-Model Handoff.
+- v1.5.4 is reserved for AI Market Research, Strategy Review, Market Positioning, Pricing, GTM, Sales Playbook, and Product Strategy Governance.
+- Market research output must not directly change product scope, pricing, website positioning, sales claims, or implementation tasks.
+- Research output must become approved strategy documentation before it can become GitHub Issues or implementation prompts.
+- The Source of Truth remains GitHub docs, GitHub Issues, PRs, changelog, and versioned strategy documents.
+
+---
+
+## v1.5.3 — AI Research, Strategy Review & Multi-Model Handoff Patch — 2026-05-16
+
+### Added
+
+- Added formal AI Research Intake and Multi-Model Handoff governance.
+- Added formal AI Market Research and Strategy Review governance.
+- Added `STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md`.
+- Added `STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md`.
+- Added strategy documents under `13_Strategy/`:
+  - `STR-001_MARKET_POSITIONING.md`
+  - `STR-002_COMPETITOR_REVIEW_SG_SME.md`
+  - `STR-003_PRICING_PACKAGES.md`
+  - `STR-004_GTM_30_DAY_PLAN.md`
+  - `STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md`
+- Added product strategy documents under `14_Product_Strategy/`:
+  - `PRD-001_SERVICE_OS_PRODUCT_SCOPE.md`
+  - `PRD-002_AIRCON_TEMPLATE_SCOPE.md`
+- Added sales / GTM documents under `15_Sales_GTM/`:
+  - `SAL-001_COLD_OUTREACH_PLAYBOOK.md`
+  - `SAL-002_DISCOVERY_QUESTIONS.md`
+  - `SAL-003_DEMO_SCRIPT.md`
+- Added `TPL-BIZ-001_Strategy_Review_Template.md`.
+- Added `CHK-BIZ-001_Market_Research_Strategy_Review_Checklist.md`.
+
+### Updated
+
+- Updated root README to position v1.5.3 as the active version.
+- Updated VERSION_HISTORY, document index, file tree, and manifest.
+- Added market research and strategy review boundary: Research Digest is not final strategy; final strategy must be reviewed and stored in official docs.
+
+### Governance Decision
+
+- Gemini / AI research digest may be used for large-context research, competitor analysis, API documentation, and market research.
+- Gemini / AI research output must not directly become product scope, pricing, landing page claim, or implementation task.
+- ChatGPT strategy review is required before research output becomes Optimaks strategy.
+- Strategy decisions must be stored under `13_Strategy/`, `14_Product_Strategy/`, or `15_Sales_GTM/` before implementation.
+- Implementation still requires GitHub Issue / Branch / PR / Preview / Human Review per v1.5.2 governance.
+
 ## v1.5.2 — AI Collaboration & GitHub Governance Patch — 2026-05-15
 
 ### Added
