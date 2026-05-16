@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | Document Code | FND-002 |
-| Version | v1.5.4 AI Market Research & Strategy Governance Release |
+| Version | v1.5.5 Strategic Constitution Guardrails Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active Current Constitution Overview |
-| Purpose | Provide the master overview of the Optimaks development constitution after v1.5.4 consolidation. |
+| Purpose | Provide the master overview of the Optimaks development and strategic constitution after v1.5.5 consolidation. |
 
 ---
 
@@ -16,10 +16,10 @@
 | Item | Value |
 |---|---|
 | Document Name | Optimaks Development Constitution / Optimaks 開發憲法 |
-| Current Version | v1.5.4 AI Market Research & Strategy Governance Release |
+| Current Version | v1.5.5 Strategic Constitution Guardrails Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
-| Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP systems, client workflow automation systems, AI-assisted development, AI research intake, market strategy, pricing, GTM and sales governance |
+| Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP systems, client workflow automation systems, AI-assisted development, AI research intake, market strategy, pricing, GTM, sales governance, SWOT, Porter Five Forces and Lanchester strategic guardrails |
 
 ---
 
@@ -41,6 +41,7 @@ It governs both development and strategy:
 10. Product positioning as industry-specific Workflow Automation Systems and SME Operating OS solutions.
 11. AI Research Intake and Multi-Model Handoff.
 12. AI Market Research, Strategy Review, Pricing, GTM, Sales and Product Strategy Governance.
+13. Strategic Constitution Guardrails: SWOT, Porter Five Forces, Lanchester strategy, positioning boundaries and scope-control rules.
 
 ---
 
@@ -52,6 +53,7 @@ It governs both development and strategy:
 | v1.5.2 | AI GitHub governance patch | Added Codex / Antigravity / GitHub Issue / Branch / PR / Preview governance. |
 | v1.5.3 | AI research intake patch | Added Gemini Research Digest, large-context intake, and multi-model handoff governance. |
 | v1.5.4 | Strategy governance release | Added AI market research review, market positioning, pricing, GTM, sales and product strategy governance. |
+| v1.5.5 | Strategic constitution guardrails patch | Added SWOT, Five Forces, Lanchester strategy and constitution-level guardrails to prevent positioning, product and sales drift. |
 
 ---
 
@@ -62,6 +64,7 @@ No idea should directly become code.
 No research digest should directly become strategy.
 No strategy should directly become implementation.
 No implementation should directly enter production.
+No positioning change should bypass constitution guardrails.
 ```
 
 Every meaningful change should be traceable from:
@@ -72,6 +75,8 @@ Idea / Research / Client Need
 Capture / Digest / Review
 ↓
 Approved Docs / Issue / CR / MVP Document
+↓
+Strategic Guardrail Check
 ↓
 AI Context Package
 ↓
@@ -88,7 +93,7 @@ Production Release
 
 ---
 
-## 5. Active v1.5.4 Constitution Rules
+## 5. Active v1.5.5 Constitution Rules
 
 ### Rule 1 — Documents Before AI Execution
 
@@ -102,11 +107,19 @@ Gemini or other research output is supporting material only. It must be reviewed
 
 Market positioning, pricing and product package decisions must be stored in official docs before they become GitHub Issues or AI implementation prompts.
 
-### Rule 4 — One Issue / One Branch / One PR
+### Rule 4 — Positioning Before Scope
+
+Every feature, service package, sales claim and landing page section must be checked against Optimaks' approved positioning:
+
+```text
+Website-to-Workflow systems for Singapore service SMEs.
+```
+
+### Rule 5 — One Issue / One Branch / One PR
 
 Each meaningful implementation should have a clear GitHub Issue, feature branch, Pull Request, preview, human review, and changelog entry.
 
-### Rule 5 — Tool Boundaries
+### Rule 6 — Tool Boundaries
 
 | Tool | Role |
 |---|---|
@@ -116,7 +129,7 @@ Each meaningful implementation should have a clear GitHub Issue, feature branch,
 | Antigravity | UI, app shell, browser preview and agentic execution under approved scope |
 | VS Code / GitHub | Final control, diff review, evidence and Source of Truth |
 
-### Rule 6 — Source of Truth
+### Rule 7 — Source of Truth
 
 The Source of Truth is:
 
@@ -137,17 +150,75 @@ The Source of Truth is not:
 
 ---
 
-## 6. Version Usage Rule
+## 6. Strategy Guardrail Rules
+
+### 6.1 Positioning Guardrail
+
+Optimaks must not position itself as:
+
+```text
+- a generic web agency
+- a pure social media management agency
+- a heavy ERP / CRM provider
+- a PSG grant reseller
+- an unfocused custom software shop
+```
+
+Optimaks should position itself as:
+
+```text
+A lightweight Website-to-Workflow system provider for Singapore service SMEs.
+```
+
+### 6.2 First Beachhead Guardrail
+
+The first Lanchester beachhead is:
+
+```text
+Singapore aircon / field service SMEs with 3-10 workers or technicians who rely on WhatsApp, Google Maps, Excel and manual admin to manage enquiries and jobs.
+```
+
+### 6.3 Core Workflow Guardrail
+
+Core workflow:
+
+```text
+Enquiry → Lead → Quote → Booking → Job Card → Invoice Status → Reminder
+```
+
+Any feature outside this workflow must be classified as one of:
+
+```text
+- Add-on
+- Future version
+- Partner service
+- Change Request
+- Explicitly rejected scope
+```
+
+### 6.4 Product Reuse Guardrail
+
+Optimaks should prioritize reusable Service OS modules over one-off custom features.
+
+```text
+Aircon OS = first industry template.
+Optimaks Service OS = reusable core.
+```
+
+---
+
+## 7. Version Usage Rule
 
 ```text
 Use v1.5.2 rules when dealing with AI code execution and GitHub governance.
 Use v1.5.3 rules when dealing with Gemini Digest, research intake and multi-model handoff.
 Use v1.5.4 rules when dealing with market research, competitor review, strategy, pricing, GTM, sales and product positioning.
+Use v1.5.5 rules when deciding whether a new idea, service, feature, price, pitch or AI output fits the Optimaks constitution.
 ```
 
 ---
 
-## 7. Relationship to Optimaks Business Direction
+## 8. Relationship to Optimaks Business Direction
 
 Optimaks is not positioned as a generic SaaS company or a normal web agency.
 
@@ -167,7 +238,7 @@ Service SME Productized Delivery
 
 ---
 
-## 8. Current Active Standard Set
+## 9. Current Active Standard Set
 
 The current active standard set includes:
 
@@ -179,7 +250,7 @@ The current active standard set includes:
 
 ---
 
-## 9. Current Active Strategy Set
+## 10. Current Active Strategy Set
 
 The current active strategy set includes:
 
@@ -188,6 +259,9 @@ The current active strategy set includes:
 - `STR-003_PRICING_PACKAGES.md`
 - `STR-004_GTM_30_DAY_PLAN.md`
 - `STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md`
+- `STR-006_SWOT_ANALYSIS.md`
+- `STR-007_PORTER_FIVE_FORCES.md`
+- `STR-008_LANCHESTER_STRATEGY.md`
 - `PRD-001_SERVICE_OS_PRODUCT_SCOPE.md`
 - `PRD-002_AIRCON_TEMPLATE_SCOPE.md`
 - `SAL-001_COLD_OUTREACH_PLAYBOOK.md`
@@ -196,12 +270,13 @@ The current active strategy set includes:
 
 ---
 
-## 10. Summary
+## 11. Summary
 
-v1.5.4 makes the Optimaks constitution clear across three layers:
+v1.5.5 makes the Optimaks constitution clear across four layers:
 
 ```text
 Development Governance = v1.5.2
 Research Intake Governance = v1.5.3
 Market Strategy Governance = v1.5.4
+Strategic Constitution Guardrails = v1.5.5
 ```

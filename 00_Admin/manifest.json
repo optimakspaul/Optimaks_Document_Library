@@ -1,22 +1,27 @@
 {
-  "package_name": "Optimaks_Document_Library_v1.5.4_AI_Market_Research_Strategy_Governance",
-  "version": "v1.5.4",
-  "version_name": "AI Market Research & Strategy Governance Release",
+  "package_name": "Optimaks_Document_Library_v1.5.5_Strategic_Constitution_Guardrails",
+  "version": "v1.5.5",
+  "version_name": "Strategic Constitution Guardrails Patch",
   "effective_date": "2026-05-16",
   "owner": "Optimaks Pte Ltd",
   "status": "Active Current Release",
-  "description": "AI Market Research, Strategy Review, Pricing, GTM, Sales and Product Strategy Governance package built on v1.5.2 AI GitHub Governance and v1.5.3 AI Research Intake Governance.",
+  "description": "Strategic Constitution Guardrails package built on v1.5.4 AI Market Research and Strategy Governance. Adds SWOT, Porter Five Forces, Lanchester strategy, company positioning and scope-control rules.",
   "version_definition": {
     "v1.5.2": "AI Collaboration + GitHub Execution Governance",
     "v1.5.3": "AI Research Intake + Multi-Model Handoff Governance",
-    "v1.5.4": "AI Market Research + Strategy Review + Pricing / GTM / Sales Governance"
+    "v1.5.4": "AI Market Research + Strategy Review + Pricing / GTM / Sales Governance",
+    "v1.5.5": "Strategic Constitution Guardrails + SWOT / Five Forces / Lanchester Governance"
   },
   "active_standards": [
     "STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md",
     "STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md",
-    "STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md"
+    "STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md",
+    "FND-006_Strategic_Constitution_Guardrails.md",
+    "STR-006_SWOT_ANALYSIS.md",
+    "STR-007_PORTER_FIVE_FORCES.md",
+    "STR-008_LANCHESTER_STRATEGY.md"
   ],
-  "file_count": 136,
+  "file_count_excluding_manifest": 140,
   "generated_at": "2026-05-16",
   "files": [
     {
@@ -41,8 +46,8 @@
     },
     {
       "path": "00_Admin/CHANGELOG.md",
-      "size_bytes": 14833,
-      "sha256": "1de80d1e660d38ecc040c52440509b9bfc95bc6bf2427ac35eae996fb3696dea"
+      "size_bytes": 16822,
+      "sha256": "fe0da207231d720374751f4bbbce05f0bfdf418a30d33428d6301bc3607b7ff4"
     },
     {
       "path": "00_Admin/CLEANUP_FUSION_REPORT_v1.5.md",
@@ -51,13 +56,13 @@
     },
     {
       "path": "00_Admin/DOC-INDEX-001_Document_Index.md",
-      "size_bytes": 13066,
-      "sha256": "1642f1bf0d7507495a1a2df1248bcfe532d08226555985f2ef0253fff5378fb2"
+      "size_bytes": 13931,
+      "sha256": "fa7cb527be451c5f14a1f029c558cfe98573990863265ff8167bf9b4a5b09749"
     },
     {
       "path": "00_Admin/FILE_TREE.txt",
-      "size_bytes": 7015,
-      "sha256": "a64cd7c97b5a1f3efa2b8c530628748217ad0386a335558cae4ad025a6995bf2"
+      "size_bytes": 7706,
+      "sha256": "73415aa53f7c463126f44cd3b9fd19139eae0e73077b5940f4af869dc1932835"
     },
     {
       "path": "00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md",
@@ -66,8 +71,8 @@
     },
     {
       "path": "00_Admin/README.md",
-      "size_bytes": 491,
-      "sha256": "f18d8789102607b10d76806857b3400aa7a2fae2962721d9d1e1dc1b44b405a9"
+      "size_bytes": 564,
+      "sha256": "72835b3252c1ae19cfe3fe6c4b3e07927ba28c3dc84b529d272d7e597304bccc"
     },
     {
       "path": "00_Admin/V1.5.1_SCOPE_DECISION.md",
@@ -95,19 +100,24 @@
       "sha256": "a7a984049c027e35ccadc3a13c166b50c0b421af6bab95827c2b05e266a2e290"
     },
     {
+      "path": "00_Admin/V1.5.5_SCOPE_DECISION.md",
+      "size_bytes": 2476,
+      "sha256": "3e40f575a41f95fbc4238d0089cf9428621c3317524b2180ca74c40ed39dc25e"
+    },
+    {
       "path": "00_Admin/VERSION_HISTORY.md",
-      "size_bytes": 3428,
-      "sha256": "2497bfa374b20256dbda850c4bbceaa153bfe9e9bb9ff1a6d44e2353d900b877"
+      "size_bytes": 4613,
+      "sha256": "e230d96e2fcd364242cce5827858d3274856e5d8d9a20db3da3dc15654c79d8c"
     },
     {
       "path": "01_Foundation/FND-001_Company_Positioning.md",
-      "size_bytes": 3515,
-      "sha256": "27cd980dc823244a9ca6daeb78e33a90a8543ff41e5a53cc9ef82368d33661fe"
+      "size_bytes": 4275,
+      "sha256": "b794f816bcf9ff6341b0f6d2c1fdf59b7c0b20aa57692565bf1f4a7393fa27a2"
     },
     {
       "path": "01_Foundation/FND-002_Development_Constitution_Overview.md",
-      "size_bytes": 6437,
-      "sha256": "6c6174792a15d00e14f614d77981f293d967b23656399ce3fa4816913d35d647"
+      "size_bytes": 8565,
+      "sha256": "facc2dc22f72f25d6a6f2748fba9b15c388d3e310ffa4047d5f504972911fbce"
     },
     {
       "path": "01_Foundation/FND-003_Service_Model.md",
@@ -123,6 +133,11 @@
       "path": "01_Foundation/FND-005_Product_Positioning_and_WAS_Principle.md",
       "size_bytes": 4794,
       "sha256": "aabd85766d98f3cb024efa6f1858618bef66572a73080b60c58569d0c7446142"
+    },
+    {
+      "path": "01_Foundation/FND-006_Strategic_Constitution_Guardrails.md",
+      "size_bytes": 5257,
+      "sha256": "c2f973d365419fd88169044b20613458796d4f7a79082629c9fc81a95f8d8928"
     },
     {
       "path": "01_Foundation/README.md",
@@ -546,8 +561,8 @@
     },
     {
       "path": "11_Roadmap/ROADMAP-001_Constitution_Roadmap.md",
-      "size_bytes": 1521,
-      "sha256": "e9f1de6f3f480d42ea89ac03a3e071e1ec2e2b314994ce87149b0e202430923a"
+      "size_bytes": 2096,
+      "sha256": "bafa4ef683addf7c1453b58e2cf95962ed1d6013e94e52edb9054622d12ed41d"
     },
     {
       "path": "12_Archive/README.md",
@@ -626,43 +641,58 @@
     },
     {
       "path": "13_Strategy/README.md",
-      "size_bytes": 361,
-      "sha256": "1935a10ae86af73df04920de48a406a7786223f0c2d936fc97b2a5ff3413b846"
+      "size_bytes": 1391,
+      "sha256": "e7248eb31f0a27e7b7fdaff482add4b2c9cca922711baa14285021bd00593e85"
     },
     {
       "path": "13_Strategy/STR-001_MARKET_POSITIONING.md",
-      "size_bytes": 3364,
-      "sha256": "f581e3db0ba6dc87dc56e9404838596d25d2a93767e1bc2af194b90a880b84c0"
+      "size_bytes": 3363,
+      "sha256": "0c18745563a2c34542d16edfad6bfbeacb6a2a331669fb45dae7c13a42c346be"
     },
     {
       "path": "13_Strategy/STR-002_COMPETITOR_REVIEW_SG_SME.md",
-      "size_bytes": 4510,
-      "sha256": "ac9edf3a9ca625bf5c251e3bf2f8db486ae808dd227f82e97ec560038c2c47b5"
+      "size_bytes": 4509,
+      "sha256": "10cd116e51094eed7c38798072aa5e91c7302848048c2bf4cf6277f5790947fc"
     },
     {
       "path": "13_Strategy/STR-003_PRICING_PACKAGES.md",
-      "size_bytes": 3128,
-      "sha256": "fd7873f16be1a369628d444eed089f4cc6be4f1afba065319f80cf11d0c5ac37"
+      "size_bytes": 3127,
+      "sha256": "9ae1439f8ebd0e5cce9002211d9c65758143c6388b69cceb14cc711007bc1c11"
     },
     {
       "path": "13_Strategy/STR-004_GTM_30_DAY_PLAN.md",
-      "size_bytes": 2532,
-      "sha256": "4beb62de214db694b9bada004b8bf7cf903998c28f2a0e1b7fe7ff51f280ffc9"
+      "size_bytes": 2531,
+      "sha256": "584f5a2399a6e6968ae7d96cd0a92940a2c3c1b5d363da1012012c3cc98f6467"
     },
     {
       "path": "13_Strategy/STR-005_AI_MARKET_RESEARCH_STRATEGY_REVIEW_WORKFLOW.md",
-      "size_bytes": 2412,
-      "sha256": "da3d308021ac9c99119adfbc83c692a3c2a50f6a307ffdcde900583af0981145"
+      "size_bytes": 2411,
+      "sha256": "bd385f493f15f9a9e99db5a026ad93385ee35e2d6292e66a26b1fa0127f3798f"
+    },
+    {
+      "path": "13_Strategy/STR-006_SWOT_ANALYSIS.md",
+      "size_bytes": 5719,
+      "sha256": "1cd9721309ac8ce51dfd8bf14e21e2e40119bab1ceb95dcdbcce4fd93e9bd357"
+    },
+    {
+      "path": "13_Strategy/STR-007_PORTER_FIVE_FORCES.md",
+      "size_bytes": 4927,
+      "sha256": "df3c0e1688c3dc9fa2167eb3e8bfd4dae6b9b941bd8dabae04ae0fb1465034c7"
+    },
+    {
+      "path": "13_Strategy/STR-008_LANCHESTER_STRATEGY.md",
+      "size_bytes": 5131,
+      "sha256": "b992ded8cd2d4fa298c56863ae6b109a72ee7ef9fe14dd4b6759b6e78df49155"
     },
     {
       "path": "14_Product_Strategy/PRD-001_SERVICE_OS_PRODUCT_SCOPE.md",
-      "size_bytes": 2131,
-      "sha256": "b7b2cb87ce3c50e9fc7c3b00c9848d5af8835c701ccefc398048f37b72e2d226"
+      "size_bytes": 2130,
+      "sha256": "5638d1dd8fcdd14a8d7f418aafaebb66d5b4d90aca7e33ae052387bd1a09110d"
     },
     {
       "path": "14_Product_Strategy/PRD-002_AIRCON_TEMPLATE_SCOPE.md",
-      "size_bytes": 1920,
-      "sha256": "c710babb6034cb1322c449a1e6da28d301a6609da16085ffa231512d198b6e31"
+      "size_bytes": 1919,
+      "sha256": "c09918214bdc6c812b4d13a92e831d281d7d94d5563c1d9f629935edcad16841"
     },
     {
       "path": "14_Product_Strategy/README.md",
@@ -676,23 +706,23 @@
     },
     {
       "path": "15_Sales_GTM/SAL-001_COLD_OUTREACH_PLAYBOOK.md",
-      "size_bytes": 3684,
-      "sha256": "7b1e353610f6d3748941ef294a3ce54450c464a5c8f3360882f7a207358efe3a"
+      "size_bytes": 3683,
+      "sha256": "4ea37c0afad4865dda6ced10b803e4e2709587d6120123f6d1e48d9dc9170020"
     },
     {
       "path": "15_Sales_GTM/SAL-002_DISCOVERY_QUESTIONS.md",
-      "size_bytes": 2004,
-      "sha256": "61a4c931a08b0ba14a60420ff88b6891b064e9d6fb55db04f1d7958ae4f12a99"
+      "size_bytes": 2003,
+      "sha256": "e67da315ba08d58f2365e35d2cc023112e18d5dbe346dbf688e9d2c13f456e64"
     },
     {
       "path": "15_Sales_GTM/SAL-003_DEMO_SCRIPT.md",
-      "size_bytes": 2270,
-      "sha256": "43c0bd73bb3c4e793242dd7079e18ccf51ea604a9062aec2f0355bd793a547ba"
+      "size_bytes": 2269,
+      "sha256": "f39675e5adf666bc286b33f36ebf40ec8084beaea875ee6b52435569a4554f86"
     },
     {
       "path": "README.md",
-      "size_bytes": 5885,
-      "sha256": "375b003c5fe9dc113fab8d3c3f8c1a31e1e8a55dde7522c9900d8886d9ae6d28"
+      "size_bytes": 6717,
+      "sha256": "4ed6f2f6756b11db44dfa1225ce6c96eb29d0dcb132786a5a860025b2e3f1ee7"
     }
   ]
 }

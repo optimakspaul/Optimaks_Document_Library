@@ -1,10 +1,10 @@
-# Optimaks Document Library v1.5.4 — AI Market Research & Strategy Governance
+# Optimaks Document Library v1.5.5 — Strategic Constitution Guardrails
 
-This repository is the official GitHub-ready governance and strategy document library for Optimaks Pte Ltd.
+This repository is the official GitHub-ready governance, strategy, product, sales, and AI-assisted development document library for Optimaks Pte Ltd.
 
-本文件庫是 Optimaks 的正式開發治理、AI 協作、市場研究、產品策略、定價與 GTM 文件庫。
+本文件庫是 Optimaks 的正式開發治理、AI 協作、市場研究、產品策略、銷售 GTM、定價與公司戰略憲法文件庫。
 
-**Current Active Version:** `v1.5.4 — AI Market Research & Strategy Governance Release`  
+**Current Active Version:** `v1.5.5 — Strategic Constitution Guardrails Patch`  
 **Effective Date:** 2026-05-16  
 **Owner:** Optimaks Pte Ltd  
 **Status:** Active Current Release
@@ -17,6 +17,7 @@ This repository is the official GitHub-ready governance and strategy document li
 v1.5.2 = AI Collaboration + GitHub Execution Governance
 v1.5.3 = AI Research Intake + Multi-Model Handoff Governance
 v1.5.4 = AI Market Research + Strategy Review + Pricing / GTM / Sales Governance
+v1.5.5 = Strategic Constitution Guardrails + SWOT / Five Forces / Lanchester Governance
 ```
 
 ### What this means
@@ -24,8 +25,9 @@ v1.5.4 = AI Market Research + Strategy Review + Pricing / GTM / Sales Governance
 - **v1.5.2** controls how Codex / Antigravity / ChatGPT outputs enter GitHub through Issue, Branch, PR, Preview, human review, and changelog.
 - **v1.5.3** controls how large-context research tools such as Gemini are used for API documents, PDFs, Open Data, long codebases, and multi-model handoff.
 - **v1.5.4** controls how AI-generated market research becomes official Optimaks strategy, product positioning, pricing, GTM plans, sales scripts, and product strategy documents.
+- **v1.5.5** converts the approved strategy layer into constitution-level decision guardrails: company positioning, SWOT, Porter Five Forces, Lanchester strategy, scope boundaries, and AI / sales / product decision rules.
 
-> v1.5.4 does not replace v1.5.2 or v1.5.3. It consolidates them and adds the business strategy governance layer.
+> v1.5.5 does not replace v1.5.2, v1.5.3 or v1.5.4. It adds the strategic guardrail layer that prevents Optimaks from drifting into a generic web agency, social media agency, heavy ERP provider, or unfocused custom software shop.
 
 ---
 
@@ -35,6 +37,8 @@ v1.5.4 = AI Market Research + Strategy Review + Pricing / GTM / Sales Governance
 Research Digest is not strategy.
 Strategy is not implementation.
 Implementation is not production.
+Positioning must govern scope.
+Scope must govern AI execution.
 ```
 
 Optimaks must follow this chain:
@@ -48,6 +52,8 @@ ChatGPT Strategy / Architecture Review
 ↓
 Approved Strategy / Product / Sales Docs
 ↓
+Strategic Constitution Guardrails
+↓
 GitHub Issue / AI Context Package
 ↓
 Codex / Antigravity Implementation
@@ -59,22 +65,23 @@ Merge / CHANGELOG / Version Update
 
 ---
 
-## 3. Active v1.5.4 Governance Standards
+## 3. Active v1.5.5 Governance Standards
 
 The current active governance layer includes:
 
 1. `FND-001` — Company positioning.
 2. `FND-002` — Development constitution overview.
 3. `FND-005` — Product positioning and Workflow Automation System principle.
-4. `STD-DEV-013` — Self-management, issue classification, AI execution, and client value control.
-5. `STD-DEV-014` — Constitution upgrade trigger rule.
-6. `STD-DEV-020` — AI Context Package and semi-automated execution standard.
-7. `STD-DEV-021` — MVP layering, small core, and dependency execution standard.
-8. `STD-DEV-022` — Internal MVP, client delivery, and monthly value control standard.
-9. `STD-DEV-023` — Industry workflow-first and SME OS scope standard.
-10. `STD-DEV-024` — AI collaboration and GitHub execution governance standard.
-11. `STD-DEV-025` — AI research intake and multi-model handoff standard.
-12. `STD-DEV-026` — AI market research and strategy review governance standard.
+4. `FND-006` — Strategic Constitution Guardrails.
+5. `STD-DEV-013` — Self-management, issue classification, AI execution, and client value control.
+6. `STD-DEV-014` — Constitution upgrade trigger rule.
+7. `STD-DEV-020` — AI Context Package and semi-automated execution standard.
+8. `STD-DEV-021` — MVP layering, small core, and dependency execution standard.
+9. `STD-DEV-022` — Internal MVP, client delivery, and monthly value control standard.
+10. `STD-DEV-023` — Industry workflow-first and SME OS scope standard.
+11. `STD-DEV-024` — AI collaboration and GitHub execution governance standard.
+12. `STD-DEV-025` — AI research intake and multi-model handoff standard.
+13. `STD-DEV-026` — AI market research and strategy review governance standard.
 
 ---
 
@@ -82,7 +89,7 @@ The current active governance layer includes:
 
 ```text
 00_Admin                 Document index, changelog, version history, manifest, scope decisions
-01_Foundation            Company positioning, constitution overview, product positioning principles
+01_Foundation            Company positioning, constitution overview, product positioning, strategic guardrails
 02_Development_Standard  Active development, AI, GitHub, MVP, research, and strategy governance standards
 03_Client_Delivery       Client discovery, SOW, blueprint, milestone, handover, monthly report templates
 04_Legal_Commercial      Quotation, payment, IP, PDPA, agreement checklist
@@ -94,7 +101,7 @@ The current active governance layer includes:
 10_Projects              Optimaks OS, Aircon OS, and ACRA Radar project context files
 11_Roadmap               Constitution roadmap
 12_Archive               Historical / superseded documents only
-13_Strategy              Market positioning, competitor review, pricing, GTM, strategy workflow
+13_Strategy              Market positioning, competitor review, pricing, GTM, SWOT, Five Forces, Lanchester
 14_Product_Strategy      Optimaks Service OS and Aircon Template product scope
 15_Sales_GTM             Cold outreach, discovery questions, demo script
 ```
@@ -105,6 +112,8 @@ The current active governance layer includes:
 
 | Content Type | Correct Location | Rule |
 |---|---|---|
+| Constitution-level positioning | `01_Foundation/` | Highest-level decision guardrails |
+| SWOT / Five Forces / Lanchester | `13_Strategy/` | Strategy evidence and decision framework |
 | AI execution rules | `02_Development_Standard/` | Must be followed before code generation |
 | Market research digest | `13_Strategy/` or project research folder | Supporting evidence only, not final decision |
 | Final positioning | `13_Strategy/STR-001_MARKET_POSITIONING.md` | Must be approved before landing page updates |
@@ -135,5 +144,5 @@ Gemini = optional large-context research / digest tool
 ## 7. Commit Message for This Release
 
 ```text
-docs: release v1.5.4 AI market research and strategy governance
+docs: release v1.5.5 strategic constitution guardrails
 ```

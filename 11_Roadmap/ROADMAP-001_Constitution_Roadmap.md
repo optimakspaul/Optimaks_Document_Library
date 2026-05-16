@@ -44,3 +44,19 @@ Use project files, GitHub Issues, CRs, or backlog notes instead.
 ## Future v1.6 Candidate
 
 A future v1.6 may add a formal Sales / Market Research documentation layer if pricing, competitor comparison, and job market analysis become repeated operating assets.
+
+---
+
+## v1.5.5 Roadmap Note — Strategic Guardrails
+
+v1.5.5 adds the strategic guardrail layer. Future roadmap items should be checked against:
+
+```text
+- Website-to-Workflow positioning
+- Aircon / field service beachhead
+- Service OS reusable core
+- Core workflow: Enquiry → Lead → Quote → Booking → Job Card → Invoice Status → Reminder
+- Avoidance of generic web agency / social agency / heavy ERP positioning
+```
+
+Any roadmap item outside this scope should be marked as Add-on, Future Version, Partner Service, Change Request or Rejected before development.

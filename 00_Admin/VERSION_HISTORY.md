@@ -1,6 +1,7 @@
+
 # Version History
 
-**Current Active Version:** v1.5.4 — AI Market Research & Strategy Governance Release  
+**Current Active Version:** v1.5.5 — Strategic Constitution Guardrails Patch  
 **Effective Date:** 2026-05-16  
 **Owner:** Optimaks Pte Ltd  
 **Status:** Active Current Release
@@ -21,10 +22,46 @@
 | v1.5.2 | AI GitHub Governance Patch | Codex / Antigravity + GitHub Issue / Branch / PR / Preview governance. |
 | v1.5.3 | AI Research Intake Patch | Gemini Digest, large-context research intake, and multi-model handoff governance. |
 | v1.5.4 | Strategy Governance Release | AI market research, ChatGPT strategy review, market positioning, pricing, GTM, sales and product strategy governance. |
+| v1.5.5 | Strategic Constitution Guardrails Patch | Adds SWOT, Porter Five Forces, Lanchester strategy and constitution-level guardrails to prevent positioning, sales, product and AI execution drift. |
 
 ---
 
-## v1.5.4 — Current Active Release
+## v1.5.5 — Current Active Release
+
+v1.5.5 formalizes the strategic guardrail layer that sits above product, sales and AI execution.
+
+### v1.5.5 Controls
+
+```text
+Approved Positioning / Strategy Docs
+↓
+SWOT / Five Forces / Lanchester Review
+↓
+Strategic Constitution Guardrails
+↓
+Product / Sales / AI Scope Decisions
+↓
+GitHub Issues and AI Context Packages
+↓
+Implementation
+```
+
+### v1.5.5 Active Documents
+
+- `01_Foundation/FND-006_Strategic_Constitution_Guardrails.md`
+- `13_Strategy/STR-006_SWOT_ANALYSIS.md`
+- `13_Strategy/STR-007_PORTER_FIVE_FORCES.md`
+- `13_Strategy/STR-008_LANCHESTER_STRATEGY.md`
+- Updated `README.md`
+- Updated `00_Admin/README.md`
+- Updated `00_Admin/CHANGELOG.md`
+- Updated `00_Admin/VERSION_HISTORY.md`
+- Updated `00_Admin/DOC-INDEX-001_Document_Index.md`
+- Updated `00_Admin/manifest.json`
+
+---
+
+## v1.5.4 — AI Market Research & Strategy Governance Release
 
 v1.5.4 formalizes the business strategy layer that sits between AI research and implementation.
 
@@ -73,7 +110,7 @@ v1.5.3 introduced the controlled use of Gemini / large-context AI tools for:
 - Market or competitor research digests.
 - Multi-model handoff into ChatGPT, Codex, Antigravity, VS Code and GitHub.
 
-v1.5.3 does **not** define final market positioning, pricing or GTM strategy. Those are now governed by v1.5.4.
+v1.5.3 does **not** define final market positioning, pricing or GTM strategy. Those are governed by v1.5.4 and converted into constitution guardrails by v1.5.5.
 
 ---
 
@@ -93,4 +130,5 @@ GitHub Issue → Feature Branch → Pull Request → Preview / Test → Human Re
 Use v1.5.2 for code governance.
 Use v1.5.3 for research intake and AI handoff.
 Use v1.5.4 for market strategy, pricing, GTM, product positioning and sales governance.
+Use v1.5.5 for strategic constitution guardrails and scope-control decisions.
 ```

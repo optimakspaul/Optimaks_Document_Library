@@ -1,5 +1,40 @@
 # Changelog
 
+## v1.5.5 — Strategic Constitution Guardrails Patch — 2026-05-16
+
+### Added
+
+- Added formal v1.5.5 version definition: Strategic Constitution Guardrails, SWOT, Porter Five Forces and Lanchester Strategy Governance.
+- Added `01_Foundation/FND-006_Strategic_Constitution_Guardrails.md`.
+- Added `13_Strategy/STR-006_SWOT_ANALYSIS.md`.
+- Added `13_Strategy/STR-007_PORTER_FIVE_FORCES.md`.
+- Added `13_Strategy/STR-008_LANCHESTER_STRATEGY.md`.
+- Added explicit strategic rules to prevent Optimaks from drifting into generic web agency, social media agency, heavy ERP / CRM provider, PSG reseller or unfocused custom software shop positioning.
+- Added constitution-level scope rule: `Enquiry → Lead → Quote → Booking → Job Card → Invoice Status → Reminder`.
+- Added feature classification rule: Core, Add-on, Future Version, Partner Service, Change Request or Rejected.
+- Added Short Video Lead Kit guardrail: short video is a lead-source add-on, not full social media management.
+- Added Lanchester first beachhead definition: Singapore aircon / field service SMEs with 3-10 workers or technicians.
+
+### Updated
+
+- Updated root `README.md` to v1.5.5.
+- Updated `00_Admin/README.md`.
+- Updated `00_Admin/VERSION_HISTORY.md`.
+- Updated `01_Foundation/FND-002_Development_Constitution_Overview.md`.
+- Updated `01_Foundation/FND-001_Company_Positioning.md` with v1.5.5 strategic guardrail note.
+- Updated `13_Strategy/README.md` to include SWOT, Five Forces and Lanchester files.
+- Updated `00_Admin/DOC-INDEX-001_Document_Index.md`.
+- Updated `00_Admin/FILE_TREE.txt`.
+- Updated `00_Admin/manifest.json`.
+
+### Purpose
+
+v1.5.5 converts the business strategy developed in v1.5.4 into practical constitution-level decision rules.
+
+The goal is not to create more documents. The goal is to make sure every future product decision, client scope request, AI-generated implementation idea, pricing change and landing page message can be checked against Optimaks' approved strategy.
+
+---
+
 ## v1.5.4 — AI Market Research & Strategy Governance Release — 2026-05-16
 
 ### Added

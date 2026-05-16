@@ -139,3 +139,19 @@ Generated: 2026-05-16
 | `15_Sales_GTM/SAL-002_DISCOVERY_QUESTIONS.md` | SAL 002 DISCOVERY QUESTIONS |
 | `15_Sales_GTM/SAL-003_DEMO_SCRIPT.md` | SAL 003 DEMO SCRIPT |
 | `README.md` | README |
+
+---
+
+## v1.5.5 Added / Active Strategic Guardrail Documents
+
+| Folder | File | Purpose |
+|---|---|---|
+| `01_Foundation` | `FND-006_Strategic_Constitution_Guardrails.md` | Constitution-level strategic guardrails for positioning, scope, AI execution and sales decisions. |
+| `13_Strategy` | `STR-006_SWOT_ANALYSIS.md` | SWOT analysis for Optimaks Website-to-Workflow strategy. |
+| `13_Strategy` | `STR-007_PORTER_FIVE_FORCES.md` | Competitive pressure analysis and strategic responses. |
+| `13_Strategy` | `STR-008_LANCHESTER_STRATEGY.md` | Aircon / field service beachhead and expansion strategy. |
+| `00_Admin` | `V1.5.5_SCOPE_DECISION.md` | Scope decision for the v1.5.5 patch. |
+
+## v1.5.5 Decision Rule
+
+Use the v1.5.5 files when deciding whether a new service, feature, AI output, package, client request or landing page claim fits the Optimaks constitution.

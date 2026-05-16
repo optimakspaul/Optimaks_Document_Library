@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Current Library Version | v1.5.4 AI Market Research & Strategy Governance |
+| Current Library Version | v1.5.5 Strategic Constitution Guardrails Patch |
 | Last Consolidated | 2026-05-16 |
 | Status | Active / Current unless explicitly marked as historical |
 
@@ -10,7 +10,7 @@
 | Field | Value |
 |---|---|
 | Document Code | STR-003 |
-| Version | v1.5.4 Current Consolidated Release |
+| Version | v1.5.5 Current Consolidated Release |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active Strategy Draft |

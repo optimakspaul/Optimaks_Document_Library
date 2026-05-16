@@ -97,3 +97,34 @@ The system must be:
 - grant-ready in evidence collection
 - industry-workflow-first
 - Small Core First
+
+---
+
+## v1.5.5 Strategic Guardrail Note
+
+The approved company positioning must be used as a decision filter before accepting new product features, sales packages, AI-generated implementation ideas or client scope requests.
+
+Optimaks should remain:
+
+```text
+A lightweight Website-to-Workflow system provider for Singapore service SMEs.
+```
+
+Optimaks should not drift into:
+
+```text
+- generic web agency
+- pure social media management agency
+- heavy ERP / CRM provider
+- PSG grant reseller
+- unfocused custom software shop
+```
+
+Detailed guardrails are maintained in:
+
+```text
+01_Foundation/FND-006_Strategic_Constitution_Guardrails.md
+13_Strategy/STR-006_SWOT_ANALYSIS.md
+13_Strategy/STR-007_PORTER_FIVE_FORCES.md
+13_Strategy/STR-008_LANCHESTER_STRATEGY.md
+```
