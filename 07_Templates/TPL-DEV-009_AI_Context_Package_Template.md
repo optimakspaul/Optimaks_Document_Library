@@ -1,7 +1,7 @@
 # TPL-DEV-009 AI Context Package Template
 
-Version: v1.5.1 WAS Positioning Patch  
-Related Standard: STD-DEV-020
+Version: v1.5.3 Research Intake Patch  
+Related Standard: STD-DEV-020, STD-DEV-025
 
 ---
 
@@ -11,7 +11,7 @@ Related Standard: STD-DEV-020
 
 ## 2. Constitution Version
 
-Optimaks Development Constitution v1.5.1 WAS Positioning Patch
+Optimaks Development Constitution v1.5.3 AI Research Intake & Multi-Model Handoff Patch
 
 ## 3. Project Context
 
@@ -20,23 +20,31 @@ Optimaks Development Constitution v1.5.1 WAS Positioning Patch
 - Target user:
 - Business objective:
 
-## 4. Problem Statement
+## 4. Research Intake Source, if applicable
+
+- Gemini Research Digest used: Yes / No
+- Digest file / link:
+- ChatGPT review completed: Yes / No
+- Key research assumptions:
+- Open questions remaining:
+
+## 5. Problem Statement
 
 [What problem are we solving?]
 
-## 5. In Scope
+## 6. In Scope
 
 1.
 2.
 3.
 
-## 6. Out of Scope / Forbidden Changes
+## 7. Out of Scope / Forbidden Changes
 
 1.
 2.
 3.
 
-## 7. User Flow
+## 8. User Flow
 
 ```text
 Step 1
@@ -46,43 +54,43 @@ Step 2
 Step 3
 ```
 
-## 8. Page Map
+## 9. Page Map
 
 | Page | Purpose | Main Components |
 |---|---|---|
 | | | |
 
-## 9. Component Map
+## 10. Component Map
 
 | Component | Responsibility | Data Needed |
 |---|---|---|
 | | | |
 
-## 10. Data Model Draft
+## 11. Data Model Draft
 
 | Object | Field | Type | Notes |
 |---|---|---|---|
 | | | | |
 
-## 11. Status Logic
+## 12. Status Logic
 
 | Status | Meaning | Next Possible Status |
 |---|---|---|
 | | | |
 
-## 12. Acceptance Criteria
+## 13. Acceptance Criteria
 
 1.
 2.
 3.
 
-## 13. Testing Method
+## 14. Testing Method
 
 1.
 2.
 3.
 
-## 14. Expected AI Output
+## 15. Expected AI Output
 
 - Changed files summary
 - Implementation explanation
@@ -90,8 +98,10 @@ Step 3
 - Known limitations
 - Suggested follow-up issue, if needed
 
-## 15. Notes for Codex / Antigravity
+## 16. Notes for Gemini / ChatGPT / Codex / Antigravity
 
+- Gemini Research Digest, if used, should not be treated as implementation approval.
+- ChatGPT review result should guide scope and risks.
 - Codex should focus on:
 - Antigravity should focus on:
 - Do not change:

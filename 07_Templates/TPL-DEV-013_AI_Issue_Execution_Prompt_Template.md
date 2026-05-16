@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Template Code | TPL-DEV-013 |
-| Version | v1.5.2 |
+| Version | v1.5.3 |
 | Purpose | Standard prompt format for sending a GitHub Issue to Codex, Antigravity, or another AI development tool. |
 
 ---
@@ -24,6 +24,11 @@ Read these documents first:
 - [doc 2]
 - [doc 3]
 
+Research / handoff context, if applicable:
+- Gemini Research Digest used: [Yes / No]
+- ChatGPT review completed: [Yes / No]
+- Do not use raw Gemini digest as implementation scope. Use only the approved AI Context Package and GitHub Issue.
+
 Constitution rules:
 - Small Core First
 - Workflow First
@@ -31,6 +36,8 @@ Constitution rules:
 - No scope expansion without Change Request
 - Staging Test before Production Deploy
 - No AI-generated code directly into main
+- No raw Research Digest directly into implementation
+- No secrets / client sensitive data in AI prompts
 
 Scope:
 [Clearly list what this issue should do.]
@@ -60,5 +67,6 @@ After implementation, return:
 ```text
 Codex: backend, database, auth, RLS, CRUD, logic.
 Antigravity: UI, layout, navigation, shared components, responsive, browser verification.
-ChatGPT: scope, CR, issue refinement, prompt, QA, documentation.
+Gemini: research intake / large document digest only.
+ChatGPT: scope, CR, research review, issue refinement, prompt, QA, documentation.
 ```

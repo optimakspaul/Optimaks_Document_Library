@@ -3,97 +3,179 @@
 | Field | Value |
 |---|---|
 | Document Code | STD-DEV-002 |
-| Version | v1.3 |
-| Effective Date | 2026-05-13 |
+| Version | v1.5.3 |
+| Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active |
-| Purpose | Define ChatGPT, Codex, Antigravity, Claude, and Gemini roles. |
+| Purpose | Define ChatGPT, Gemini, Codex, Antigravity, VS Code, and GitHub roles in the Optimaks AI-assisted development workflow. |
 
 ---
 
+## 1. Official AI Development Tooling
 
-## Official AI Development Tooling
+Optimaks uses multiple AI tools, but each tool has a different responsibility.
 
-Optimaks currently uses the following primary AI-assisted development tools:
+Primary tools:
 
-1. ChatGPT
-2. Codex
-3. Antigravity
+```text
+- ChatGPT
+- Gemini, optional research intake tool
+- Codex
+- Antigravity
+- VS Code
+- GitHub
+```
 
-Codex and Antigravity are the main development tools. Claude and Gemini are model options inside Antigravity and are **not** treated as separate standalone development tools in this workflow.
+Gemini may be used as a standalone research and large-context digest tool when documents, APIs, datasets, market research, or codebases are too large or too messy to convert directly into an AI Context Package.
 
-## Tool Roles
+Gemini is **not** a direct implementation authority and must not bypass ChatGPT review, GitHub Issues, feature branches, PRs, or human approval.
 
-### ChatGPT
+---
+
+## 2. Tool Roles
+
+### Gemini — Research Intake / Large Context Digest
 
 Used for:
 
+```text
+- long API documentation
+- government open data documents
+- third-party SaaS integration documents
+- competitor / market research
+- client SOP document sets
+- large existing codebase digest
+- long PDF / multi-source research summary
+```
+
+Gemini output must be structured as a Research Digest and reviewed by ChatGPT before implementation.
+
+### ChatGPT — Governance Architect / Strategy Reviewer
+
+Used for:
+
+```text
 - Change Request drafting
 - GitHub Issue preparation
-- Architecture discussion
-- Documentation
-- Prompt writing
+- architecture discussion
+- risk and edge-case review
+- documentation
+- prompt writing
+- converting Research Digest into AI Context Package
+- constitution governance
+```
 
-### Codex
+### Codex — Implementation Engineer
 
 Used for:
 
-- Main implementation agent
-- Repository-level changes
-- Bug fixing
-- Refactoring
+```text
+- main implementation agent
+- repository-level changes
+- backend logic
+- Supabase schema / migrations
+- Auth / RLS / CRUD
+- bug fixing
+- refactoring
+- tests
 - PR / code change preparation
-- Following GitHub Issue requirements
+```
 
-### Antigravity
+### Antigravity — UI / Agentic Execution Workspace
 
 Used for:
 
-- AI IDE
+```text
 - UI iteration
-- Frontend review
-- Code exploration
-- Interactive debugging support
-- Comparing implementation approaches
+- App Shell
+- navigation
+- shared components
+- responsive design
+- frontend review
+- browser-based verification
+- interactive debugging support
+```
 
-### Models inside Antigravity
+### VS Code + GitHub — Control Center / Evidence System
 
-- Claude model: requirement interpretation, architecture review, refactoring analysis, long-context review.
-- Gemini model: UI ideas, multimodal understanding, fast option comparison, Google ecosystem support.
+Used for:
 
-## AI Tooling Workflow
+```text
+- Git diff review
+- branch control
+- commit and PR review
+- issue traceability
+- changelog and version history
+- staging / preview evidence
+- final human approval
+```
+
+---
+
+## 3. AI Tooling Workflow
+
+For normal development:
 
 ```text
 GitHub Issue / Change Request
         ↓
+AI Context Package
+        ↓
 Codex
-主要工程實作 / Bug Fix / Refactor
+Backend / data / logic / tests
         ↓
 Antigravity
-AI IDE 審查 / UI 調整 / 測試輔助
+UI / layout / browser verification
         ↓
-Antigravity 內部模型
-   ├── Claude：需求理解 / 架構審查 / 重構分析
-   └── Gemini：UI 發想 / 多模態 / 快速方案比較
+VS Code Git Diff Review
+        ↓
+Pull Request
         ↓
 Vercel Preview / Staging
         ↓
-手機 + 桌機測試
+Human Review
         ↓
 Merge / Deploy
 ```
 
-## AI Usage Rules
+For large document or research-heavy development:
+
+```text
+Large document / API / dataset / market research
+        ↓
+Gemini Research Digest
+        ↓
+ChatGPT Architecture / Strategy / Risk Review
+        ↓
+AI Context Package
+        ↓
+GitHub Issue
+        ↓
+Codex / Antigravity Implementation
+        ↓
+VS Code + GitHub Review
+```
+
+---
+
+## 4. AI Usage Rules
 
 1. AI can propose solutions, but implementation must follow GitHub Issue and Change Request.
 2. AI can modify code, but the change must go through Preview and testing.
 3. AI cannot directly decide production deployment.
 4. AI-generated changes must have commit, diff, testing steps, and rollback awareness.
 5. Database/Auth/Permission changes require special review.
-
+6. Gemini Research Digest must not be treated as implementation approval.
+7. Research Digest must be reviewed by ChatGPT before Codex or Antigravity receives execution prompts.
+8. GitHub remains the source of truth after work begins.
 
 ---
 
-## v1.5.2 Governance Addendum
+## 5. Relationship to v1.5.3 Governance
 
-This workflow is strengthened by `STD-DEV-024`, which defines one issue / one branch / one PR, AI tool boundaries, and human review requirements for AI-generated code.
+This workflow is strengthened by:
+
+```text
+STD-DEV-024 AI Collaboration and GitHub Execution Governance Standard
+STD-DEV-025 AI Research Intake and Multi-Model Handoff Standard
+```

@@ -115,3 +115,14 @@
 | `12_Archive/v1.3_to_v1.4.3_Superseded/07_Templates/TPL-DEV-008_MVP_Decomposition_Template.md` | TPL-DEV-008 MVP Decomposition Template |
 | `12_Archive/v1.3_to_v1.4.3_Superseded/08_Checklists/CHK-DEV-007_Semi_Automated_Pipeline_Readiness_Checklist.md` | CHK-DEV-007 Semi-Automated Pipeline Readiness Checklist |
 | `README.md` | Optimaks Document Library v1.5.2 AI Collaboration & GitHub Governance Patch |
+
+---
+
+## v1.5.3 Added Documents
+
+| Code | File | Purpose |
+|---|---|---|
+| STD-DEV-025 | `02_Development_Standard/STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md` | Defines Gemini Research Intake and multi-AI handoff governance |
+| TPL-DEV-014 | `07_Templates/TPL-DEV-014_Gemini_Research_Digest_Template.md` | Standard digest template for large-context research |
+| CHK-DEV-011 | `08_Checklists/CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md` | Checklist for research intake and handoff readiness |
+| Admin | `00_Admin/V1.5.3_SCOPE_DECISION.md` | Scope decision for v1.5.3 patch |

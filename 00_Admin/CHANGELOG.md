@@ -272,3 +272,29 @@ Date: 2026-05-14
 ### Governance Note
 
 v1.4.3 does not activate v1.5. It is a patch-level integration and operating-rule clarification for v1.4.
+
+---
+
+## v1.5.3 — AI Research Intake & Multi-Model Handoff Patch
+
+Date: 2026-05-16
+
+### Added
+
+- Added `STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md`.
+- Added `TPL-DEV-014_Gemini_Research_Digest_Template.md`.
+- Added `CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md`.
+- Added `V1.5.3_SCOPE_DECISION.md`.
+
+### Updated
+
+- Updated `STD-DEV-002` to recognize Gemini as an optional standalone Research Intake tool.
+- Updated `STD-DEV-020` to add Research Intake Pre-Check before AI Context Package.
+- Updated `STD-DEV-024` to require Gemini Digest → ChatGPT Review → AI Context Package before implementation.
+- Updated `TPL-DEV-009` to reference Research Digest and ChatGPT review.
+- Updated `TPL-DEV-013` to include Research / Handoff context controls.
+- Updated `CHK-DEV-010` to include research handoff checks before PR merge.
+
+### Governance Decision
+
+Gemini may support large-context research and digest creation, but does not replace ChatGPT review, GitHub Issues, feature branches, PRs, VS Code diff review, or human approval.

@@ -91,3 +91,28 @@ Codex / Antigravity = 根據憲法與 MVP 文件執行開發
 The current active version is **v1.5.2 AI Collaboration & GitHub Governance Patch**.
 
 Files under `12_Archive` are historical references only. They may explain how the rules evolved, but they should not override active files in `01_Foundation`, `02_Development_Standard`, `03_Client_Delivery`, `07_Templates`, or `08_Checklists`.
+
+---
+
+## v1.5.3 AI Research Intake & Multi-Model Handoff Patch
+
+This release adds a formal multi-AI workflow:
+
+```text
+Gemini = large document / API / dataset / competitor research digest
+ChatGPT = architecture, strategy, scope, governance, risk review
+Codex = backend / data / API / tests implementation
+Antigravity = UI / App Shell / browser verification
+VS Code + GitHub = final control, evidence, PR, merge
+```
+
+New governance files:
+
+```text
+STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md
+TPL-DEV-014_Gemini_Research_Digest_Template.md
+CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md
+V1.5.3_SCOPE_DECISION.md
+```
+
+Gemini is optional and should be used mainly for large-context research, not for every implementation issue.

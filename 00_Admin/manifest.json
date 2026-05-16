@@ -1,7 +1,9 @@
 {
   "library_name": "Optimaks Document Library",
-  "version": "v1.5.2 AI Collaboration & GitHub Governance Patch",
+  "version": "v1.5.3",
   "effective_date": "2026-05-15",
   "file_count": 114,
-  "status": "Active Stable Constitution Patch"
+  "status": "Active Stable Constitution Patch",
+  "patch": "AI Research Intake & Multi-Model Handoff",
+  "updated_at": "2026-05-16"
 }

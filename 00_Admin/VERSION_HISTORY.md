@@ -72,3 +72,26 @@ Key additions:
 5. `.github/pull_request_template.md`.
 6. `.github/ISSUE_TEMPLATE/ai_execution_task.md`.
 7. Admin scope decision separating constitution-level AI collaboration rules from one-off project execution details.
+
+---
+
+## v1.5.3 — AI Research Intake & Multi-Model Handoff Patch
+
+| Field | Value |
+|---|---|
+| Date | 2026-05-16 |
+| Type | Governance Patch |
+| Main Addition | Gemini Research Intake + ChatGPT Review Handoff |
+| Status | Active |
+
+### Summary
+
+v1.5.3 introduces a controlled multi-AI workflow for Optimaks:
+
+```text
+Gemini reads / digests large context.
+ChatGPT reviews and converts to architecture / scope / issues.
+Codex implements backend and logic.
+Antigravity implements UI and browser verification.
+VS Code + GitHub remain final control and source of truth.
+```

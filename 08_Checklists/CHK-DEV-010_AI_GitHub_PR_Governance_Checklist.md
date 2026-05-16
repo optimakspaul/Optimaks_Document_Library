@@ -3,12 +3,24 @@
 | Field | Value |
 |---|---|
 | Checklist Code | CHK-DEV-010 |
-| Version | v1.5.2 |
+| Version | v1.5.3 |
 | Purpose | Checklist for reviewing Codex / Antigravity / AI-generated code before merge. |
 
 ---
 
-## 1. Issue and Branch Control
+## 1. Research / Handoff Control, if applicable
+
+```text
+[ ] If Gemini or other research tool was used, a Research Digest exists.
+[ ] Research Digest was reviewed by ChatGPT before implementation.
+[ ] Codex / Antigravity used the approved AI Context Package, not raw research notes.
+[ ] Research assumptions are documented.
+[ ] No secrets or client sensitive data were included in research prompts.
+```
+
+---
+
+## 2. Issue and Branch Control
 
 ```text
 [ ] The work is linked to one GitHub Issue.
@@ -19,7 +31,7 @@
 
 ---
 
-## 2. Tool Boundary
+## 3. Tool Boundary
 
 ```text
 [ ] Codex did not unexpectedly redesign UI.
@@ -29,7 +41,7 @@
 
 ---
 
-## 3. Scope Review
+## 4. Scope Review
 
 ```text
 [ ] The change matches the issue scope.
@@ -40,7 +52,7 @@
 
 ---
 
-## 4. Local Test
+## 5. Local Test
 
 ```text
 [ ] npm install completed if dependencies changed.
@@ -51,7 +63,7 @@
 
 ---
 
-## 5. Security / Data Safety
+## 6. Security / Data Safety
 
 ```text
 [ ] No real secrets committed.
@@ -64,7 +76,7 @@
 
 ---
 
-## 6. Preview / Staging
+## 7. Preview / Staging
 
 ```text
 [ ] Vercel Preview generated.
@@ -75,7 +87,7 @@
 
 ---
 
-## 7. Documentation and Traceability
+## 8. Documentation and Traceability
 
 ```text
 [ ] PR links to issue.
@@ -87,7 +99,7 @@
 
 ---
 
-## 8. Merge Decision
+## 9. Merge Decision
 
 ```text
 [ ] Approved for merge.
