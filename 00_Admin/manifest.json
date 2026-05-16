@@ -1,28 +1,31 @@
 {
-  "package_name": "Optimaks_Document_Library_v1.5.6_One_Person_Team_Operating_Model",
-  "version": "v1.5.6",
-  "version_name": "One-Person Team Operating Model Patch",
+  "package_name": "Optimaks_Document_Library_v1.5.7_Short_Video_Lead_Kit_Partner_Governance",
+  "version": "v1.5.7",
+  "version_name": "Short Video Lead Kit Partner Governance Patch",
   "effective_date": "2026-05-16",
   "owner": "Optimaks Pte Ltd",
   "status": "Active Current Release",
-  "description": "One-Person Team Operating Model package built on v1.5.5 Strategic Constitution Guardrails. Adds founder, AI tool, platform and external partner role boundaries.",
+  "description": "Built on v1.5.6 One-Person Team Operating Model. Adds Short Video Lead Kit strategy, product scope, sales script, vendor evaluation, vendor outreach, legal/commercial partner terms, and delivery checklist.",
   "version_definition": {
     "v1.5.2": "AI Collaboration + GitHub Execution Governance",
     "v1.5.3": "AI Research Intake + Multi-Model Handoff Governance",
     "v1.5.4": "AI Market Research + Strategy Review + Pricing / GTM / Sales Governance",
     "v1.5.5": "Strategic Constitution Guardrails + SWOT / Five Forces / Lanchester Governance",
-    "v1.5.6": "One-Person Team Operating Model + AI / Platform / Partner Role Boundaries"
+    "v1.5.6": "One-Person Team Operating Model + AI / Platform / Partner Role Boundaries",
+    "v1.5.7": "Short Video Lead Kit + Video Vendor / Partner Governance"
   },
-  "active_standards": [
-    "FND-006_Strategic_Constitution_Guardrails.md",
-    "STD-DEV-024_AI_Collaboration_GitHub_Execution_Governance.md",
-    "STD-DEV-025_AI_Research_Intake_and_Multi_Model_Handoff.md",
-    "STD-DEV-026_AI_Market_Research_and_Strategy_Review_Governance.md",
-    "STR-006_SWOT_ANALYSIS.md",
-    "STR-007_PORTER_FIVE_FORCES.md",
-    "STR-008_LANCHESTER_STRATEGY.md"
+  "new_documents": [
+    "00_Admin/V1.5.7_SCOPE_DECISION.md",
+    "13_Strategy/STR-009_SHORT_VIDEO_VENDOR_STRATEGY.md",
+    "14_Product_Strategy/PRD-003_SHORT_VIDEO_LEAD_KIT_SCOPE.md",
+    "15_Sales_GTM/SAL-004_SHORT_VIDEO_ADDON_SALES_SCRIPT.md",
+    "16_Partner_Governance/README.md",
+    "16_Partner_Governance/PART-001_VIDEO_VENDOR_EVALUATION_MATRIX.md",
+    "16_Partner_Governance/PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md",
+    "04_Legal_Commercial/LEG-006_VIDEO_VENDOR_PARTNERSHIP_TERMS.md",
+    "08_Checklists/CHK-MKT-001_SHORT_VIDEO_DELIVERY_CHECKLIST.md"
   ],
-  "file_count_excluding_manifest": 141,
+  "file_count_excluding_manifest": 150,
   "generated_at": "2026-05-16",
   "files": [
     {
@@ -47,8 +50,8 @@
     },
     {
       "path": "00_Admin/CHANGELOG.md",
-      "size_bytes": 18366,
-      "sha256": "4658175aa0f9ee66fbb7421727d907fd87b86abaeb8a0a2b45329a2ededf15bc"
+      "size_bytes": 19369,
+      "sha256": "0d34225b3b7851ac692fa2109fa43f5436dfe2ec7f970f10024c1a6ed6973967"
     },
     {
       "path": "00_Admin/CLEANUP_FUSION_REPORT_v1.5.md",
@@ -57,13 +60,13 @@
     },
     {
       "path": "00_Admin/DOC-INDEX-001_Document_Index.md",
-      "size_bytes": 13623,
-      "sha256": "92925a5d3051078b5ca78ecf85219192fc6ca3176715c58792e71b9f59b6dbce"
+      "size_bytes": 14343,
+      "sha256": "a59b4a5051d90442a738a0a5412098bff585095eeacfcfc87e0d06db4be0c618"
     },
     {
       "path": "00_Admin/FILE_TREE.txt",
-      "size_bytes": 6179,
-      "sha256": "0f0cab42f3de42987dbed2894b5b7bb3ec6834f9a0c830fb3db5cff6fde3847b"
+      "size_bytes": 8245,
+      "sha256": "a6346f524b75c46fa55e03fdd25823102a9f52b58bd04a6b9b0c5c8e66698f59"
     },
     {
       "path": "00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md",
@@ -72,8 +75,8 @@
     },
     {
       "path": "00_Admin/README.md",
-      "size_bytes": 720,
-      "sha256": "cf7bb6aa5741692c007622ba700da8a72241602ec4678f9853d9ee4630f8d6a1"
+      "size_bytes": 987,
+      "sha256": "98629cff9e9e581516c95f3b7645a61e670555a20115ad8ac07ccd72f302fe84"
     },
     {
       "path": "00_Admin/V1.5.1_SCOPE_DECISION.md",
@@ -111,14 +114,14 @@
       "sha256": "9bf7adef38161ec2b6cdc1b8c776d7286675e367dd8830e5521598bd05ab3aa4"
     },
     {
-      "path": "00_Admin/VERSION_HISTORY.md",
-      "size_bytes": 5598,
-      "sha256": "849014c605059df9df20ae6dbeb3f2967fb134c42db99a82dce2aeb49ec49891"
+      "path": "00_Admin/V1.5.7_SCOPE_DECISION.md",
+      "size_bytes": 1894,
+      "sha256": "dfa7c6e40361d45ea91a73a264d31c7fdb6ee3ec103ab9b2f4ac3ca83f58dacf"
     },
     {
-      "path": "00_Admin/manifest.json",
-      "size_bytes": 28440,
-      "sha256": "f3c8bd50e625f18d56efb12e403986672c515e68998f90ca595ebd5dea0120fa"
+      "path": "00_Admin/VERSION_HISTORY.md",
+      "size_bytes": 6769,
+      "sha256": "cc214ce289e6da3d8e3580091d326a712adb79ea30704f8e3f0576750554abac"
     },
     {
       "path": "01_Foundation/FND-001_Company_Positioning.md",
@@ -336,9 +339,14 @@
       "sha256": "da0ea5c3729d47d30c728e9e839f9f12d667e8238831e69e63f58daa9f9ae5ab"
     },
     {
+      "path": "04_Legal_Commercial/LEG-006_VIDEO_VENDOR_PARTNERSHIP_TERMS.md",
+      "size_bytes": 3800,
+      "sha256": "819302c5185350699d670a1007e2c8d28ddc5cfb8f5664d9fbc86af744eed36f"
+    },
+    {
       "path": "04_Legal_Commercial/README.md",
-      "size_bytes": 346,
-      "sha256": "66c9512b4856c08bdf2e65645144e28731f01500aeaecf88da7370ac9f753a7f"
+      "size_bytes": 505,
+      "sha256": "2f790e0cbf66dedd944eecdc17a70cd721e3fe3b8e3f970b580566c9b2fe077b"
     },
     {
       "path": "05_ISO_Ready/ISO-001_ISO_Ready_Control_Map.md",
@@ -491,6 +499,11 @@
       "sha256": "f6349b09daad7c6227b8b71b219cfe2800f30243389915767365be17edee2f39"
     },
     {
+      "path": "08_Checklists/CHK-MKT-001_SHORT_VIDEO_DELIVERY_CHECKLIST.md",
+      "size_bytes": 2760,
+      "sha256": "882669fff7ab29d36671e5e446d4d5cd26df51b774c161b451c67d86fe87ec20"
+    },
+    {
       "path": "08_Checklists/DEP-001_Deployment_Checklist.md",
       "size_bytes": 893,
       "sha256": "565856594f25341a00431c7c0a5b1d6807829dac3f57dd5c66e05ec679f626a7"
@@ -517,8 +530,8 @@
     },
     {
       "path": "08_Checklists/README.md",
-      "size_bytes": 469,
-      "sha256": "9ab1b4c11dcb00b946fdb47d76853873b6048070015d1de21670c5c64675c2c3"
+      "size_bytes": 620,
+      "sha256": "afbacd77ba966bd383ab6bce58cdf2d4ed55bd370c23bf74d15259e54d8de1fa"
     },
     {
       "path": "09_Registers/README.md",
@@ -652,8 +665,8 @@
     },
     {
       "path": "13_Strategy/README.md",
-      "size_bytes": 1391,
-      "sha256": "e7248eb31f0a27e7b7fdaff482add4b2c9cca922711baa14285021bd00593e85"
+      "size_bytes": 1589,
+      "sha256": "bbe0f67ec423154301bc15a99df79ace4f1a30383a2b4a77f54389300c6a58fe"
     },
     {
       "path": "13_Strategy/STR-001_MARKET_POSITIONING.md",
@@ -696,6 +709,11 @@
       "sha256": "b992ded8cd2d4fa298c56863ae6b109a72ee7ef9fe14dd4b6759b6e78df49155"
     },
     {
+      "path": "13_Strategy/STR-009_SHORT_VIDEO_VENDOR_STRATEGY.md",
+      "size_bytes": 5192,
+      "sha256": "53d34f9542b0d7c3a485eb8e90287b79f4f5d2908d2838216dac3a3a7346d7bb"
+    },
+    {
       "path": "14_Product_Strategy/PRD-001_SERVICE_OS_PRODUCT_SCOPE.md",
       "size_bytes": 2130,
       "sha256": "5638d1dd8fcdd14a8d7f418aafaebb66d5b4d90aca7e33ae052387bd1a09110d"
@@ -706,14 +724,19 @@
       "sha256": "c09918214bdc6c812b4d13a92e831d281d7d94d5563c1d9f629935edcad16841"
     },
     {
+      "path": "14_Product_Strategy/PRD-003_SHORT_VIDEO_LEAD_KIT_SCOPE.md",
+      "size_bytes": 5805,
+      "sha256": "0d3b7a89f2c890259bb71b93d47ef5c8e01a731d480faa51c1fae8ff93f82cd0"
+    },
+    {
       "path": "14_Product_Strategy/README.md",
-      "size_bytes": 259,
-      "sha256": "cb2ac015c4743b91b1c804b718112778a983e020ec92e80218d5145aabb48a04"
+      "size_bytes": 423,
+      "sha256": "e073dbbd6444de8e70c40617e04b8d31b5513054629b3f103e24360bced45b5a"
     },
     {
       "path": "15_Sales_GTM/README.md",
-      "size_bytes": 210,
-      "sha256": "619e304349e9b276c8aea924d5c2a062a994c3d579a4585335ff731de72359fe"
+      "size_bytes": 370,
+      "sha256": "2b0f3ad8231c46444a91dfd1431802902e2abd14b0bb5e8109e130227a2ff496"
     },
     {
       "path": "15_Sales_GTM/SAL-001_COLD_OUTREACH_PLAYBOOK.md",
@@ -731,9 +754,29 @@
       "sha256": "f39675e5adf666bc286b33f36ebf40ec8084beaea875ee6b52435569a4554f86"
     },
     {
+      "path": "15_Sales_GTM/SAL-004_SHORT_VIDEO_ADDON_SALES_SCRIPT.md",
+      "size_bytes": 3624,
+      "sha256": "cbd75002da9f6698fbea34f8ff83b68b9e2e997fb6dfa4a72e001e7c98891bda"
+    },
+    {
+      "path": "16_Partner_Governance/PART-001_VIDEO_VENDOR_EVALUATION_MATRIX.md",
+      "size_bytes": 4348,
+      "sha256": "6cd48b59ab861e22b52842898c3f11385832ebbbe95c5ec4a65ee158f0277468"
+    },
+    {
+      "path": "16_Partner_Governance/PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md",
+      "size_bytes": 3938,
+      "sha256": "52b2564a12395ffbb8553224d0ffd60167ae952e896fa6c4277eae3677b63869"
+    },
+    {
+      "path": "16_Partner_Governance/README.md",
+      "size_bytes": 439,
+      "sha256": "137db7c3c91b954e2fc154e782f8b83d7e87cd00edf7a5a6c21c0b32ec6f1839"
+    },
+    {
       "path": "README.md",
-      "size_bytes": 8441,
-      "sha256": "b176bb73fd7bcfb2b147dd14c5d15857781b174478842a80b3ab0ec641987853"
+      "size_bytes": 7927,
+      "sha256": "fefd71fef4dc99ac446d0ffd10a46178c4eda2b10895743972d56f60fb778f71"
     }
   ]
 }

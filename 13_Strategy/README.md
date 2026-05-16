@@ -28,3 +28,7 @@ The strategy files provide detailed reasoning. Constitution-level rules are summ
 ```text
 01_Foundation/FND-006_Strategic_Constitution_Guardrails.md
 ```
+
+## v1.5.7 Addition
+
+- `STR-009_SHORT_VIDEO_VENDOR_STRATEGY.md` defines the short video partner strategy and the rule that short video content must support Optimaks website-to-workflow positioning.

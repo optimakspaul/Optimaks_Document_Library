@@ -1,5 +1,41 @@
 # Version History
 
+
+
+## v1.5.7 — Short Video Lead Kit Partner Governance Patch
+
+v1.5.7 formalizes the Short Video Lead Kit as a workflow-connected lead generation add-on for Optimaks Service OS / Aircon Template.
+
+### v1.5.7 Controls
+
+```text
+Short Video Research / Vendor Digest
+↓
+ChatGPT Strategy Review
+↓
+Approved Short Video Strategy
+↓
+Partner Evaluation / Outreach / Legal Terms
+↓
+Productized Short Video Lead Kit Scope
+↓
+Sales Script / Delivery Checklist
+↓
+Client Delivery under Founder Review
+```
+
+### v1.5.7 Active Documents
+
+- `00_Admin/V1.5.7_SCOPE_DECISION.md`
+- `13_Strategy/STR-009_SHORT_VIDEO_VENDOR_STRATEGY.md`
+- `14_Product_Strategy/PRD-003_SHORT_VIDEO_LEAD_KIT_SCOPE.md`
+- `15_Sales_GTM/SAL-004_SHORT_VIDEO_ADDON_SALES_SCRIPT.md`
+- `16_Partner_Governance/PART-001_VIDEO_VENDOR_EVALUATION_MATRIX.md`
+- `16_Partner_Governance/PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md`
+- `04_Legal_Commercial/LEG-006_VIDEO_VENDOR_PARTNERSHIP_TERMS.md`
+- `08_Checklists/CHK-MKT-001_SHORT_VIDEO_DELIVERY_CHECKLIST.md`
+
+---
 **Current Active Version:** v1.5.6 — One-Person Team Operating Model Patch  
 **Effective Date:** 2026-05-16  
 **Owner:** Optimaks Pte Ltd  
@@ -167,3 +203,5 @@ Use v1.5.3 for research intake and AI handoff.
 Use v1.5.4 for market strategy, pricing, GTM, product positioning and sales governance.
 Use v1.5.5 for strategic constitution guardrails and scope-control decisions.
 ```
+
+Use v1.5.7 for short video lead kit strategy, vendor / partner governance, add-on product scope, sales script, vendor legal terms and delivery checklist.

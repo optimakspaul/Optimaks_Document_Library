@@ -18,3 +18,9 @@ Key files:
 v1.5.6 should be treated as the active current release unless a later version is explicitly approved.
 
 v1.5.6 adds the founder-led one-person team operating model and clarifies AI, platform and external partner role boundaries under the Optimaks Constitution.
+
+
+## v1.5.7 Addition
+
+- `V1.5.7_SCOPE_DECISION.md` records the Short Video Lead Kit Partner Governance Patch.
+- This release adds partner-governed short video lead generation documents across strategy, product, sales, legal, checklist and partner governance folders.

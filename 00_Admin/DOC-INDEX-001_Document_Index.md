@@ -1,9 +1,6 @@
 # DOC-INDEX-001 Document Index
 
-Current Library Version: v1.5.6 — One-Person Team Operating Model Patch
-Generated: 2026-05-16
-
-| Path | Description |
+| File | Description |
 |---|---|
 | `.github/ISSUE_TEMPLATE/ai_execution_task.md` | ai execution task |
 | `.github/ISSUE_TEMPLATE/bug_report.md` | bug report |
@@ -11,7 +8,6 @@ Generated: 2026-05-16
 | `.github/pull_request_template.md` | pull request template |
 | `00_Admin/CHANGELOG.md` | CHANGELOG |
 | `00_Admin/CLEANUP_FUSION_REPORT_v1.5.md` | CLEANUP FUSION REPORT v1.5 |
-| `00_Admin/DOC-INDEX-001_Document_Index.md` | DOC INDEX 001 Document Index |
 | `00_Admin/FILE_TREE.txt` | FILE TREE |
 | `00_Admin/GITHUB_DESKTOP_CLEANUP_GUIDE.md` | GITHUB DESKTOP CLEANUP GUIDE |
 | `00_Admin/README.md` | README |
@@ -22,7 +18,9 @@ Generated: 2026-05-16
 | `00_Admin/V1.5.4_VALIDATION_REPORT.md` | V1.5.4 VALIDATION REPORT |
 | `00_Admin/V1.5.5_SCOPE_DECISION.md` | V1.5.5 SCOPE DECISION |
 | `00_Admin/V1.5.6_SCOPE_DECISION.md` | V1.5.6 SCOPE DECISION |
+| `00_Admin/V1.5.7_SCOPE_DECISION.md` | V1.5.7 SCOPE DECISION |
 | `00_Admin/VERSION_HISTORY.md` | VERSION HISTORY |
+| `00_Admin/manifest.json` | manifest |
 | `01_Foundation/FND-001_Company_Positioning.md` | FND 001 Company Positioning |
 | `01_Foundation/FND-002_Development_Constitution_Overview.md` | FND 002 Development Constitution Overview |
 | `01_Foundation/FND-003_Service_Model.md` | FND 003 Service Model |
@@ -66,6 +64,7 @@ Generated: 2026-05-16
 | `04_Legal_Commercial/LEG-003_Payment_Terms_Policy.md` | LEG 003 Payment Terms Policy |
 | `04_Legal_Commercial/LEG-004_IP_and_Source_Code_Policy.md` | LEG 004 IP and Source Code Policy |
 | `04_Legal_Commercial/LEG-005_PDPA_and_Data_Protection_Notice.md` | LEG 005 PDPA and Data Protection Notice |
+| `04_Legal_Commercial/LEG-006_VIDEO_VENDOR_PARTNERSHIP_TERMS.md` | LEG 006 VIDEO VENDOR PARTNERSHIP TERMS |
 | `04_Legal_Commercial/README.md` | README |
 | `05_ISO_Ready/ISO-001_ISO_Ready_Control_Map.md` | ISO 001 ISO Ready Control Map |
 | `05_ISO_Ready/ISO-002_Quality_Management_Lite.md` | ISO 002 Quality Management Lite |
@@ -97,6 +96,7 @@ Generated: 2026-05-16
 | `08_Checklists/CHK-DEV-009_Workflow_Positioning_and_Scope_Checklist.md` | CHK DEV 009 Workflow Positioning and Scope Checklist |
 | `08_Checklists/CHK-DEV-010_AI_GitHub_PR_Governance_Checklist.md` | CHK DEV 010 AI GitHub PR Governance Checklist |
 | `08_Checklists/CHK-DEV-011_AI_Research_Intake_and_Handoff_Checklist.md` | CHK DEV 011 AI Research Intake and Handoff Checklist |
+| `08_Checklists/CHK-MKT-001_SHORT_VIDEO_DELIVERY_CHECKLIST.md` | CHK MKT 001 SHORT VIDEO DELIVERY CHECKLIST |
 | `08_Checklists/DEP-001_Deployment_Checklist.md` | DEP 001 Deployment Checklist |
 | `08_Checklists/HAN-001_Handover_Checklist.md` | HAN 001 Handover Checklist |
 | `08_Checklists/MOB-001_Mobile_Testing_Checklist.md` | MOB 001 Mobile Testing Checklist |
@@ -138,11 +138,17 @@ Generated: 2026-05-16
 | `13_Strategy/STR-006_SWOT_ANALYSIS.md` | STR 006 SWOT ANALYSIS |
 | `13_Strategy/STR-007_PORTER_FIVE_FORCES.md` | STR 007 PORTER FIVE FORCES |
 | `13_Strategy/STR-008_LANCHESTER_STRATEGY.md` | STR 008 LANCHESTER STRATEGY |
+| `13_Strategy/STR-009_SHORT_VIDEO_VENDOR_STRATEGY.md` | STR 009 SHORT VIDEO VENDOR STRATEGY |
 | `14_Product_Strategy/PRD-001_SERVICE_OS_PRODUCT_SCOPE.md` | PRD 001 SERVICE OS PRODUCT SCOPE |
 | `14_Product_Strategy/PRD-002_AIRCON_TEMPLATE_SCOPE.md` | PRD 002 AIRCON TEMPLATE SCOPE |
+| `14_Product_Strategy/PRD-003_SHORT_VIDEO_LEAD_KIT_SCOPE.md` | PRD 003 SHORT VIDEO LEAD KIT SCOPE |
 | `14_Product_Strategy/README.md` | README |
 | `15_Sales_GTM/README.md` | README |
 | `15_Sales_GTM/SAL-001_COLD_OUTREACH_PLAYBOOK.md` | SAL 001 COLD OUTREACH PLAYBOOK |
 | `15_Sales_GTM/SAL-002_DISCOVERY_QUESTIONS.md` | SAL 002 DISCOVERY QUESTIONS |
 | `15_Sales_GTM/SAL-003_DEMO_SCRIPT.md` | SAL 003 DEMO SCRIPT |
+| `15_Sales_GTM/SAL-004_SHORT_VIDEO_ADDON_SALES_SCRIPT.md` | SAL 004 SHORT VIDEO ADDON SALES SCRIPT |
+| `16_Partner_Governance/PART-001_VIDEO_VENDOR_EVALUATION_MATRIX.md` | PART 001 VIDEO VENDOR EVALUATION MATRIX |
+| `16_Partner_Governance/PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md` | PART 002 VIDEO VENDOR OUTREACH TEMPLATE |
+| `16_Partner_Governance/README.md` | README |
 | `README.md` | README |

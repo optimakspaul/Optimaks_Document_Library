@@ -1,5 +1,32 @@
 # Changelog
 
+
+
+## v1.5.7 — Short Video Lead Kit Partner Governance Patch
+
+Date: 2026-05-16
+
+### Added
+
+- Added `V1.5.7_SCOPE_DECISION.md`.
+- Added `STR-009_SHORT_VIDEO_VENDOR_STRATEGY.md`.
+- Added `PRD-003_SHORT_VIDEO_LEAD_KIT_SCOPE.md`.
+- Added `SAL-004_SHORT_VIDEO_ADDON_SALES_SCRIPT.md`.
+- Added `16_Partner_Governance/` folder.
+- Added `PART-001_VIDEO_VENDOR_EVALUATION_MATRIX.md`.
+- Added `PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md`.
+- Added `LEG-006_VIDEO_VENDOR_PARTNERSHIP_TERMS.md`.
+- Added `CHK-MKT-001_SHORT_VIDEO_DELIVERY_CHECKLIST.md`.
+
+### Governance Decision
+
+Short video may be packaged only as a workflow-connected lead generation add-on. Optimaks remains a website-to-workflow system provider, not a generic social media agency or video production house.
+
+### Partner Control
+
+External video, UGC, filming, editing, and white-label partners are execution/support layers only. They do not own Optimaks strategy, client relationship, CTA design, workflow tracking, or final quality approval.
+
+---
 ## v1.5.6 — One-Person Team Operating Model Patch — 2026-05-16
 
 ### Added
