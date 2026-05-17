@@ -3,11 +3,11 @@
 | Field | Value |
 |---|---|
 | Document Code | FND-002 |
-| Version | v1.5.6 One-Person Team Operating Model Patch |
+| Version | v1.5.8 AI Repo Execution, Recovery and Release Safety Governance Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Status | Active Current Constitution Overview |
-| Purpose | Provide the master overview of the Optimaks development and strategic constitution after v1.5.6 operating model patch. |
+| Purpose | Provide the master overview of the Optimaks development and strategic constitution after v1.5.8 repo execution, recovery and release safety governance patch. |
 
 ---
 
@@ -16,7 +16,7 @@
 | Item | Value |
 |---|---|
 | Document Name | Optimaks Development Constitution / Optimaks 開發憲法 |
-| Current Version | v1.5.6 One-Person Team Operating Model Patch |
+| Current Version | v1.5.8 AI Repo Execution, Recovery and Release Safety Governance Patch |
 | Effective Date | 2026-05-16 |
 | Owner | Optimaks Pte Ltd |
 | Applicable Scope | Optimaks OS, Aircon OS, ACRA Radar, internal tools, MVP systems, client workflow automation systems, AI-assisted development, AI research intake, market strategy, pricing, GTM, sales governance, SWOT, Porter Five Forces and Lanchester strategic guardrails |
@@ -42,6 +42,10 @@ It governs both development and strategy:
 11. AI Research Intake and Multi-Model Handoff.
 12. AI Market Research, Strategy Review, Pricing, GTM, Sales and Product Strategy Governance.
 13. Strategic Constitution Guardrails: SWOT, Porter Five Forces, Lanchester strategy, positioning boundaries and scope-control rules.
+14. Short Video Lead Kit and video vendor / partner governance.
+15. Repo/workspace-first AI execution governance.
+16. Interruption recovery and WIP preservation.
+17. Failed issue recovery, rollback, merge readiness, testing, secrets, data, deployment and DB/RLS safety gates.
 
 ---
 
@@ -55,6 +59,8 @@ It governs both development and strategy:
 | v1.5.4 | Strategy governance release | Added AI market research review, market positioning, pricing, GTM, sales and product strategy governance. |
 | v1.5.5 | Strategic constitution guardrails patch | Added SWOT, Five Forces, Lanchester strategy and constitution-level guardrails to prevent positioning, product and sales drift. |
 | v1.5.6 | One-person team operating model patch | Clarified founder, AI tool, platform and external partner role boundaries under the Optimaks Constitution. |
+| v1.5.7 | Short video lead kit partner governance patch | Added short video lead kit strategy and video vendor / partner governance. |
+| v1.5.8 | AI repo execution, recovery and release safety governance patch | Added repo/workspace execution, interruption recovery, rollback, merge readiness, secrets, testing, data, deployment and DB/RLS gates. |
 
 ---
 
@@ -248,6 +254,15 @@ The current active standard set includes:
 - `STD-DEV-024` — AI Collaboration and GitHub Execution Governance.
 - `STD-DEV-025` — AI Research Intake and Multi-Model Handoff.
 - `STD-DEV-026` — AI Market Research and Strategy Review Governance.
+- `STD-DEV-027` — Repo Workspace and AI Execution Boundary Standard.
+- `STD-DEV-028` — Interruption Recovery and WIP Preservation Standard.
+- `STD-DEV-029` — Rollback and Failed Issue Recovery Standard.
+- `STD-DEV-030` — Testing Level and Validation Standard.
+- `STD-DEV-031` — Issue Size and Splitting Standard.
+- `STD-SEC-001` — Environment Secrets and API Key Governance.
+- `STD-DATA-001` — Mock Demo and Client Data Governance.
+- `STD-DEPLOY-001` — Preview Staging Production Gate Standard.
+- `STD-DB-001` — Database Migration and RLS Change Control.
 
 ---
 
@@ -282,3 +297,41 @@ Market Strategy Governance = v1.5.4
 Strategic Constitution Guardrails = v1.5.5
 One-Person Team Operating Model = v1.5.6
 ```
+
+
+---
+
+## 12. Repo Workspace, Recovery and Release Safety Governance
+
+Optimaks uses GitHub repo/workspace as the primary daily source of truth for AI-assisted development.
+
+The development constitution requires:
+
+1. GitHub repo is the central source of truth.
+2. Local workspace is the active construction site.
+3. AI tools may read the full repo for context.
+4. AI tools may only modify files required by the assigned issue.
+5. ZIP files are for archive, external handover, backup, review, or fallback only.
+6. Every implementation issue should run on a dedicated branch.
+7. Interrupted AI work must be preserved using branch, WIP commit, push when possible, and issue progress log.
+8. Resumed AI work must continue from the current WIP branch and must not restart from scratch.
+9. Failed AI work must be repairable, reversible or discardable.
+10. Merge requires readiness review.
+11. Secrets, API keys, production credentials and client-sensitive data must never be exposed through prompts, frontend code, Git history, screenshots or public demos.
+12. Testing level must match the risk level of the change.
+13. Large issues must be split before AI execution.
+14. Mock/demo data must remain clearly separated from real client data.
+15. Database migrations and RLS changes must be isolated, reviewed and documented.
+16. Production deployment requires explicit founder approval.
+
+Reference standards:
+
+- `02_Development_Standard/STD-DEV-027_Repo_Workspace_and_AI_Execution_Boundary_Standard.md`
+- `02_Development_Standard/STD-DEV-028_Interruption_Recovery_and_WIP_Preservation_Standard.md`
+- `02_Development_Standard/STD-DEV-029_Rollback_and_Failed_Issue_Recovery_Standard.md`
+- `02_Development_Standard/STD-DEV-030_Testing_Level_and_Validation_Standard.md`
+- `02_Development_Standard/STD-DEV-031_Issue_Size_and_Splitting_Standard.md`
+- `02_Development_Standard/STD-SEC-001_Environment_Secrets_and_API_Key_Governance.md`
+- `02_Development_Standard/STD-DATA-001_Mock_Demo_and_Client_Data_Governance.md`
+- `02_Development_Standard/STD-DEPLOY-001_Preview_Staging_Production_Gate_Standard.md`
+- `02_Development_Standard/STD-DB-001_Database_Migration_and_RLS_Change_Control.md`

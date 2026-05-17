@@ -152,3 +152,33 @@
 | `16_Partner_Governance/PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md` | PART 002 VIDEO VENDOR OUTREACH TEMPLATE |
 | `16_Partner_Governance/README.md` | README |
 | `README.md` | README |
+
+| `.github/ISSUE_TEMPLATE/ai_issue_execution_with_recovery.md` | ai issue execution with recovery |
+| `.github/ISSUE_TEMPLATE/ai_issue_release_safety.md` | ai issue release safety |
+| `00_Admin/V1.5.8_SCOPE_DECISION.md` | V1.5.8 SCOPE DECISION |
+| `02_Development_Standard/STD-DEV-027_Repo_Workspace_and_AI_Execution_Boundary_Standard.md` | STD DEV 027 Repo Workspace and AI Execution Boundary Standard |
+| `02_Development_Standard/STD-DEV-028_Interruption_Recovery_and_WIP_Preservation_Standard.md` | STD DEV 028 Interruption Recovery and WIP Preservation Standard |
+| `02_Development_Standard/STD-DEV-029_Rollback_and_Failed_Issue_Recovery_Standard.md` | STD DEV 029 Rollback and Failed Issue Recovery Standard |
+| `02_Development_Standard/STD-DEV-030_Testing_Level_and_Validation_Standard.md` | STD DEV 030 Testing Level and Validation Standard |
+| `02_Development_Standard/STD-DEV-031_Issue_Size_and_Splitting_Standard.md` | STD DEV 031 Issue Size and Splitting Standard |
+| `02_Development_Standard/STD-SEC-001_Environment_Secrets_and_API_Key_Governance.md` | STD SEC 001 Environment Secrets and API Key Governance |
+| `02_Development_Standard/STD-DATA-001_Mock_Demo_and_Client_Data_Governance.md` | STD DATA 001 Mock Demo and Client Data Governance |
+| `02_Development_Standard/STD-DEPLOY-001_Preview_Staging_Production_Gate_Standard.md` | STD DEPLOY 001 Preview Staging Production Gate Standard |
+| `02_Development_Standard/STD-DB-001_Database_Migration_and_RLS_Change_Control.md` | STD DB 001 Database Migration and RLS Change Control |
+| `07_Templates/TPL-DEV-015_Issue_Starter_Pack_Governance_Insert.md` | TPL DEV 015 Issue Starter Pack Governance Insert |
+| `07_Templates/TPL-DEV-016_Issue_Progress_Log_Template.md` | TPL DEV 016 Issue Progress Log Template |
+| `07_Templates/TPL-DEV-017_AI_Continuation_Prompt_Template.md` | TPL DEV 017 AI Continuation Prompt Template |
+| `07_Templates/TPL-DEV-018_AGENTS_MD_Insert.md` | TPL DEV 018 AGENTS MD Insert |
+| `07_Templates/TPL-DEV-019_GEMINI_MD_Insert.md` | TPL DEV 019 GEMINI MD Insert |
+| `07_Templates/TPL-DEV-020_Failed_Issue_Recovery_Report_Template.md` | TPL DEV 020 Failed Issue Recovery Report Template |
+| `07_Templates/TPL-DEV-021_Merge_Readiness_Report_Template.md` | TPL DEV 021 Merge Readiness Report Template |
+| `07_Templates/TPL-DEV-022_Testing_Result_Report_Template.md` | TPL DEV 022 Testing Result Report Template |
+| `08_Checklists/CHK-DEV-012_Repo_Workspace_Execution_Checklist.md` | CHK DEV 012 Repo Workspace Execution Checklist |
+| `08_Checklists/CHK-DEV-013_Interruption_Recovery_Checklist.md` | CHK DEV 013 Interruption Recovery Checklist |
+| `08_Checklists/CHK-DEV-014_Merge_Readiness_Checklist.md` | CHK DEV 014 Merge Readiness Checklist |
+| `08_Checklists/CHK-DEV-015_Rollback_Readiness_Checklist.md` | CHK DEV 015 Rollback Readiness Checklist |
+| `08_Checklists/CHK-SEC-001_Secrets_and_ENV_Safety_Checklist.md` | CHK SEC 001 Secrets and ENV Safety Checklist |
+| `08_Checklists/CHK-QA-001_Testing_Level_Checklist.md` | CHK QA 001 Testing Level Checklist |
+| `08_Checklists/CHK-DATA-001_Mock_Demo_Data_Checklist.md` | CHK DATA 001 Mock Demo Data Checklist |
+| `08_Checklists/CHK-DEPLOY-001_Deployment_Gate_Checklist.md` | CHK DEPLOY 001 Deployment Gate Checklist |
+| `08_Checklists/CHK-DB-001_Database_RLS_Change_Checklist.md` | CHK DB 001 Database RLS Change Checklist |

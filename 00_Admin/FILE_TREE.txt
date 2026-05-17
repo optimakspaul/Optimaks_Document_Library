@@ -149,3 +149,46 @@
 16_Partner_Governance/PART-002_VIDEO_VENDOR_OUTREACH_TEMPLATE.md
 16_Partner_Governance/README.md
 README.md
+
+
+
+v1.5.8 new files:
+
+00_Admin/
+└── V1.5.8_SCOPE_DECISION.md
+
+02_Development_Standard/
+├── STD-DEV-027_Repo_Workspace_and_AI_Execution_Boundary_Standard.md
+├── STD-DEV-028_Interruption_Recovery_and_WIP_Preservation_Standard.md
+├── STD-DEV-029_Rollback_and_Failed_Issue_Recovery_Standard.md
+├── STD-DEV-030_Testing_Level_and_Validation_Standard.md
+├── STD-DEV-031_Issue_Size_and_Splitting_Standard.md
+├── STD-SEC-001_Environment_Secrets_and_API_Key_Governance.md
+├── STD-DATA-001_Mock_Demo_and_Client_Data_Governance.md
+├── STD-DEPLOY-001_Preview_Staging_Production_Gate_Standard.md
+└── STD-DB-001_Database_Migration_and_RLS_Change_Control.md
+
+07_Templates/
+├── TPL-DEV-015_Issue_Starter_Pack_Governance_Insert.md
+├── TPL-DEV-016_Issue_Progress_Log_Template.md
+├── TPL-DEV-017_AI_Continuation_Prompt_Template.md
+├── TPL-DEV-018_AGENTS_MD_Insert.md
+├── TPL-DEV-019_GEMINI_MD_Insert.md
+├── TPL-DEV-020_Failed_Issue_Recovery_Report_Template.md
+├── TPL-DEV-021_Merge_Readiness_Report_Template.md
+└── TPL-DEV-022_Testing_Result_Report_Template.md
+
+08_Checklists/
+├── CHK-DEV-012_Repo_Workspace_Execution_Checklist.md
+├── CHK-DEV-013_Interruption_Recovery_Checklist.md
+├── CHK-DEV-014_Merge_Readiness_Checklist.md
+├── CHK-DEV-015_Rollback_Readiness_Checklist.md
+├── CHK-SEC-001_Secrets_and_ENV_Safety_Checklist.md
+├── CHK-QA-001_Testing_Level_Checklist.md
+├── CHK-DATA-001_Mock_Demo_Data_Checklist.md
+├── CHK-DEPLOY-001_Deployment_Gate_Checklist.md
+└── CHK-DB-001_Database_RLS_Change_Checklist.md
+
+.github/ISSUE_TEMPLATE/
+├── ai_issue_execution_with_recovery.md
+└── ai_issue_release_safety.md

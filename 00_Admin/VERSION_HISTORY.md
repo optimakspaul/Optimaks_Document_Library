@@ -1,6 +1,66 @@
 # Version History
 
+## v1.5.8 — AI Repo Execution, Recovery and Release Safety Governance Patch
 
+v1.5.8 formalizes GitHub repo/workspace as the daily AI construction site and adds interruption recovery plus release safety governance for AI-assisted implementation.
+
+### v1.5.8 Controls
+
+```text
+GitHub Repo / Local Workspace
+↓
+Full Repo Context Read
+↓
+Single Issue Execution Scope
+↓
+Pre-Implementation Scan
+↓
+Codex / Antigravity / AI Tool Execution
+↓
+Branch / WIP Commit / Push
+↓
+Progress Log if Interrupted
+↓
+Resume Without Restart
+↓
+Merge Readiness / Release Safety Gate
+↓
+PR / Preview / Founder Review
+```
+
+### v1.5.8 Active Documents
+
+- `00_Admin/V1.5.8_SCOPE_DECISION.md`
+- `02_Development_Standard/STD-DEV-027_Repo_Workspace_and_AI_Execution_Boundary_Standard.md`
+- `02_Development_Standard/STD-DEV-028_Interruption_Recovery_and_WIP_Preservation_Standard.md`
+- `02_Development_Standard/STD-DEV-029_Rollback_and_Failed_Issue_Recovery_Standard.md`
+- `02_Development_Standard/STD-DEV-030_Testing_Level_and_Validation_Standard.md`
+- `02_Development_Standard/STD-DEV-031_Issue_Size_and_Splitting_Standard.md`
+- `02_Development_Standard/STD-SEC-001_Environment_Secrets_and_API_Key_Governance.md`
+- `02_Development_Standard/STD-DATA-001_Mock_Demo_and_Client_Data_Governance.md`
+- `02_Development_Standard/STD-DEPLOY-001_Preview_Staging_Production_Gate_Standard.md`
+- `02_Development_Standard/STD-DB-001_Database_Migration_and_RLS_Change_Control.md`
+- `07_Templates/TPL-DEV-015_Issue_Starter_Pack_Governance_Insert.md`
+- `07_Templates/TPL-DEV-016_Issue_Progress_Log_Template.md`
+- `07_Templates/TPL-DEV-017_AI_Continuation_Prompt_Template.md`
+- `07_Templates/TPL-DEV-018_AGENTS_MD_Insert.md`
+- `07_Templates/TPL-DEV-019_GEMINI_MD_Insert.md`
+- `07_Templates/TPL-DEV-020_Failed_Issue_Recovery_Report_Template.md`
+- `07_Templates/TPL-DEV-021_Merge_Readiness_Report_Template.md`
+- `07_Templates/TPL-DEV-022_Testing_Result_Report_Template.md`
+- `08_Checklists/CHK-DEV-012_Repo_Workspace_Execution_Checklist.md`
+- `08_Checklists/CHK-DEV-013_Interruption_Recovery_Checklist.md`
+- `08_Checklists/CHK-DEV-014_Merge_Readiness_Checklist.md`
+- `08_Checklists/CHK-DEV-015_Rollback_Readiness_Checklist.md`
+- `08_Checklists/CHK-SEC-001_Secrets_and_ENV_Safety_Checklist.md`
+- `08_Checklists/CHK-QA-001_Testing_Level_Checklist.md`
+- `08_Checklists/CHK-DATA-001_Mock_Demo_Data_Checklist.md`
+- `08_Checklists/CHK-DEPLOY-001_Deployment_Gate_Checklist.md`
+- `08_Checklists/CHK-DB-001_Database_RLS_Change_Checklist.md`
+- `.github/ISSUE_TEMPLATE/ai_issue_execution_with_recovery.md`
+- `.github/ISSUE_TEMPLATE/ai_issue_release_safety.md`
+
+---
 
 ## v1.5.7 — Short Video Lead Kit Partner Governance Patch
 

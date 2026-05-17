@@ -1,6 +1,42 @@
 # Changelog
 
+## v1.5.8 — AI Repo Execution, Recovery and Release Safety Governance Patch
 
+Date: 2026-05-17
+
+### Added
+
+- Added `V1.5.8_SCOPE_DECISION.md`.
+- Added repo/workspace-first AI execution governance.
+- Added full repo context with issue-scoped modification rule.
+- Added interruption recovery and WIP preservation standard.
+- Added failed issue recovery and rollback standard.
+- Added merge readiness, testing level and issue splitting standards.
+- Added environment secrets and API key governance.
+- Added mock/demo/client data governance.
+- Added preview/staging/production deployment gate standard.
+- Added database migration and RLS change control standard.
+- Added issue starter pack governance insert.
+- Added issue progress log template.
+- Added AI continuation prompt template.
+- Added AGENTS.md and GEMINI.md insert templates.
+- Added failed issue recovery, merge readiness and testing result report templates.
+- Added repo execution, interruption recovery, merge readiness, rollback, secrets, testing, data, deployment and DB/RLS checklists.
+- Added GitHub issue templates for AI execution with recovery and release safety.
+
+### Governance Decision
+
+GitHub repo is the central source of truth. Local workspace is the active construction site. AI tools may read the full repo for context, but may only modify files required by the assigned issue.
+
+### Recovery Decision
+
+Interrupted AI implementation work must be preserved through branch, WIP commit, push when possible, and issue progress log. Resumed work must continue from current branch state and must not restart from scratch.
+
+### Release Safety Decision
+
+AI-generated work is not accepted simply because it runs. It must pass merge readiness, testing level, secret safety, issue scope, data safety, deployment gate and founder review.
+
+---
 
 ## v1.5.7 — Short Video Lead Kit Partner Governance Patch
 
